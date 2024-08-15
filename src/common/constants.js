@@ -8,11 +8,11 @@ module.exports = {
   siteUrlStem: siteUrlStem,
   siteTitle: 'サイボウズのTech系ブログRSS',
   siteDescription:
-    'サイボウズのエンジニアのTech系ブログの更新をまとめたRSSフィードを配信しています。記事を読んで、Cybozuの技術・カルチャーを知っていただくことを目的としています。',
+    'サイボウズのTech系ブログの更新をまとめたRSSフィードを配信しています。記事を読んで、サイボウズの技術・カルチャーを知っていただくことを目的としています。',
 
   // フィード設定
   feedTitle: 'サイボウズのTech系ブログRSS',
-  feedDescription: 'Cybozuの技術系ブログの更新をまとめたRSSフィード',
+  feedDescription: 'サイボウズのTech系ブログの更新をまとめたRSSフィード',
   feedLanguage: 'ja',
   feedCopyright: 'cybozu/tech-blog-rss-feed',
   feedGenerator: 'cybozu/tech-blog-rss-feed',

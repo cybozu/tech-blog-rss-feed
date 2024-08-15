@@ -1,7 +1,7 @@
-# <img src="src/site/images/icon-transparent.png" height=26> Cybozu技術系ブログRSS
+# <img src="src/site/images/icon-transparent.png" height=26> サイボウズのTech系ブログRSS
 サイボウズのTech系ブログの更新をまとめたRSSフィードを配信しています。  
-記事を読んでCybozuのエンジニアの技術・カルチャーを知っていただくことを目的としています。
-このRSSフィード配信は、[@yamadashy](https://github.com/yamadashy)さんが開発された「[企業テックブログRSS](https://yamadashy.github.io/tech-blog-rss-feed/)」をもとに、Cybozuの技術系ブログ用にカスタマイズしています。
+記事を読んでサイボウズのエンジニアの技術・カルチャーを知っていただくことを目的としています。
+このRSSフィード配信は、[@yamadashy](https://github.com/yamadashy)さんが開発された「[企業テックブログRSS](https://yamadashy.github.io/tech-blog-rss-feed/)」をもとに、サイボウズのTech系ブログ用にカスタマイズしています。
 
 ## 開発
 

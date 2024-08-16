@@ -37,6 +37,8 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['サイボウズ PeopleExperienceチーム', 'https://note.com/cybozu_dev_px/m/me5cfe2c532ef/rss'],
   ['サイボウズ Developer Concourse', 'https://note.com/cybozu_dev_px/m/m000a1ff77a6b/rss'],
   ['サイボウズ コネクト支援チーム', 'https://note.com/cybozutech/m/mc0c086e78c4f/rss'],
+  ['Kintone Engineering Blog', 'https://blog.kintone.io/feed'],
+  ['Cybozu Vietnam Tech Sharing', 'https://tech.cybozu.vn/rss.xml'],
  ]);
 
 /**

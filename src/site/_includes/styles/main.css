@@ -118,6 +118,14 @@ img {
     font-size: 1.3em;
     color: var(--base-color);
 }
+.ui-section-header__layout .ui-section-header__link {
+    display: inline-block;
+    line-height: 18px;
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: var(--base-color);
+}
 
 /*
  * トップ

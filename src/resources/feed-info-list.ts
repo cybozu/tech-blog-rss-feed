@@ -39,7 +39,10 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['サイボウズ コネクト支援チーム', 'https://note.com/cybozutech/m/mc0c086e78c4f/rss'],
   ['Kintone Engineering Blog', 'https://blog.kintone.io/feed'],
   ['Cybozu Vietnam Tech Sharing', 'https://tech.cybozu.vn/rss.xml'],
-  ['サイボウズ 流氷交差点', 'https://note.com/cybozutech/m/m9707f4c496e6/rss'],
+  ['サイボウズ 流氷自由帳', 'https://note.com/cybozutech/m/m9707f4c496e6/rss'],
+  ['サイボウズ フロントエンド通信', 'https://anchor.fm/s/ec10d0c8/podcast/rss'],
+  ['Cybozu Design Podcast', 'https://feed.podbean.com/cybozudesign/feed.xml'],
+  ['流氷交差点', 'https://feeds.soundcloud.com/users/soundcloud:users:970362685/sounds.rss'],
  ]);
 
 /**

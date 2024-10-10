@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>サイボウズのTech系ブログRSS</title>
+        <link>https://cybozu.github.io/tech-blog-rss-feed/</link>
+        <description>サイボウズのTech系ブログの更新をまとめたRSSフィード</description>
+        <lastBuildDate>Thu, 10 Oct 2024 23:05:53 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>cybozu/tech-blog-rss-feed</generator>
+        <language>ja</language>
+        <image>
+            <title>サイボウズのTech系ブログRSS</title>
+            <url>https://cybozu.github.io/tech-blog-rss-feed/images/icon.png</url>
+            <link>https://cybozu.github.io/tech-blog-rss-feed/</link>
+        </image>
+        <copyright>cybozu/tech-blog-rss-feed</copyright>
+        <atom:link href="https://cybozu.github.io/tech-blog-rss-feed/feeds/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Kubernetes Operatorの不具合を分析した論文の紹介など: Neco Weekly (2024-10-04号) | サイボウズ Necoチーム 😺のフィード]]></title>
+            <link>https://zenn.dev/cybozu_neco/articles/neco-weekly-2024-10-04</link>
+            <guid>https://zenn.dev/cybozu_neco/articles/neco-weekly-2024-10-04</guid>
+            <pubDate>Thu, 10 Oct 2024 10:06:30 GMT</pubDate>
+            <description><![CDATA[Neco Weekly (2024-10-04号)サイボウズ Neco チームでは、 Neco Weekly という「最近気になる Kubernetes や Cloud Native 関連のネタを共有する会」を社内で開催しています。本記事は共有会の中で紹介したネタをまとめたものです。今回は第63回目の記事となります。 👀 Notable Articles An Empirical Study on]]></description>
+            <content:encoded><![CDATA[Neco Weekly (2024-10-04号)サイボウズ Neco チームでは、 Neco Weekly という「最近気になる Kubernetes や Cloud Native 関連のネタを共有する会」を社内で開催しています。本記事は共有会の中で紹介したネタをまとめたものです。今回は第63回目の記事となります。 👀 Notable Articles An Empirical Study on Kubernetes Operator Bugshttps://dl.acm.org/doi/10.1145/3650212.3680396著名な36個のKuberne...]]></content:encoded>
+            <enclosure length="0" type="png" url="https://res.cloudinary.com/zenn/image/upload/s--KUT_DSZr--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Kubernetes%2520Operator%25E3%2581%25AE%25E4%25B8%258D%25E5%2585%25B7%25E5%2590%2588%25E3%2582%2592%25E5%2588%2586%25E6%259E%2590%25E3%2581%2597%25E3%2581%259F%25E8%25AB%2596%25E6%2596%2587%25E3%2581%25AE%25E7%25B4%25B9%25E4%25BB%258B%25E3%2581%25AA%25E3%2581%25A9%253A%2520Neco%2520Weekly%2520%25282024-10...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:zoetro%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzllOThjMzY2NDguanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%259C%25E3%2582%25A6%25E3%2582%25BA%2520Neco%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%2520%2520%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2daZzM3OVN5dnNDa0oyMWFJVWhXYTFFWWN2S0NsQVhvUEtodm1PVVE9czI1MC1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png"/>
+        </item>
+        <item>
+            <title><![CDATA[CSS新機能のWorking Draft公開など: Cybozu Frontend Weekly (2024-10-08号) | サイボウズ フロントエンドのフィード]]></title>
+            <link>https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20241008</link>
+            <guid>https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20241008</guid>
+            <pubDate>Thu, 10 Oct 2024 03:00:05 GMT</pubDate>
+            <description><![CDATA[こんにちは！サイボウズ株式会社フロントエンドエンジニアのsaku (@sakupi01)です。 はじめにサイボウズ社内では毎週火曜日にFrontend Weeklyと題し「一週間の間にあったフロントエンドニュースを共有する会」を開催しています。今回は、2024/10/8のFrontend Weeklyで取り上げた記事や話題を紹介します。 取り上げた記事・話題 CSS Values and Unit]]></description>
+            <content:encoded><![CDATA[こんにちは！サイボウズ株式会社フロントエンドエンジニアのsaku (@sakupi01)です。 はじめにサイボウズ社内では毎週火曜日にFrontend Weeklyと題し「一週間の間にあったフロントエンドニュースを共有する会」を開催しています。今回は、2024/10/8のFrontend Weeklyで取り上げた記事や話題を紹介します。 取り上げた記事・話題 CSS Values and Units Module Level 5https://alvaromontoro.com/blog/68062/new-values-and-functions-in-CSShtt...]]></content:encoded>
+            <enclosure length="0" type="png" url="https://res.cloudinary.com/zenn/image/upload/s--vql35dmI--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:CSS%25E6%2596%25B0%25E6%25A9%259F%25E8%2583%25BD%25E3%2581%25AEWorking%2520Draft%25E5%2585%25AC%25E9%2596%258B%25E3%2581%25AA%25E3%2581%25A9%253A%2520Cybozu%2520Frontend%2520Weekly%2520%25282024-10...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:saku%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2VjOTA1OThlNjEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%259C%25E3%2582%25A6%25E3%2582%25BA%2520%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2o0S053NXVMek12cVJjdnlEU3JKQVBJUUNYQWNUTGJsR3pGWUc1cUE9czk2LWM=%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png"/>
+        </item>
+        <item>
+            <title><![CDATA[スクラムマスターが大事にすべきはスクラムではなく価値に向き合うこと | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+            <link>https://blog.cybozu.io/entry/2024/10/09/080000</link>
+            <guid>https://blog.cybozu.io/entry/2024/10/09/080000</guid>
+            <pubDate>Tue, 08 Oct 2024 23:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは。kintone開発チームでスクラムマスターをしている「とうま」（@toma_cy）です。 サイボウズでは、スクラムマスターの役割や日々の業務をより多くの方々に知ってもらうために、リレーブログ企画を開催しています。 本記事では、スクラムはあくまで手段でありスクラムマスターは価値に向き合うことが大事だという話をします。 blog.cybozu.io スクラムマスターに求められること スクラ]]></description>
+            <content:encoded><![CDATA[こんにちは。kintone開発チームでスクラムマスターをしている「とうま」（@toma_cy）です。 サイボウズでは、スクラムマスターの役割や日々の業務をより多くの方々に知ってもらうために、リレーブログ企画を開催しています。 本記事では、スクラムはあくまで手段でありスクラムマスターは価値に向き合うことが大事だという話をします。 blog.cybozu.io スクラムマスターに求められること スクラムガイドでは、スクラムマスターについて以下のように定義されています。 スクラムマスターは、スクラムガイドで定義されたスクラムを確⽴させることの結果に責任を持つ。 「スクラムを確立」とはどういうことでし…]]></content:encoded>
+            <enclosure length="0" type="image/com%2Fdefault_entry_og_image%2F110495017%2F1514249404572921" url="https://cdn.image.st-hatena.com/image/scale/650954518ad3a0316dcbfc8904974ca5df882b4b/backend=imagemagick;height=1300;version=1;width=1300/https%3A%2F%2Fcdn.user.blog.st-hatena.com%2Fdefault_entry_og_image%2F110495017%2F1514249404572921" alt="スクラムマスターが大事にすべきはスクラムではなく価値に向き合うこと - Cybozu Inside Out | サイボウズエンジニアのブログ"/>
+        </item>
+        <item>
+            <title><![CDATA[Cloudflareの大幅アップデートなど: Cybozu Frontend Weekly (2024-10-01号) | サイボウズ フロントエンドのフィード]]></title>
+            <link>https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20241001</link>
+            <guid>https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20241001</guid>
+            <pubDate>Fri, 04 Oct 2024 03:03:03 GMT</pubDate>
+            <description><![CDATA[こんにちは！サイボウズ株式会社フロントエンドエンジニアのdaiki（@k1tikurisu）です。 はじめにサイボウズ社内では毎週火曜日にFrontend Weeklyと題し「一週間の間にあったフロントエンドニュースを共有する会」を開催しています。今回は、2024/10/01のFrontend Weeklyで取り上げた記事や話題を紹介します。 取り上げた記事・話題 WebKit Features ]]></description>
+            <content:encoded><![CDATA[こんにちは！サイボウズ株式会社フロントエンドエンジニアのdaiki（@k1tikurisu）です。 はじめにサイボウズ社内では毎週火曜日にFrontend Weeklyと題し「一週間の間にあったフロントエンドニュースを共有する会」を開催しています。今回は、2024/10/01のFrontend Weeklyで取り上げた記事や話題を紹介します。 取り上げた記事・話題 WebKit Features in Safari 18.0https://webkit.org/blog/15865/webkit-features-in-safari-18-0/Safari 18.0が...]]></content:encoded>
+            <enclosure length="0" type="png" url="https://res.cloudinary.com/zenn/image/upload/s--MatnlNFp--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Cloudflare%25E3%2581%25AE%25E5%25A4%25A7%25E5%25B9%2585%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E3%2583%2587%25E3%2583%25BC%25E3%2583%2588%25E3%2581%25AA%25E3%2581%25A9%253A%2520Cybozu%2520Frontend%2520Weekly%2520%25282024-10-01%25E5%258F%25B7%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:daiki%2520%252F%2520%25E3%2581%258D%25E3%2581%25A1%25E3%2581%258F%25E3%2582%258A%25E3%2581%2599%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2VjOTA1OThlNjEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%259C%25E3%2582%25A6%25E3%2582%25BA%2520%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzkzN2NiNjM1NWYuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png"/>
+        </item>
+        <item>
+            <title><![CDATA[TypeScript 5.6やGitHubの細かいorgロールなど｜Productivity Weekly(2024-09-11, 04) | サイボウズ 生産性向上チーム 💪のフィード]]></title>
+            <link>https://zenn.dev/cybozu_ept/articles/productivity-weekly-20240911</link>
+            <guid>https://zenn.dev/cybozu_ept/articles/productivity-weekly-20240911</guid>
+            <pubDate>Wed, 02 Oct 2024 01:00:06 GMT</pubDate>
+            <description><![CDATA[こんにちは。サイボウズ株式会社 生産性向上チームの平木場です。僕たち生産性向上チームは毎週水曜日に Productivity Weekly という「1 週間の間に発見された開発者の生産性向上に関するネタを共有する会」を社内で開催しています。本記事はその時のネタをまとめたものです。2023-01-25 号から、基本的に隔週で連載することとしました。たまに単独でも投稿するかもしれません。今週は 202]]></description>
+            <content:encoded><![CDATA[こんにちは。サイボウズ株式会社 生産性向上チームの平木場です。僕たち生産性向上チームは毎週水曜日に Productivity Weekly という「1 週間の間に発見された開発者の生産性向上に関するネタを共有する会」を社内で開催しています。本記事はその時のネタをまとめたものです。2023-01-25 号から、基本的に隔週で連載することとしました。たまに単独でも投稿するかもしれません。今週は 2024-09-11, 2024-09-04 合併号です。今回が第 163 回目です。過去の記事はこちら。!2023-05-10 号から、生産性向上チームの他メンバーにいくつかのトピック...]]></content:encoded>
+            <enclosure length="0" type="png" url="https://res.cloudinary.com/zenn/image/upload/s--q-Znsl3r--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:TypeScript%25205.6%25E3%2582%2584GitHub%25E3%2581%25AE%25E7%25B4%25B0%25E3%2581%258B%25E3%2581%2584org%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%25AA%25E3%2581%25A9%25EF%25BD%259CProductivity%2520Weekly%2528202...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Futa%2520Hirakoba%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2RmZGEyOTIyNDQuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%259C%25E3%2582%25A6%25E3%2582%25BA%2520%25E7%2594%259F%25E7%2594%25A3%25E6%2580%25A7%25E5%2590%2591%25E4%25B8%258A%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%2520%2520%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzdjOTZjZGNlNTguanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png"/>
+        </item>
+        <item>
+            <title><![CDATA[Cloudflare の新しいロードバランサ Pingora を試してみる | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+            <link>https://blog.cybozu.io/entry/2024/10/01/170000</link>
+            <guid>https://blog.cybozu.io/entry/2024/10/01/170000</guid>
+            <pubDate>Tue, 01 Oct 2024 08:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは。クラウド基盤本部の野島です。 今年のインターンシップでは、プラットフォーム(自社基盤)コースとして2名の方を受け入れ、それぞれ異なる課題をやってもらいました。 そのうちの一つは Pingora に関する課題で、覚道さんに取り組んでいただきました。（もう一つの課題は nginx のキャッシュの性能に関するもので、これについては昨日の記事をご参照ください） Pingora は Cloudf]]></description>
+            <content:encoded><![CDATA[こんにちは。クラウド基盤本部の野島です。 今年のインターンシップでは、プラットフォーム(自社基盤)コースとして2名の方を受け入れ、それぞれ異なる課題をやってもらいました。 そのうちの一つは Pingora に関する課題で、覚道さんに取り組んでいただきました。（もう一つの課題は nginx のキャッシュの性能に関するもので、これについては昨日の記事をご参照ください） Pingora は Cloudflare が開発したロードバランサのためのフレームワークであり、Rust を使って好きなロジックを組み込んだロードバランサを書くことができます。 今回のインターンでは Pingora を使って TLS…]]></content:encoded>
+            <enclosure length="0" type="png" url="https://cdn.image.st-hatena.com/image/scale/bcfecf45399ea5cd94230f1720ff4ec290a27418/backend=imagemagick;height=1300;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyellow-sabotech%2F20240926%2F20240926120737.png" alt="Cloudflare の新しいロードバランサ Pingora を試してみる - Cybozu Inside Out | サイボウズエンジニアのブログ"/>
+        </item>
+        <item>
+            <title><![CDATA[「スクラム開発でいつデザインしてますか? #1」／とある製品のデザイナー&amp;リサーチャー小話 in Cybozu | Cybozu Product Design Magazine]]></title>
+            <link>https://note.com/cybozu_design/n/n3d161c14236d</link>
+            <guid>https://note.com/cybozu_design/n/n3d161c14236d</guid>
+            <pubDate>Tue, 01 Oct 2024 01:15:15 GMT</pubDate>
+            <description><![CDATA[こんにちは。CybozuでGaroonという製品を担当しているプロダクトデザイナーとUXリサーチャーのチームです。今の自分達のチームにあったサイズ感で定期的に情報発信できないか考え、サクッと読める「小話」という感じで投稿しています🙂登場人物河内山：プロダクトデザイナー／2006年中途入社Nia：プロダクトデザイナー／2020年新卒入社河合：プロダクトデザイナー／2024年新卒入社白石：UXリサーチ]]></description>
+            <content:encoded><![CDATA[こんにちは。CybozuでGaroonという製品を担当しているプロダクトデザイナーとUXリサーチャーのチームです。今の自分達のチームにあったサイズ感で定期的に情報発信できないか考え、サクッと読める「小話」という感じで投稿しています🙂登場人物河内山：プロダクトデザイナー／2006年中途入社Nia：プロダクトデザイナー／2020年新卒入社河合：プロダクトデザイナー／2024年新卒入社白石：UXリサーチャー／2021年中途入社東條：スクラムマスター・Android PG／2019年新卒入社続きをみる]]></content:encoded>
+            <enclosure length="0" type="png" url="https://assets.st-note.com/production/uploads/images/153115223/rectangle_large_type_2_2c39ac766d68d0090f5ac253088f2921.png?fit=bounds&amp;quality=85&amp;width=1280"/>
+        </item>
+        <item>
+            <title><![CDATA[新卒社員が"はてな卒業生訪問企画ブログ"をきっかけに「なんでも技術共有場所」を爆誕させるまで | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+            <link>https://blog.cybozu.io/entry/2024/09/30/192206</link>
+            <guid>https://blog.cybozu.io/entry/2024/09/30/192206</guid>
+            <pubDate>Mon, 30 Sep 2024 10:22:06 GMT</pubDate>
+            <description><![CDATA[こんにちは。クラウド基盤本部、PDX（Platform Developer eXperience）所属のびきニキです。突然ですがみなさん、以下の記事は読まれましたか？ developer.hatenastaff.com Hatena Developer Blogの連載企画「卒業生訪問インタビュー」では、創業からはてなの開発に関わってきた取締役の id:onishi、CTOの id:motemen、]]></description>
+            <content:encoded><![CDATA[こんにちは。クラウド基盤本部、PDX（Platform Developer eXperience）所属のびきニキです。突然ですがみなさん、以下の記事は読まれましたか？ developer.hatenastaff.com Hatena Developer Blogの連載企画「卒業生訪問インタビュー」では、創業からはてなの開発に関わってきた取締役の id:onishi、CTOの id:motemen、エンジニアリングマネージャーの id:onkが、いま会いたい元はてなスタッフを訪問してお話を伺っていきます。 id:motemenが担当する第11回のゲストは、サイボウズ株式会社でソフトウェアエンジニ…]]></content:encoded>
+            <enclosure length="0" type="png" url="https://cdn.image.st-hatena.com/image/scale/9c5a20be469bc9e971907e6c93583d074fd7ddc9/backend=imagemagick;height=1300;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyellow-sabotech%2F20240930%2F20240930190538.png" alt="新卒社員が&amp;quot;はてな卒業生訪問企画ブログ&amp;quot;をきっかけに「なんでも技術共有場所」を爆誕させるまで - Cybozu Inside Out | サイボウズエンジニアのブログ"/>
+        </item>
+        <item>
+            <title><![CDATA[nginxのproxy_cache_lockと謎の500ms | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+            <link>https://blog.cybozu.io/entry/2024/09/30/170000</link>
+            <guid>https://blog.cybozu.io/entry/2024/09/30/170000</guid>
+            <pubDate>Mon, 30 Sep 2024 08:00:00 GMT</pubDate>
+            <description><![CDATA[はじめに Cloud Platform部のpddgです。2024年もサマーインターンシップを開催し、プラットフォーム（自社基盤）コースとして2名の方を受け入れました。 昨年の様子は以下からご覧いただけます。興味があれば是非ご覧下さい。 blog.cybozu.io 今回は受け入れたお二方のうち藤本陽人さん（static-fuji）に担当していただいた検証の中で発見したやや直感的でない挙動について、]]></description>
+            <content:encoded><![CDATA[はじめに Cloud Platform部のpddgです。2024年もサマーインターンシップを開催し、プラットフォーム（自社基盤）コースとして2名の方を受け入れました。 昨年の様子は以下からご覧いただけます。興味があれば是非ご覧下さい。 blog.cybozu.io 今回は受け入れたお二方のうち藤本陽人さん（static-fuji）に担当していただいた検証の中で発見したやや直感的でない挙動について、藤本さんによる検証結果を社員がまとめたものになります。 この記事内での検証のほとんどはインターン生である藤本さんによって実施されたものですが、一部社員がインターンシップ完了後にこの記事の執筆のために生…]]></content:encoded>
+            <enclosure length="0" type="png" url="https://cdn.image.st-hatena.com/image/scale/d87e688307d328aa5d33c142bf7432f5702635fa/backend=imagemagick;height=1300;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fp%2Fpudding_info%2F20240917%2F20240917104838.png" alt="nginxのproxy_cache_lockと謎の500ms - Cybozu Inside Out | サイボウズエンジニアのブログ"/>
+        </item>
+        <item>
+            <title><![CDATA[経理からテクニカルライターに異動して学んだこと | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+            <link>https://blog.cybozu.io/entry/2024/09/30/080000</link>
+            <guid>https://blog.cybozu.io/entry/2024/09/30/080000</guid>
+            <pubDate>Sun, 29 Sep 2024 23:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、テクニカルライターチームのAhiuru-kunです。このブログは、テクニカルライター/ローカライズ リレーブログの4本目の記事です。 今回は、元々経理だった自分がテクニカルライターにキャリアチェンジした経緯と、その後感じたことをお話しします。 これまでの経歴 経理職として計9年ほど働いてきました。サイボウズには5年ほど前に中途入社しました。 経理業務は、（ざっくり書くと）会社全体から数]]></description>
+            <content:encoded><![CDATA[こんにちは、テクニカルライターチームのAhiuru-kunです。このブログは、テクニカルライター/ローカライズ リレーブログの4本目の記事です。 今回は、元々経理だった自分がテクニカルライターにキャリアチェンジした経緯と、その後感じたことをお話しします。 これまでの経歴 経理職として計9年ほど働いてきました。サイボウズには5年ほど前に中途入社しました。 経理業務は、（ざっくり書くと）会社全体から数字を集めて、見やすくして、報告するのが仕事です。そんな業務をする中で、もっと自分が興味のある、好きなプロダクトやサービスに貢献したいと思うようになりました。 サイボウズへの転職を決心した理由も、サイボ…]]></content:encoded>
+            <enclosure length="0" type="png" url="https://cdn.image.st-hatena.com/image/scale/95f851749fc1cfb194737e306692b6feb69b7391/backend=imagemagick;height=1300;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyellow-sabotech%2F20240823%2F20240823110559.png" alt="経理からテクニカルライターに異動して学んだこと - Cybozu Inside Out | サイボウズエンジニアのブログ"/>
+        </item>
+        <item>
+            <title><![CDATA[JavaDoでしょう#26【札幌 9/28】アンカンファンレンスをやってみよう&amp;軽く交流会に参加しました！ #javado | Developer Concourse Unit の活動]]></title>
+            <link>https://note.com/_tetrapod/n/na72a850cdff6</link>
+            <guid>https://note.com/_tetrapod/n/na72a850cdff6</guid>
+            <pubDate>Sat, 28 Sep 2024 12:43:33 GMT</pubDate>
+            <description><![CDATA[こんにちは！サイボウズ株式会社 開発本部 People ExperienceチームDeveloper Councource Unit(以降DCU)の貴島(@jnkykn)です。DCUは、エンジニアの成長や情報の流通を軸に活動をしています。今日は、JavaDoでしょう#26【札幌 9/28】アンカンファンレンスをやってみよう&amp;軽く交流会（以降 JavaDoでしょう#26）に参加しました。今日のDCU]]></description>
+            <content:encoded><![CDATA[こんにちは！サイボウズ株式会社 開発本部 People ExperienceチームDeveloper Councource Unit(以降DCU)の貴島(@jnkykn)です。DCUは、エンジニアの成長や情報の流通を軸に活動をしています。今日は、JavaDoでしょう#26【札幌 9/28】アンカンファンレンスをやってみよう&amp;軽く交流会（以降 JavaDoでしょう#26）に参加しました。今日のDCUは、沖縄と北海道で活動していました続きをみる]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://assets.st-note.com/production/uploads/images/155997436/rectangle_large_type_2_b66cee37a53b6da0a9884aa5dc031697.jpeg?fit=bounds&amp;quality=85&amp;width=1280"/>
+        </item>
+    </channel>
+</rss>

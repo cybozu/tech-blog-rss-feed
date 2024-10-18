@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cybozu.github.io/tech-blog-rss-feed/</id>
+    <title>サイボウズのTech系ブログRSS</title>
+    <updated>2024-10-18T23:05:26.157Z</updated>
+    <generator>cybozu/tech-blog-rss-feed</generator>
+    <link rel="alternate" href="https://cybozu.github.io/tech-blog-rss-feed/"/>
+    <link rel="self" href="https://cybozu.github.io/tech-blog-rss-feed/feeds/atom.xml"/>
+    <subtitle>サイボウズのTech系ブログの更新をまとめたRSSフィード</subtitle>
+    <logo>https://cybozu.github.io/tech-blog-rss-feed/images/icon.png</logo>
+    <icon>https://cybozu.github.io/tech-blog-rss-feed/images/favicon.ico</icon>
+    <rights>cybozu/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[Designship2024 スポンサーセッションで話した「世界中のチームワークをどうデザインしているのか」のお話 | Cybozu Product Design Magazine]]></title>
+        <id>https://note.com/ka3zu1ma10/n/n74e752762478</id>
+        <link href="https://note.com/ka3zu1ma10/n/n74e752762478"/>
+        <updated>2024-10-18T08:55:57.000Z</updated>
+        <summary type="html"><![CDATA[サイボウズでデザインプログラムマネージャーをしているKazuMax（@ka3zu1ma10）です。先日、開催されたDesignship2024にて、スポンサーセッションに登壇していました。この記事では、その内容を残しておこうと思います。続きをみる]]></summary>
+        <content type="html"><![CDATA[サイボウズでデザインプログラムマネージャーをしているKazuMax（@ka3zu1ma10）です。先日、開催されたDesignship2024にて、スポンサーセッションに登壇していました。この記事では、その内容を残しておこうと思います。続きをみる]]></content>
+        <published>2024-10-18T08:55:57.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5つのECMAScript ProposalがStage4になど: Cybozu Frontend Weekly (2024-10-15号) | サイボウズ フロントエンドのフィード]]></title>
+        <id>https://zenn.dev/cybozu_frontend/articles/few-2024-10-15</id>
+        <link href="https://zenn.dev/cybozu_frontend/articles/few-2024-10-15"/>
+        <updated>2024-10-18T05:08:14.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは! サイボウズ株式会社フロントエンドエンジニアの Saji (@sajikix) です。 はじめにサイボウズでは毎週火曜日に Frontend Weekly という「一週間にあったフロントエンドニュースを共有する会」を社内で開催しています。今回は、2024/10/15 の Frontend Weekly で取り上げた記事や話題を紹介します。 取り上げた記事・話題 PR TIMES フロン]]></summary>
+        <content type="html"><![CDATA[こんにちは! サイボウズ株式会社フロントエンドエンジニアの Saji (@sajikix) です。 はじめにサイボウズでは毎週火曜日に Frontend Weekly という「一週間にあったフロントエンドニュースを共有する会」を社内で開催しています。今回は、2024/10/15 の Frontend Weekly で取り上げた記事や話題を紹介します。 取り上げた記事・話題 PR TIMES フロントエンドの CI パイプラインを改善して、CI 処理時間と Billable Time を 50%を削減した話 | PR TIMES 開発者ブログhttps://develop...]]></content>
+        <author>
+            <name>Saji</name>
+        </author>
+        <published>2024-10-18T05:08:14.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Docker Subscription値上げなど｜Productivity Weekly(2024-09-25,18) | サイボウズ 生産性向上チーム 💪のフィード]]></title>
+        <id>https://zenn.dev/cybozu_ept/articles/productivity-weekly-20240925</id>
+        <link href="https://zenn.dev/cybozu_ept/articles/productivity-weekly-20240925"/>
+        <updated>2024-10-17T06:15:05.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。サイボウズ株式会社 生産性向上チームの平木場です。僕たち生産性向上チームは毎週水曜日に Productivity Weekly という「1 週間の間に発見された開発者の生産性向上に関するネタを共有する会」を社内で開催しています。本記事はその時のネタをまとめたものです。2023-01-25 号から、基本的に隔週で連載することとしました。たまに単独でも投稿するかもしれません。今週は 202]]></summary>
+        <content type="html"><![CDATA[こんにちは。サイボウズ株式会社 生産性向上チームの平木場です。僕たち生産性向上チームは毎週水曜日に Productivity Weekly という「1 週間の間に発見された開発者の生産性向上に関するネタを共有する会」を社内で開催しています。本記事はその時のネタをまとめたものです。2023-01-25 号から、基本的に隔週で連載することとしました。たまに単独でも投稿するかもしれません。今週は 2024-09-25, 2024-09-18 合併号です。今回が第 164 回目です。過去の記事はこちら。!2023-05-10 号から、生産性向上チームの他メンバーにいくつかのトピック...]]></content>
+        <author>
+            <name>Futa Hirakoba</name>
+        </author>
+        <published>2024-10-17T06:15:05.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイボウズサマーインターン 2024 報告 〜 iOS コース 〜 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2024/10/16/080000</id>
+        <link href="https://blog.cybozu.io/entry/2024/10/16/080000"/>
+        <updated>2024-10-15T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！サイボウズ Officeチームのモバイル開発担当の山根です。 サイボウズでは毎年サマーインターンシップを開催しており、2024年度もさまざまなコースを用意しました。 この記事では、iOSアプリ開発のインターンシップである以下の２コースについて紹介したいと思います！ iOS 育成型コース iOS 実務体験型コース iOS 育成型コース（8/19〜8/22） まずは4日間インターンとして開]]></summary>
+        <content type="html"><![CDATA[こんにちは！サイボウズ Officeチームのモバイル開発担当の山根です。 サイボウズでは毎年サマーインターンシップを開催しており、2024年度もさまざまなコースを用意しました。 この記事では、iOSアプリ開発のインターンシップである以下の２コースについて紹介したいと思います！ iOS 育成型コース iOS 実務体験型コース iOS 育成型コース（8/19〜8/22） まずは4日間インターンとして開催した育成型コースについての紹介です。 今年はこちらのコースに3名のインターン生に参加していただきました！ 概要 育成型コースは、実際の製品のソースコードを用いてプロダクト開発を体験できるコースとなっ…]]></content>
+        <published>2024-10-15T23:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ISO27001:2022 対応日記　息抜き編 | サイボウズのセキュリティ室]]></title>
+        <id>https://note.com/security_cybozu/n/n82f1e23c06bb</id>
+        <link href="https://note.com/security_cybozu/n/n82f1e23c06bb"/>
+        <updated>2024-10-15T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2024年10月11日、無事にISMSの移行審査が完了しました。年々 ISMS 審査は厳しくなっていっている気がしました。さまざまな指摘を受けましたが、なんとか完了をしています。移行できたかどうかは、審査機関の内部のレビューを得てからとなり、1カ月程度の時間がかかる見込みです。ISMS の担当者の気苦労も多くなってきており、審査後は息抜きを実施してきました。今年の店は、サイボウズ本社の近くにあるビ]]></summary>
+        <content type="html"><![CDATA[2024年10月11日、無事にISMSの移行審査が完了しました。年々 ISMS 審査は厳しくなっていっている気がしました。さまざまな指摘を受けましたが、なんとか完了をしています。移行できたかどうかは、審査機関の内部のレビューを得てからとなり、1カ月程度の時間がかかる見込みです。ISMS の担当者の気苦労も多くなってきており、審査後は息抜きを実施してきました。今年の店は、サイボウズ本社の近くにあるビアホール「伊勢角屋麦酒 八重洲店」にお邪魔しました。続きをみる]]></content>
+        <published>2024-10-15T04:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイボウズのTech系ブログまとめRSSフィードをもとに、いい感じにXに新着記事紹介の投稿をしたい（テスト延長戦！） | コネクト支援チームの活動]]></title>
+        <id>https://note.com/_tetrapod/n/nb936afce95a4</id>
+        <link href="https://note.com/_tetrapod/n/nb936afce95a4"/>
+        <updated>2024-10-13T13:05:13.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。サイボウズ株式会社 開発本部 People Experienceチーム コネクト支援チームの貴島(@jnkykn)です。今日は、U-16プログラミングコンテスト釧路大会の協賛のため、釧路に来ています。今年も、各プログラムの戦略の面白さ、マップとの相性など興味深く競技を観戦しました。競技の様子は、動画配信のアーカイブがありますので、ぜひご覧ください。 2024年大会U-16プログラミング]]></summary>
+        <content type="html"><![CDATA[こんにちは。サイボウズ株式会社 開発本部 People Experienceチーム コネクト支援チームの貴島(@jnkykn)です。今日は、U-16プログラミングコンテスト釧路大会の協賛のため、釧路に来ています。今年も、各プログラムの戦略の面白さ、マップとの相性など興味深く競技を観戦しました。競技の様子は、動画配信のアーカイブがありますので、ぜひご覧ください。 2024年大会U-16プログラミングコンテストは、パソコンやプログラミングが好きな16歳以下の学生の皆さんに、IT に対する興味を深めてprocon.946oss.net 続きをみる]]></content>
+        <published>2024-10-13T13:05:13.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイボウズのTech系ブログまとめRSSフィードをもとに、いい感じにXに新着記事紹介の投稿をしたい（テスト編） | コネクト支援チームの活動]]></title>
+        <id>https://note.com/_tetrapod/n/nf183e8797040</id>
+        <link href="https://note.com/_tetrapod/n/nf183e8797040"/>
+        <updated>2024-10-11T10:06:40.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。サイボウズ株式会社 開発本部 People Experienceチーム コネクト支援チームの貴島(@jnkykn)です。コネクト支援チームでは、IFTTTを利用して、サイボウズやサイボウズ・ラボのエンジニアの新着記事をXに投稿しています。今日は、最近取り組んでいる改善について書きます。いい感じの自動投稿を求めて続きをみる]]></summary>
+        <content type="html"><![CDATA[こんにちは。サイボウズ株式会社 開発本部 People Experienceチーム コネクト支援チームの貴島(@jnkykn)です。コネクト支援チームでは、IFTTTを利用して、サイボウズやサイボウズ・ラボのエンジニアの新着記事をXに投稿しています。今日は、最近取り組んでいる改善について書きます。いい感じの自動投稿を求めて続きをみる]]></content>
+        <published>2024-10-11T10:06:40.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【登壇・出展情報】サイボウズはDesignship 2024にゴールドスポンサーとして協賛します | Cybozu Product Design Magazine]]></title>
+        <id>https://note.com/cybozu_design/n/n76861f93472c</id>
+        <link href="https://note.com/cybozu_design/n/n76861f93472c"/>
+        <updated>2024-10-11T04:30:32.000Z</updated>
+        <summary type="html"><![CDATA[10/12-13に開催されるDesignship 2024にサイボウズはゴールドスポンサーとして協賛しています。この記事では、当日の登壇・出展情報について紹介します！Designshipとは？続きをみる]]></summary>
+        <content type="html"><![CDATA[10/12-13に開催されるDesignship 2024にサイボウズはゴールドスポンサーとして協賛しています。この記事では、当日の登壇・出展情報について紹介します！Designshipとは？続きをみる]]></content>
+        <published>2024-10-11T04:30:32.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes Operatorの不具合を分析した論文の紹介など: Neco Weekly (2024-10-04号) | サイボウズ Necoチーム 😺のフィード]]></title>
+        <id>https://zenn.dev/cybozu_neco/articles/neco-weekly-2024-10-04</id>
+        <link href="https://zenn.dev/cybozu_neco/articles/neco-weekly-2024-10-04"/>
+        <updated>2024-10-10T10:06:30.000Z</updated>
+        <summary type="html"><![CDATA[Neco Weekly (2024-10-04号)サイボウズ Neco チームでは、 Neco Weekly という「最近気になる Kubernetes や Cloud Native 関連のネタを共有する会」を社内で開催しています。本記事は共有会の中で紹介したネタをまとめたものです。今回は第63回目の記事となります。 👀 Notable Articles An Empirical Study on]]></summary>
+        <content type="html"><![CDATA[Neco Weekly (2024-10-04号)サイボウズ Neco チームでは、 Neco Weekly という「最近気になる Kubernetes や Cloud Native 関連のネタを共有する会」を社内で開催しています。本記事は共有会の中で紹介したネタをまとめたものです。今回は第63回目の記事となります。 👀 Notable Articles An Empirical Study on Kubernetes Operator Bugshttps://dl.acm.org/doi/10.1145/3650212.3680396著名な36個のKuberne...]]></content>
+        <author>
+            <name>zoetro</name>
+        </author>
+        <published>2024-10-10T10:06:30.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS新機能のWorking Draft公開など: Cybozu Frontend Weekly (2024-10-08号) | サイボウズ フロントエンドのフィード]]></title>
+        <id>https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20241008</id>
+        <link href="https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20241008"/>
+        <updated>2024-10-10T03:00:05.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！サイボウズ株式会社フロントエンドエンジニアのsaku (@sakupi01)です。 はじめにサイボウズ社内では毎週火曜日にFrontend Weeklyと題し「一週間の間にあったフロントエンドニュースを共有する会」を開催しています。今回は、2024/10/8のFrontend Weeklyで取り上げた記事や話題を紹介します。 取り上げた記事・話題 CSS Values and Unit]]></summary>
+        <content type="html"><![CDATA[こんにちは！サイボウズ株式会社フロントエンドエンジニアのsaku (@sakupi01)です。 はじめにサイボウズ社内では毎週火曜日にFrontend Weeklyと題し「一週間の間にあったフロントエンドニュースを共有する会」を開催しています。今回は、2024/10/8のFrontend Weeklyで取り上げた記事や話題を紹介します。 取り上げた記事・話題 CSS Values and Units Module Level 5https://alvaromontoro.com/blog/68062/new-values-and-functions-in-CSShtt...]]></content>
+        <author>
+            <name>saku</name>
+        </author>
+        <published>2024-10-10T03:00:05.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[スクラムマスターが大事にすべきはスクラムではなく価値に向き合うこと | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2024/10/09/080000</id>
+        <link href="https://blog.cybozu.io/entry/2024/10/09/080000"/>
+        <updated>2024-10-08T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。kintone開発チームでスクラムマスターをしている「とうま」（@toma_cy）です。 サイボウズでは、スクラムマスターの役割や日々の業務をより多くの方々に知ってもらうために、リレーブログ企画を開催しています。 本記事では、スクラムはあくまで手段でありスクラムマスターは価値に向き合うことが大事だという話をします。 blog.cybozu.io スクラムマスターに求められること スクラ]]></summary>
+        <content type="html"><![CDATA[こんにちは。kintone開発チームでスクラムマスターをしている「とうま」（@toma_cy）です。 サイボウズでは、スクラムマスターの役割や日々の業務をより多くの方々に知ってもらうために、リレーブログ企画を開催しています。 本記事では、スクラムはあくまで手段でありスクラムマスターは価値に向き合うことが大事だという話をします。 blog.cybozu.io スクラムマスターに求められること スクラムガイドでは、スクラムマスターについて以下のように定義されています。 スクラムマスターは、スクラムガイドで定義されたスクラムを確⽴させることの結果に責任を持つ。 「スクラムを確立」とはどういうことでし…]]></content>
+        <published>2024-10-08T23:00:00.000Z</published>
+    </entry>
+</feed>

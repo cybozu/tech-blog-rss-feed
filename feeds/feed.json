@@ -1,0 +1,243 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "サイボウズのTech系ブログRSS",
+    "home_page_url": "https://cybozu.github.io/tech-blog-rss-feed/",
+    "feed_url": "https://cybozu.github.io/tech-blog-rss-feed/feeds/feed.json",
+    "description": "サイボウズのTech系ブログの更新をまとめたRSSフィード",
+    "icon": "https://cybozu.github.io/tech-blog-rss-feed/images/icon.png",
+    "items": [
+        {
+            "id": "https://zenn.dev/cybozu_ept/articles/productivity-weekly-20240925",
+            "content_html": "こんにちは。サイボウズ株式会社 生産性向上チームの平木場です。僕たち生産性向上チームは毎週水曜日に Productivity Weekly という「1 週間の間に発見された開発者の生産性向上に関するネタを共有する会」を社内で開催しています。本記事はその時のネタをまとめたものです。2023-01-25 号から、基本的に隔週で連載することとしました。たまに単独でも投稿するかもしれません。今週は 2024-09-25, 2024-09-18 合併号です。今回が第 164 回目です。過去の記事はこちら。!2023-05-10 号から、生産性向上チームの他メンバーにいくつかのトピック...",
+            "url": "https://zenn.dev/cybozu_ept/articles/productivity-weekly-20240925",
+            "title": "Docker Subscription値上げなど｜Productivity Weekly(2024-09-25,18) | サイボウズ 生産性向上チーム 💪のフィード",
+            "summary": "こんにちは。サイボウズ株式会社 生産性向上チームの平木場です。僕たち生産性向上チームは毎週水曜日に Productivity Weekly という「1 週間の間に発見された開発者の生産性向上に関するネタを共有する会」を社内で開催しています。本記事はその時のネタをまとめたものです。2023-01-25 号から、基本的に隔週で連載することとしました。たまに単独でも投稿するかもしれません。今週は 202",
+            "image": {
+                "url": "https://res.cloudinary.com/zenn/image/upload/s--q71ZLelr--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Docker%2520Subscription%25E5%2580%25A4%25E4%25B8%258A%25E3%2581%2592%25E3%2581%25AA%25E3%2581%25A9%25EF%25BD%259CProductivity%2520Weekly%25282024-09-25%252C18%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Futa%2520Hirakoba%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2RmZGEyOTIyNDQuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%259C%25E3%2582%25A6%25E3%2582%25BA%2520%25E7%2594%259F%25E7%2594%25A3%25E6%2580%25A7%25E5%2590%2591%25E4%25B8%258A%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%2520%2520%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzdjOTZjZGNlNTguanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png",
+                "type": "png"
+            },
+            "date_modified": "2024-10-17T06:15:05.000Z",
+            "date_published": "2024-10-17T06:15:05.000Z",
+            "author": {
+                "name": "Futa Hirakoba"
+            },
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "Docker Subscription値上げなど｜Productivity Weekly(2024-09-25,18)",
+                "blogTitle": "サイボウズ 生産性向上チーム 💪のフィード",
+                "blogLink": "https://zenn.dev/p/cybozu_ept",
+                "blogLinkMd5Hash": "b9b4fbc3d2a86a3d0fbe358d7c297290",
+                "favicon": "https://static.zenn.studio/images/logo-transparent.png"
+            }
+        },
+        {
+            "id": "https://blog.cybozu.io/entry/2024/10/16/080000",
+            "content_html": "こんにちは！サイボウズ Officeチームのモバイル開発担当の山根です。 サイボウズでは毎年サマーインターンシップを開催しており、2024年度もさまざまなコースを用意しました。 この記事では、iOSアプリ開発のインターンシップである以下の２コースについて紹介したいと思います！ iOS 育成型コース iOS 実務体験型コース iOS 育成型コース（8/19〜8/22） まずは4日間インターンとして開催した育成型コースについての紹介です。 今年はこちらのコースに3名のインターン生に参加していただきました！ 概要 育成型コースは、実際の製品のソースコードを用いてプロダクト開発を体験できるコースとなっ…",
+            "url": "https://blog.cybozu.io/entry/2024/10/16/080000",
+            "title": "サイボウズサマーインターン 2024 報告 〜 iOS コース 〜 | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "こんにちは！サイボウズ Officeチームのモバイル開発担当の山根です。 サイボウズでは毎年サマーインターンシップを開催しており、2024年度もさまざまなコースを用意しました。 この記事では、iOSアプリ開発のインターンシップである以下の２コースについて紹介したいと思います！ iOS 育成型コース iOS 実務体験型コース iOS 育成型コース（8/19〜8/22） まずは4日間インターンとして開",
+            "image": {
+                "url": "https://cdn.image.st-hatena.com/image/scale/4c97de4f0d7a3b94b463eeaf5c479870e60cd7f7/backend=imagemagick;height=1300;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyellow-sabotech%2F20241015%2F20241015154005.png",
+                "alt": "サイボウズサマーインターン 2024 報告 〜 iOS コース 〜 - Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "type": "png"
+            },
+            "date_modified": "2024-10-15T23:00:00.000Z",
+            "date_published": "2024-10-15T23:00:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "サイボウズサマーインターン 2024 報告 〜 iOS コース 〜",
+                "blogTitle": "Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "blogLink": "https://blog.cybozu.io/",
+                "blogLinkMd5Hash": "334895ad2f27bf31195a54902c472405",
+                "favicon": "https://blog.cybozu.io/icon/favicon"
+            }
+        },
+        {
+            "id": "https://note.com/security_cybozu/n/n82f1e23c06bb",
+            "content_html": "2024年10月11日、無事にISMSの移行審査が完了しました。年々 ISMS 審査は厳しくなっていっている気がしました。さまざまな指摘を受けましたが、なんとか完了をしています。移行できたかどうかは、審査機関の内部のレビューを得てからとなり、1カ月程度の時間がかかる見込みです。ISMS の担当者の気苦労も多くなってきており、審査後は息抜きを実施してきました。今年の店は、サイボウズ本社の近くにあるビアホール「伊勢角屋麦酒 八重洲店」にお邪魔しました。続きをみる",
+            "url": "https://note.com/security_cybozu/n/n82f1e23c06bb",
+            "title": "ISO27001:2022 対応日記　息抜き編 | サイボウズのセキュリティ室",
+            "summary": "2024年10月11日、無事にISMSの移行審査が完了しました。年々 ISMS 審査は厳しくなっていっている気がしました。さまざまな指摘を受けましたが、なんとか完了をしています。移行できたかどうかは、審査機関の内部のレビューを得てからとなり、1カ月程度の時間がかかる見込みです。ISMS の担当者の気苦労も多くなってきており、審査後は息抜きを実施してきました。今年の店は、サイボウズ本社の近くにあるビ",
+            "image": {
+                "url": "https://assets.st-note.com/production/uploads/images/158016116/rectangle_large_type_2_3a75f3d9431e0e754d2cfe9867ac9171.png?fit=bounds&quality=85&width=1280",
+                "type": "png"
+            },
+            "date_modified": "2024-10-15T04:00:00.000Z",
+            "date_published": "2024-10-15T04:00:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "ISO27001:2022 対応日記　息抜き編",
+                "blogTitle": "サイボウズのセキュリティ室",
+                "blogLink": "https://note.com/security_cybozu",
+                "blogLinkMd5Hash": "5ef52ab92e69bbef3e8434911ac8388d",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico"
+            }
+        },
+        {
+            "id": "https://note.com/_tetrapod/n/nb936afce95a4",
+            "content_html": "こんにちは。サイボウズ株式会社 開発本部 People Experienceチーム コネクト支援チームの貴島(@jnkykn)です。今日は、U-16プログラミングコンテスト釧路大会の協賛のため、釧路に来ています。今年も、各プログラムの戦略の面白さ、マップとの相性など興味深く競技を観戦しました。競技の様子は、動画配信のアーカイブがありますので、ぜひご覧ください。 2024年大会U-16プログラミングコンテストは、パソコンやプログラミングが好きな16歳以下の学生の皆さんに、IT に対する興味を深めてprocon.946oss.net 続きをみる",
+            "url": "https://note.com/_tetrapod/n/nb936afce95a4",
+            "title": "サイボウズのTech系ブログまとめRSSフィードをもとに、いい感じにXに新着記事紹介の投稿をしたい（テスト延長戦！） | コネクト支援チームの活動",
+            "summary": "こんにちは。サイボウズ株式会社 開発本部 People Experienceチーム コネクト支援チームの貴島(@jnkykn)です。今日は、U-16プログラミングコンテスト釧路大会の協賛のため、釧路に来ています。今年も、各プログラムの戦略の面白さ、マップとの相性など興味深く競技を観戦しました。競技の様子は、動画配信のアーカイブがありますので、ぜひご覧ください。 2024年大会U-16プログラミング",
+            "image": {
+                "url": "https://assets.st-note.com/production/uploads/images/157824347/rectangle_large_type_2_ff5e0abd8b52cd4a16494fa1f7dfe733.jpeg?fit=bounds&quality=85&width=1280",
+                "type": "jpeg"
+            },
+            "date_modified": "2024-10-13T13:05:13.000Z",
+            "date_published": "2024-10-13T13:05:13.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "サイボウズのTech系ブログまとめRSSフィードをもとに、いい感じにXに新着記事紹介の投稿をしたい（テスト延長戦！）",
+                "blogTitle": "コネクト支援チームの活動",
+                "blogLink": "https://note.com/cybozutech/m/mc0c086e78c4f",
+                "blogLinkMd5Hash": "54290ee46215a8954ab9119091ce6e73",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico"
+            }
+        },
+        {
+            "id": "https://note.com/_tetrapod/n/nf183e8797040",
+            "content_html": "こんにちは。サイボウズ株式会社 開発本部 People Experienceチーム コネクト支援チームの貴島(@jnkykn)です。コネクト支援チームでは、IFTTTを利用して、サイボウズやサイボウズ・ラボのエンジニアの新着記事をXに投稿しています。今日は、最近取り組んでいる改善について書きます。いい感じの自動投稿を求めて続きをみる",
+            "url": "https://note.com/_tetrapod/n/nf183e8797040",
+            "title": "サイボウズのTech系ブログまとめRSSフィードをもとに、いい感じにXに新着記事紹介の投稿をしたい（テスト編） | コネクト支援チームの活動",
+            "summary": "こんにちは。サイボウズ株式会社 開発本部 People Experienceチーム コネクト支援チームの貴島(@jnkykn)です。コネクト支援チームでは、IFTTTを利用して、サイボウズやサイボウズ・ラボのエンジニアの新着記事をXに投稿しています。今日は、最近取り組んでいる改善について書きます。いい感じの自動投稿を求めて続きをみる",
+            "image": {
+                "url": "https://assets.st-note.com/production/uploads/images/157555007/rectangle_large_type_2_71ffa3b8281ae1b8ce0e7de7248a062c.png?fit=bounds&quality=85&width=1280",
+                "type": "png"
+            },
+            "date_modified": "2024-10-11T10:06:40.000Z",
+            "date_published": "2024-10-11T10:06:40.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "サイボウズのTech系ブログまとめRSSフィードをもとに、いい感じにXに新着記事紹介の投稿をしたい（テスト編）",
+                "blogTitle": "コネクト支援チームの活動",
+                "blogLink": "https://note.com/cybozutech/m/mc0c086e78c4f",
+                "blogLinkMd5Hash": "54290ee46215a8954ab9119091ce6e73",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico"
+            }
+        },
+        {
+            "id": "https://note.com/cybozu_design/n/n76861f93472c",
+            "content_html": "10/12-13に開催されるDesignship 2024にサイボウズはゴールドスポンサーとして協賛しています。この記事では、当日の登壇・出展情報について紹介します！Designshipとは？続きをみる",
+            "url": "https://note.com/cybozu_design/n/n76861f93472c",
+            "title": "【登壇・出展情報】サイボウズはDesignship 2024にゴールドスポンサーとして協賛します | Cybozu Product Design Magazine",
+            "summary": "10/12-13に開催されるDesignship 2024にサイボウズはゴールドスポンサーとして協賛しています。この記事では、当日の登壇・出展情報について紹介します！Designshipとは？続きをみる",
+            "image": {
+                "url": "https://assets.st-note.com/production/uploads/images/157532738/rectangle_large_type_2_dfc0b44c5f213b4fb261167baf082a0e.png?fit=bounds&quality=85&width=1280",
+                "type": "png"
+            },
+            "date_modified": "2024-10-11T04:30:32.000Z",
+            "date_published": "2024-10-11T04:30:32.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 1,
+                "originalTitle": "【登壇・出展情報】サイボウズはDesignship 2024にゴールドスポンサーとして協賛します",
+                "blogTitle": "Cybozu Product Design Magazine",
+                "blogLink": "https://note.com/cybozu_design/m/mc12622f890cf",
+                "blogLinkMd5Hash": "2a932d7f7fed9dfa8fea4678be3579d6",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico"
+            }
+        },
+        {
+            "id": "https://zenn.dev/cybozu_neco/articles/neco-weekly-2024-10-04",
+            "content_html": "Neco Weekly (2024-10-04号)サイボウズ Neco チームでは、 Neco Weekly という「最近気になる Kubernetes や Cloud Native 関連のネタを共有する会」を社内で開催しています。本記事は共有会の中で紹介したネタをまとめたものです。今回は第63回目の記事となります。 👀 Notable Articles An Empirical Study on Kubernetes Operator Bugshttps://dl.acm.org/doi/10.1145/3650212.3680396著名な36個のKuberne...",
+            "url": "https://zenn.dev/cybozu_neco/articles/neco-weekly-2024-10-04",
+            "title": "Kubernetes Operatorの不具合を分析した論文の紹介など: Neco Weekly (2024-10-04号) | サイボウズ Necoチーム 😺のフィード",
+            "summary": "Neco Weekly (2024-10-04号)サイボウズ Neco チームでは、 Neco Weekly という「最近気になる Kubernetes や Cloud Native 関連のネタを共有する会」を社内で開催しています。本記事は共有会の中で紹介したネタをまとめたものです。今回は第63回目の記事となります。 👀 Notable Articles An Empirical Study on",
+            "image": {
+                "url": "https://res.cloudinary.com/zenn/image/upload/s--KUT_DSZr--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Kubernetes%2520Operator%25E3%2581%25AE%25E4%25B8%258D%25E5%2585%25B7%25E5%2590%2588%25E3%2582%2592%25E5%2588%2586%25E6%259E%2590%25E3%2581%2597%25E3%2581%259F%25E8%25AB%2596%25E6%2596%2587%25E3%2581%25AE%25E7%25B4%25B9%25E4%25BB%258B%25E3%2581%25AA%25E3%2581%25A9%253A%2520Neco%2520Weekly%2520%25282024-10...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:zoetro%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzllOThjMzY2NDguanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%259C%25E3%2582%25A6%25E3%2582%25BA%2520Neco%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%2520%2520%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2daZzM3OVN5dnNDa0oyMWFJVWhXYTFFWWN2S0NsQVhvUEtodm1PVVE9czI1MC1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png",
+                "type": "png"
+            },
+            "date_modified": "2024-10-10T10:06:30.000Z",
+            "date_published": "2024-10-10T10:06:30.000Z",
+            "author": {
+                "name": "zoetro"
+            },
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "Kubernetes Operatorの不具合を分析した論文の紹介など: Neco Weekly (2024-10-04号)",
+                "blogTitle": "サイボウズ Necoチーム 😺のフィード",
+                "blogLink": "https://zenn.dev/p/cybozu_neco",
+                "blogLinkMd5Hash": "b58b1a688926b1f5741759de7c3110ed",
+                "favicon": "https://static.zenn.studio/images/logo-transparent.png"
+            }
+        },
+        {
+            "id": "https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20241008",
+            "content_html": "こんにちは！サイボウズ株式会社フロントエンドエンジニアのsaku (@sakupi01)です。 はじめにサイボウズ社内では毎週火曜日にFrontend Weeklyと題し「一週間の間にあったフロントエンドニュースを共有する会」を開催しています。今回は、2024/10/8のFrontend Weeklyで取り上げた記事や話題を紹介します。 取り上げた記事・話題 CSS Values and Units Module Level 5https://alvaromontoro.com/blog/68062/new-values-and-functions-in-CSShtt...",
+            "url": "https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20241008",
+            "title": "CSS新機能のWorking Draft公開など: Cybozu Frontend Weekly (2024-10-08号) | サイボウズ フロントエンドのフィード",
+            "summary": "こんにちは！サイボウズ株式会社フロントエンドエンジニアのsaku (@sakupi01)です。 はじめにサイボウズ社内では毎週火曜日にFrontend Weeklyと題し「一週間の間にあったフロントエンドニュースを共有する会」を開催しています。今回は、2024/10/8のFrontend Weeklyで取り上げた記事や話題を紹介します。 取り上げた記事・話題 CSS Values and Unit",
+            "image": {
+                "url": "https://res.cloudinary.com/zenn/image/upload/s--vql35dmI--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:CSS%25E6%2596%25B0%25E6%25A9%259F%25E8%2583%25BD%25E3%2581%25AEWorking%2520Draft%25E5%2585%25AC%25E9%2596%258B%25E3%2581%25AA%25E3%2581%25A9%253A%2520Cybozu%2520Frontend%2520Weekly%2520%25282024-10...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:saku%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2VjOTA1OThlNjEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%259C%25E3%2582%25A6%25E3%2582%25BA%2520%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2o0S053NXVMek12cVJjdnlEU3JKQVBJUUNYQWNUTGJsR3pGWUc1cUE9czk2LWM=%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png",
+                "type": "png"
+            },
+            "date_modified": "2024-10-10T03:00:05.000Z",
+            "date_published": "2024-10-10T03:00:05.000Z",
+            "author": {
+                "name": "saku"
+            },
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 3,
+                "originalTitle": "CSS新機能のWorking Draft公開など: Cybozu Frontend Weekly (2024-10-08号)",
+                "blogTitle": "サイボウズ フロントエンドのフィード",
+                "blogLink": "https://zenn.dev/p/cybozu_frontend",
+                "blogLinkMd5Hash": "20eabaedb6793c491d88126dd31015a9",
+                "favicon": "https://static.zenn.studio/images/logo-transparent.png"
+            }
+        },
+        {
+            "id": "https://blog.cybozu.io/entry/2024/10/09/080000",
+            "content_html": "こんにちは。kintone開発チームでスクラムマスターをしている「とうま」（@toma_cy）です。 サイボウズでは、スクラムマスターの役割や日々の業務をより多くの方々に知ってもらうために、リレーブログ企画を開催しています。 本記事では、スクラムはあくまで手段でありスクラムマスターは価値に向き合うことが大事だという話をします。 blog.cybozu.io スクラムマスターに求められること スクラムガイドでは、スクラムマスターについて以下のように定義されています。 スクラムマスターは、スクラムガイドで定義されたスクラムを確⽴させることの結果に責任を持つ。 「スクラムを確立」とはどういうことでし…",
+            "url": "https://blog.cybozu.io/entry/2024/10/09/080000",
+            "title": "スクラムマスターが大事にすべきはスクラムではなく価値に向き合うこと | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "こんにちは。kintone開発チームでスクラムマスターをしている「とうま」（@toma_cy）です。 サイボウズでは、スクラムマスターの役割や日々の業務をより多くの方々に知ってもらうために、リレーブログ企画を開催しています。 本記事では、スクラムはあくまで手段でありスクラムマスターは価値に向き合うことが大事だという話をします。 blog.cybozu.io スクラムマスターに求められること スクラ",
+            "image": {
+                "url": "https://cdn.image.st-hatena.com/image/scale/650954518ad3a0316dcbfc8904974ca5df882b4b/backend=imagemagick;height=1300;version=1;width=1300/https%3A%2F%2Fcdn.user.blog.st-hatena.com%2Fdefault_entry_og_image%2F110495017%2F1514249404572921",
+                "alt": "スクラムマスターが大事にすべきはスクラムではなく価値に向き合うこと - Cybozu Inside Out | サイボウズエンジニアのブログ"
+            },
+            "date_modified": "2024-10-08T23:00:00.000Z",
+            "date_published": "2024-10-08T23:00:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 1,
+                "originalTitle": "スクラムマスターが大事にすべきはスクラムではなく価値に向き合うこと",
+                "blogTitle": "Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "blogLink": "https://blog.cybozu.io/",
+                "blogLinkMd5Hash": "334895ad2f27bf31195a54902c472405",
+                "favicon": "https://blog.cybozu.io/icon/favicon"
+            }
+        },
+        {
+            "id": "https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20241001",
+            "content_html": "こんにちは！サイボウズ株式会社フロントエンドエンジニアのdaiki（@k1tikurisu）です。 はじめにサイボウズ社内では毎週火曜日にFrontend Weeklyと題し「一週間の間にあったフロントエンドニュースを共有する会」を開催しています。今回は、2024/10/01のFrontend Weeklyで取り上げた記事や話題を紹介します。 取り上げた記事・話題 WebKit Features in Safari 18.0https://webkit.org/blog/15865/webkit-features-in-safari-18-0/Safari 18.0が...",
+            "url": "https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20241001",
+            "title": "Cloudflareの大幅アップデートなど: Cybozu Frontend Weekly (2024-10-01号) | サイボウズ フロントエンドのフィード",
+            "summary": "こんにちは！サイボウズ株式会社フロントエンドエンジニアのdaiki（@k1tikurisu）です。 はじめにサイボウズ社内では毎週火曜日にFrontend Weeklyと題し「一週間の間にあったフロントエンドニュースを共有する会」を開催しています。今回は、2024/10/01のFrontend Weeklyで取り上げた記事や話題を紹介します。 取り上げた記事・話題 WebKit Features ",
+            "image": {
+                "url": "https://res.cloudinary.com/zenn/image/upload/s--MatnlNFp--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Cloudflare%25E3%2581%25AE%25E5%25A4%25A7%25E5%25B9%2585%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E3%2583%2587%25E3%2583%25BC%25E3%2583%2588%25E3%2581%25AA%25E3%2581%25A9%253A%2520Cybozu%2520Frontend%2520Weekly%2520%25282024-10-01%25E5%258F%25B7%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:daiki%2520%252F%2520%25E3%2581%258D%25E3%2581%25A1%25E3%2581%258F%25E3%2582%258A%25E3%2581%2599%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2VjOTA1OThlNjEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%259C%25E3%2582%25A6%25E3%2582%25BA%2520%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzkzN2NiNjM1NWYuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png",
+                "type": "png"
+            },
+            "date_modified": "2024-10-04T03:03:03.000Z",
+            "date_published": "2024-10-04T03:03:03.000Z",
+            "author": {
+                "name": "daiki / きちくりす"
+            },
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 4,
+                "originalTitle": "Cloudflareの大幅アップデートなど: Cybozu Frontend Weekly (2024-10-01号)",
+                "blogTitle": "サイボウズ フロントエンドのフィード",
+                "blogLink": "https://zenn.dev/p/cybozu_frontend",
+                "blogLinkMd5Hash": "20eabaedb6793c491d88126dd31015a9",
+                "favicon": "https://static.zenn.studio/images/logo-transparent.png"
+            }
+        }
+    ]
+}

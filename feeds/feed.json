@@ -1,0 +1,310 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "サイボウズのTech系ブログRSS",
+    "home_page_url": "https://cybozu.github.io/tech-blog-rss-feed/",
+    "feed_url": "https://cybozu.github.io/tech-blog-rss-feed/feeds/feed.json",
+    "description": "サイボウズのTech系ブログの更新をまとめたRSSフィード",
+    "icon": "https://cybozu.github.io/tech-blog-rss-feed/images/icon.png",
+    "items": [
+        {
+            "id": "https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20250311",
+            "content_html": "こんにちは！サイボウズ株式会社フロントエンドエンジニアのdaiki（@k1tikurisu）です。 はじめにサイボウズ社内では毎週火曜日にFrontend Weeklyと題し「一週間の間にあったフロントエンドニュースを共有する会」を開催しています。今回は、2025/03/11のFrontend Weeklyで取り上げた記事や話題を紹介します。 取り上げた記事・話題 Prisma 6.4.0https://github.com/prisma/prisma/releases/tag/6.4.0Prisma 6.4.0がリリースされました。主な更新内容は次の通りです。T...",
+            "url": "https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20250311",
+            "title": "「CLINEに全部賭けろ」など(2025-03-11号) | サイボウズ フロントエンドのフィード",
+            "summary": "こんにちは！サイボウズ株式会社フロントエンドエンジニアのdaiki（@k1tikurisu）です。 はじめにサイボウズ社内では毎週火曜日にFrontend Weeklyと題し「一週間の間にあったフロントエンドニュースを共有する会」を開催しています。今回は、2025/03/11のFrontend Weeklyで取り上げた記事や話題を紹介します。 取り上げた記事・話題 Prisma 6.4.0http",
+            "image": {
+                "url": "https://res.cloudinary.com/zenn/image/upload/s--eZyE8AEY--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258CCLINE%25E3%2581%25AB%25E5%2585%25A8%25E9%2583%25A8%25E8%25B3%25AD%25E3%2581%2591%25E3%2582%258D%25E3%2580%258D%25E3%2581%25AA%25E3%2581%25A9%25282025-03-11%25E5%258F%25B7%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:daiki%2520%252F%2520%25E3%2581%258D%25E3%2581%25A1%25E3%2581%258F%25E3%2582%258A%25E3%2581%2599%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2VjOTA1OThlNjEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%259C%25E3%2582%25A6%25E3%2582%25BA%2520%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzkzN2NiNjM1NWYuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png",
+                "type": "png"
+            },
+            "date_modified": "2025-03-14T08:31:06.000Z",
+            "date_published": "2025-03-14T08:31:06.000Z",
+            "author": {
+                "name": "daiki / きちくりす"
+            },
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 1,
+                "originalTitle": "「CLINEに全部賭けろ」など(2025-03-11号)",
+                "blogTitle": "サイボウズ フロントエンドのフィード",
+                "blogLink": "https://zenn.dev/p/cybozu_frontend",
+                "blogLinkMd5Hash": "20eabaedb6793c491d88126dd31015a9",
+                "favicon": "https://static.zenn.studio/images/logo-transparent.png"
+            }
+        },
+        {
+            "id": "https://blog.cybozu.io/entry/2025/03/11/112000",
+            "content_html": "こんにちは、QAエンジニアの小竹です。 サイボウズは 2025年3月27日(木)〜28日(金)に開催されるソフトウェアテストのシンポジウムJaSST'25 Tokyoに、ゴールドスポンサーとして協賛します。 今年はテクノロジーセッションと事例セッションに弊社のメンバーが登壇いたしますので、本記事ではその紹介をさせてください！ サイボウズ社員が登壇するセッション紹介 テクノロジーセッションに登壇します！ 以下のテクノロジーセッションに登壇します。ぜひご視聴ください。 C3-1）無理なく続ける、サイボウズの社内勉強会 日時 3月27日(木) 14:30〜 登壇者 斉藤 裕希 内容紹介 サイボウズに…",
+            "url": "https://blog.cybozu.io/entry/2025/03/11/112000",
+            "title": "サイボウズは JaSST'25 Tokyo で協賛＆登壇します！ | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "こんにちは、QAエンジニアの小竹です。 サイボウズは 2025年3月27日(木)〜28日(金)に開催されるソフトウェアテストのシンポジウムJaSST'25 Tokyoに、ゴールドスポンサーとして協賛します。 今年はテクノロジーセッションと事例セッションに弊社のメンバーが登壇いたしますので、本記事ではその紹介をさせてください！ サイボウズ社員が登壇するセッション紹介 テクノロジーセッションに登壇しま",
+            "image": {
+                "url": "https://cdn.image.st-hatena.com/image/scale/5a214e53de24d4bfd8848e9a3a054154b4954f8e/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyellow-sabotech%2F20250228%2F20250228134105.png",
+                "alt": "サイボウズは JaSST'25 Tokyo で協賛＆登壇します！ - Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "type": "png"
+            },
+            "date_modified": "2025-03-11T02:20:00.000Z",
+            "date_published": "2025-03-11T02:20:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "サイボウズは JaSST'25 Tokyo で協賛＆登壇します！",
+                "blogTitle": "Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "blogLink": "https://blog.cybozu.io/",
+                "blogLinkMd5Hash": "334895ad2f27bf31195a54902c472405",
+                "favicon": "https://blog.cybozu.io/icon/favicon"
+            }
+        },
+        {
+            "id": "https://zenn.dev/cybozu_ept/articles/productivity-weekly-20250226",
+            "content_html": "!Productivity Weekly 2025-02-19 号より、投稿アカウントが @korosuke613 から @cy_ept に変わりました！過去の Productivity Weekly は、#productivityweekly よりご覧いただけます！こんにちは。サイボウズ株式会社 生産性向上チームの uta8a です。僕たち生産性向上チームは毎週水曜日に Productivity Weekly という「1 週間の間に発見された開発者の生産性向上に関するネタを共有する会」を社内で開催しています。本記事はその時のネタをまとめたものです。2023-01-25 号...",
+            "url": "https://zenn.dev/cybozu_ept/articles/productivity-weekly-20250226",
+            "title": "Docker Hub の課金周りの変更や、ワークフロー可視化など｜Productivity Weekly(2025-02-26) | サイボウズ 生産性向上チーム 💪のフィード",
+            "summary": "!Productivity Weekly 2025-02-19 号より、投稿アカウントが @korosuke613 から @cy_ept に変わりました！過去の Productivity Weekly は、#productivityweekly よりご覧いただけます！こんにちは。サイボウズ株式会社 生産性向上チームの uta8a です。僕たち生産性向上チームは毎週水曜日に Productivity",
+            "image": {
+                "url": "https://res.cloudinary.com/zenn/image/upload/s--wl7mNgHC--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Docker%2520Hub%2520%25E3%2581%25AE%25E8%25AA%25B2%25E9%2587%2591%25E5%2591%25A8%25E3%2582%258A%25E3%2581%25AE%25E5%25A4%2589%25E6%259B%25B4%25E3%2582%2584%25E3%2580%2581%25E3%2583%25AF%25E3%2583%25BC%25E3%2582%25AF%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25BC%25E5%258F%25AF%25E8%25A6%2596%25E5%258C%2596%25E3%2581%25AA%25E3%2581%25A9%25EF%25BD%259CProductivity%2520Weekly%25282025...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%259C%25E3%2582%25A6%25E3%2582%25BA%2520%25E7%2594%259F%25E7%2594%25A3%25E6%2580%25A7%25E5%2590%2591%25E4%25B8%258A%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%2520%2520%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2RmZGEyOTIyNDQuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%259C%25E3%2582%25A6%25E3%2582%25BA%2520%25E7%2594%259F%25E7%2594%25A3%25E6%2580%25A7%25E5%2590%2591%25E4%25B8%258A%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%2520%2520%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzhlNzg0ZjI3Y2YuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png",
+                "type": "png"
+            },
+            "date_modified": "2025-03-11T01:00:01.000Z",
+            "date_published": "2025-03-11T01:00:01.000Z",
+            "author": {
+                "name": "サイボウズ 生産性向上チーム 💪"
+            },
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "Docker Hub の課金周りの変更や、ワークフロー可視化など｜Productivity Weekly(2025-02-26)",
+                "blogTitle": "サイボウズ 生産性向上チーム 💪のフィード",
+                "blogLink": "https://zenn.dev/p/cybozu_ept",
+                "blogLinkMd5Hash": "b9b4fbc3d2a86a3d0fbe358d7c297290",
+                "favicon": "https://static.zenn.studio/images/logo-transparent.png"
+            }
+        },
+        {
+            "id": "https://note.com/_tetrapod/n/n59f2092306bc",
+            "content_html": "こんにちは。サイボウズ株式会社 開発本部 People Experienceチーム Developer Councource Unit(以降DCU)の貴島(@jnkykn)です。DCUは、エンジニアの成長や情報の流通を軸に活動をしています。さて、2025年3月9日「エンジニアがこの先生き残るためのカンファレンス2025」に、西原(@tomio2480)さんじゃなくて、貴島(@jnkykn)が登壇しました！お聞きくださった皆さま、ありがとうございました！！！お聞きくださった皆さま、ありがとうございました！フィードバックも、ありがとうございます！資料は、こちらです（初Marp資料🎉）https://t.co/E1SDDtSlvi#きのこ2025_a #きのこ2025 https://t.co/HY8L3oi1ga— きじま (@jnkykn) March 9, 2025続きをみる",
+            "url": "https://note.com/_tetrapod/n/n59f2092306bc",
+            "title": "スライドをGitHub Actionsで出力して、GitHub Pagesに公開したい | Developer Concourse Unit の活動",
+            "summary": "こんにちは。サイボウズ株式会社 開発本部 People Experienceチーム Developer Councource Unit(以降DCU)の貴島(@jnkykn)です。DCUは、エンジニアの成長や情報の流通を軸に活動をしています。さて、2025年3月9日「エンジニアがこの先生き残るためのカンファレンス2025」に、西原(@tomio2480)さんじゃなくて、貴島(@jnkykn)が登壇し",
+            "image": {
+                "url": "https://assets.st-note.com/production/uploads/images/178222444/rectangle_large_type_2_c32fa00d4e0cddeead188287a26e216c.jpeg?fit=bounds&quality=85&width=1280",
+                "type": "jpeg"
+            },
+            "date_modified": "2025-03-09T06:38:35.000Z",
+            "date_published": "2025-03-09T06:38:35.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "スライドをGitHub Actionsで出力して、GitHub Pagesに公開したい",
+                "blogTitle": "Developer Concourse Unit の活動",
+                "blogLink": "https://note.com/cybozu_dev_px/m/m000a1ff77a6b",
+                "blogLinkMd5Hash": "b7ee02f000b74f0f8b7ecd616368849c",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico"
+            }
+        },
+        {
+            "id": "https://note.com/tomio2480/n/n260f86f980cb",
+            "content_html": "サイボウズ株式会社 開発本部 People Experience チーム Developer Concource Unit 兼 Garoon MATSULI チームの西原@tomio2480 です．標題のとおり，情報処理学会から 2024 年度の学会活動貢献賞をいただきました．お助けいただいているみなさま，ご推薦いただいたみなさま，ありがとうございました． 学会活動貢献賞-情報処理学会情報処理学会は、1960年の設立以来、めまぐるしく発展する情報処理分野のパイオニアとして、産業界・学界および官界の協力を得www.ipsj.or.jp 続きをみる",
+            "url": "https://note.com/tomio2480/n/n260f86f980cb",
+            "title": "情報処理学会 2024 年度 学会活動貢献賞 の受賞について | Developer Concourse Unit の活動",
+            "summary": "サイボウズ株式会社 開発本部 People Experience チーム Developer Concource Unit 兼 Garoon MATSULI チームの西原@tomio2480 です．標題のとおり，情報処理学会から 2024 年度の学会活動貢献賞をいただきました．お助けいただいているみなさま，ご推薦いただいたみなさま，ありがとうございました． 学会活動貢献賞-情報処理学会情報処理学会",
+            "image": {
+                "url": "https://assets.st-note.com/production/uploads/images/178136859/rectangle_large_type_2_27bc18057480d2dc7fb740d5074b1b65.png?fit=bounds&quality=85&width=1280",
+                "type": "png"
+            },
+            "date_modified": "2025-03-08T14:10:45.000Z",
+            "date_published": "2025-03-08T14:10:45.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 1,
+                "originalTitle": "情報処理学会 2024 年度 学会活動貢献賞 の受賞について",
+                "blogTitle": "Developer Concourse Unit の活動",
+                "blogLink": "https://note.com/cybozu_dev_px/m/m000a1ff77a6b",
+                "blogLinkMd5Hash": "b7ee02f000b74f0f8b7ecd616368849c",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico"
+            }
+        },
+        {
+            "id": "https://note.com/blindsoup2p1/n/n725c67f41eb1",
+            "content_html": "こんにちは。kintone Design System Teamです。この記事では私たちチームが開発・運用・啓発しているkintone Design Systemのデザインガイドラインの中から、画像のガイドラインを紹介します。デザイナーに向けたガイドラインで、デザイン検討・プロト作成時に参照することを想定しています。続きをみる",
+            "url": "https://note.com/blindsoup2p1/n/n725c67f41eb1",
+            "title": "kintone Design Systemの画像のガイドラインを紹介 | Cybozu Product Design Magazine",
+            "summary": "こんにちは。kintone Design System Teamです。この記事では私たちチームが開発・運用・啓発しているkintone Design Systemのデザインガイドラインの中から、画像のガイドラインを紹介します。デザイナーに向けたガイドラインで、デザイン検討・プロト作成時に参照することを想定しています。続きをみる",
+            "image": {
+                "url": "https://assets.st-note.com/production/uploads/images/177766974/rectangle_large_type_2_f23b3e5be45a230629c234e2bc9bddde.png?fit=bounds&quality=85&width=1280",
+                "type": "png"
+            },
+            "date_modified": "2025-03-07T08:37:52.000Z",
+            "date_published": "2025-03-07T08:37:52.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "kintone Design Systemの画像のガイドラインを紹介",
+                "blogTitle": "Cybozu Product Design Magazine",
+                "blogLink": "https://note.com/cybozu_design/m/mc12622f890cf",
+                "blogLinkMd5Hash": "2a932d7f7fed9dfa8fea4678be3579d6",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico"
+            }
+        },
+        {
+            "id": "https://blog.cybozu.io/entry/2025/03/07/170000",
+            "content_html": "こんにちは！kintoneのAndroidエンジニア、トニオ（@tonionagauzzi）です。 今回は、サイボウズのAndroidエンジニアとiOSエンジニアがプロダクトを超えて集まり、オフライン交流会をしたことを共有します。 モバイルエンジニア集合写真 概要 弊社では、半年に1度『モバイルまつり』と題して、東京オフィスに集合してオフラインで交流しています。参加必須ではありませんが、毎回好評で、ほとんどのモバイルエンジニアが参加します。 テーマ 互いを知る、話す 開催目的 モバイルエンジニア同士が交流し、相互理解を深め、信頼関係を築く それぞれが今抱えている問題意識や悩みに耳を傾け、共感す…",
+            "url": "https://blog.cybozu.io/entry/2025/03/07/170000",
+            "title": "『モバイルまつり』と題してモバイルエンジニアが集合し、交流会とOSTをしました！ | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "こんにちは！kintoneのAndroidエンジニア、トニオ（@tonionagauzzi）です。 今回は、サイボウズのAndroidエンジニアとiOSエンジニアがプロダクトを超えて集まり、オフライン交流会をしたことを共有します。 モバイルエンジニア集合写真 概要 弊社では、半年に1度『モバイルまつり』と題して、東京オフィスに集合してオフラインで交流しています。参加必須ではありませんが、毎回好評で",
+            "image": {
+                "url": "https://cdn.image.st-hatena.com/image/scale/f69c5dd6906690d9cb95cbc1274e77404605d1af/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyellow-sabotech%2F20250226%2F20250226132623.png",
+                "alt": "『モバイルまつり』と題してモバイルエンジニアが集合し、交流会とOSTをしました！ - Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "type": "png"
+            },
+            "date_modified": "2025-03-07T08:00:00.000Z",
+            "date_published": "2025-03-07T08:00:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "『モバイルまつり』と題してモバイルエンジニアが集合し、交流会とOSTをしました！",
+                "blogTitle": "Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "blogLink": "https://blog.cybozu.io/",
+                "blogLinkMd5Hash": "334895ad2f27bf31195a54902c472405",
+                "favicon": "https://blog.cybozu.io/icon/favicon"
+            }
+        },
+        {
+            "id": "https://note.com/tomio2480/n/na4ab0577524d",
+            "content_html": "サイボウズ株式会社 開発本部 People Experience チーム Developer Concource Unit 兼 Garoon MATSULI チームの西原@tomio2480 です．標題のとおり，流氷交差点の今後についてお知らせをします．先にことわっておきますと，この記事は音声コンテンツで発信した「流氷交差点の今後について」の原稿をほぼそのまま掲載したものです．移行先情報を除いてほとんど同じことしか書いてありませんので，すでに音声をお聞きの方はその点ご了承ください．続きをみる",
+            "url": "https://note.com/tomio2480/n/na4ab0577524d",
+            "title": "流氷交差点の今後について | 流氷自由帳 - 流氷交差点の文字コンテンツ",
+            "summary": "サイボウズ株式会社 開発本部 People Experience チーム Developer Concource Unit 兼 Garoon MATSULI チームの西原@tomio2480 です．標題のとおり，流氷交差点の今後についてお知らせをします．先にことわっておきますと，この記事は音声コンテンツで発信した「流氷交差点の今後について」の原稿をほぼそのまま掲載したものです．移行先情報を除いてほ",
+            "image": {
+                "url": "https://assets.st-note.com/production/uploads/images/176728657/rectangle_large_type_2_4013aa9ab62dfaf258d9f82a10cb3df8.png?fit=bounds&quality=85&width=1280",
+                "type": "png"
+            },
+            "date_modified": "2025-03-06T09:30:19.000Z",
+            "date_published": "2025-03-06T09:30:19.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "流氷交差点の今後について",
+                "blogTitle": "流氷自由帳 - 流氷交差点の文字コンテンツ",
+                "blogLink": "https://note.com/cybozutech/m/m9707f4c496e6",
+                "blogLinkMd5Hash": "616fb0fda28f66194a8e361ce5346d0f",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico"
+            }
+        },
+        {
+            "id": "https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20250304",
+            "content_html": "こんにちは！サイボウズ株式会社フロントエンドエンジニアのsaku (@sakupi01)です。 はじめにサイボウズ社内では毎週火曜日にFrontend Weeklyと題し「一週間の間にあったフロントエンドニュースを共有する会」を開催しています。今回は、2025/03/04のFrontend Weeklyで取り上げた記事や話題を紹介します。 取り上げた記事・話題 Intent to Experiment: Interest Invokershttps://groups.google.com/a/chromium.org/g/blink-dev/c/LLgsMjTzmAY/...",
+            "url": "https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20250304",
+            "title": "Interop 2025, CSS 新機能の Ship など: Cybozu Frontend Weekly (2025-03-04号) | サイボウズ フロントエンドのフィード",
+            "summary": "こんにちは！サイボウズ株式会社フロントエンドエンジニアのsaku (@sakupi01)です。 はじめにサイボウズ社内では毎週火曜日にFrontend Weeklyと題し「一週間の間にあったフロントエンドニュースを共有する会」を開催しています。今回は、2025/03/04のFrontend Weeklyで取り上げた記事や話題を紹介します。 取り上げた記事・話題 Intent to Experime",
+            "image": {
+                "url": "https://res.cloudinary.com/zenn/image/upload/s--M6gb85Tr--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Interop%25202025%252C%2520CSS%2520%25E6%2596%25B0%25E6%25A9%259F%25E8%2583%25BD%25E3%2581%25AE%2520Ship%2520%25E3%2581%25AA%25E3%2581%25A9%253A%2520Cybozu%2520Frontend%2520Weekly%2520%25282...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:saku%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2VjOTA1OThlNjEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%259C%25E3%2582%25A6%25E3%2582%25BA%2520%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2o0S053NXVMek12cVJjdnlEU3JKQVBJUUNYQWNUTGJsR3pGWUc1cUE9czk2LWM=%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png",
+                "type": "png"
+            },
+            "date_modified": "2025-03-05T03:00:01.000Z",
+            "date_published": "2025-03-05T03:00:01.000Z",
+            "author": {
+                "name": "saku"
+            },
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 3,
+                "originalTitle": "Interop 2025, CSS 新機能の Ship など: Cybozu Frontend Weekly (2025-03-04号)",
+                "blogTitle": "サイボウズ フロントエンドのフィード",
+                "blogLink": "https://zenn.dev/p/cybozu_frontend",
+                "blogLinkMd5Hash": "20eabaedb6793c491d88126dd31015a9",
+                "favicon": "https://static.zenn.studio/images/logo-transparent.png"
+            }
+        },
+        {
+            "id": "https://zenn.dev/cybozu_ept/articles/productivity-weekly-20250219",
+            "content_html": "!Productivity Weekly 2025-02-19 号より、投稿アカウントが @korosuke613 から @cy_ept に変わりました！過去の Productivity Weekly は、#productivityweekly よりご覧いただけます！こんにちは。サイボウズ株式会社 生産性向上チームの佐々木（@ajfAfg）です。僕たち生産性向上チームは毎週水曜日に Productivity Weekly という「1 週間の間に発見された開発者の生産性向上に関するネタを共有する会」を社内で開催しています。本記事はその時のネタをまとめたものです。2023-01...",
+            "url": "https://zenn.dev/cybozu_ept/articles/productivity-weekly-20250219",
+            "title": "GitHub の破壊的変更多め、Tasklist が使えなくなるなど ｜Productivity Weekly(2025-02-19) | サイボウズ 生産性向上チーム 💪のフィード",
+            "summary": "!Productivity Weekly 2025-02-19 号より、投稿アカウントが @korosuke613 から @cy_ept に変わりました！過去の Productivity Weekly は、#productivityweekly よりご覧いただけます！こんにちは。サイボウズ株式会社 生産性向上チームの佐々木（@ajfAfg）です。僕たち生産性向上チームは毎週水曜日に Product",
+            "image": {
+                "url": "https://res.cloudinary.com/zenn/image/upload/s--kSh_CbzP--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:GitHub%2520%25E3%2581%25AE%25E7%25A0%25B4%25E5%25A3%258A%25E7%259A%2584%25E5%25A4%2589%25E6%259B%25B4%25E5%25A4%259A%25E3%2582%2581%25E3%2580%2581Tasklist%2520%25E3%2581%258C%25E4%25BD%25BF%25E3%2581%2588%25E3%2581%25AA%25E3%2581%258F%25E3%2581%25AA%25E3%2582%258B%25E3%2581%25AA%25E3%2581%25A9%2520%25EF%25BD%259CProductivity%2520Weekly%25282...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%259C%25E3%2582%25A6%25E3%2582%25BA%2520%25E7%2594%259F%25E7%2594%25A3%25E6%2580%25A7%25E5%2590%2591%25E4%25B8%258A%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%2520%2520%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2RmZGEyOTIyNDQuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%259C%25E3%2582%25A6%25E3%2582%25BA%2520%25E7%2594%259F%25E7%2594%25A3%25E6%2580%25A7%25E5%2590%2591%25E4%25B8%258A%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%2520%2520%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzhlNzg0ZjI3Y2YuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png",
+                "type": "png"
+            },
+            "date_modified": "2025-03-05T01:00:01.000Z",
+            "date_published": "2025-03-05T01:00:01.000Z",
+            "author": {
+                "name": "サイボウズ 生産性向上チーム 💪"
+            },
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 16,
+                "originalTitle": "GitHub の破壊的変更多め、Tasklist が使えなくなるなど ｜Productivity Weekly(2025-02-19)",
+                "blogTitle": "サイボウズ 生産性向上チーム 💪のフィード",
+                "blogLink": "https://zenn.dev/p/cybozu_ept",
+                "blogLinkMd5Hash": "b9b4fbc3d2a86a3d0fbe358d7c297290",
+                "favicon": "https://static.zenn.studio/images/logo-transparent.png"
+            }
+        },
+        {
+            "id": "tag:soundcloud,2010:tracks/2047225492",
+            "content_html": "2025 年 3 月を以て，流氷交差点に関するコンテンツ置き場が SoundCloud から LISTEN に変更になります．そのお知らせエピソードになります． 移行についての note 記事 https://note.com/tomio2480/n/na4ab0577524d 移行先 https://listen.style/p/drifticecrossing",
+            "url": "https://soundcloud.com/cybozutech/migrate",
+            "title": "流氷交差点移行のお知らせ | 流氷交差点",
+            "summary": "2025 年 3 月を以て，流氷交差点に関するコンテンツ置き場が SoundCloud から LISTEN に変更になります．そのお知らせエピソードになります． 移行についての note 記事 https://note.com/tomio2480/n/na4ab0577524d 移行先 https://listen.style/p/drifticecrossing",
+            "image": {
+                "height": "500",
+                "url": "https://i1.sndcdn.com/artworks-9yXf4AyL7KNxYzmR-FH7ctA-t500x500.png",
+                "width": "500",
+                "type": "png"
+            },
+            "date_modified": "2025-03-05T00:00:00.000Z",
+            "date_published": "2025-03-05T00:00:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "流氷交差点移行のお知らせ",
+                "blogTitle": "流氷交差点",
+                "blogLink": "https://soundcloud.com/cybozutech",
+                "blogLinkMd5Hash": "092feb335267655d77663bc70dc18181",
+                "favicon": "https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14bdb.ico"
+            }
+        },
+        {
+            "id": "8625f103-8664-405f-a434-3ce11eef1261",
+            "content_html": "サイボウズ フロントエンド通信の#14 では、1年半ぐらいやってきたサイフロ通信についてのふりかえりや、裏側の話をしました。BGM3:03 PM / しゃろう",
+            "url": "https://podcasters.spotify.com/pod/show/cybozu-frontend/episodes/14-e2vk3rq",
+            "title": "#14 サイフロ通信のふりかえり  | サイボウズ フロントエンド通信",
+            "summary": "サイボウズ フロントエンド通信の#14 では、1年半ぐらいやってきたサイフロ通信についてのふりかえりや、裏側の話をしました。BGM3:03 PM / しゃろう",
+            "date_modified": "2025-03-03T01:04:20.000Z",
+            "date_published": "2025-03-03T01:04:20.000Z",
+            "author": {
+                "name": "サイボウズ フロントエンド通信委員会"
+            },
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "#14 サイフロ通信のふりかえり ",
+                "blogTitle": "サイボウズ フロントエンド通信",
+                "blogLink": "https://podcasters.spotify.com/pod/show/cybozu-frontend",
+                "blogLinkMd5Hash": "b9cf8cc8bae91906ca4d159e6a41bb0b"
+            }
+        },
+        {
+            "id": "https://note.com/_tetrapod/n/nff18e3d5eec7",
+            "content_html": "こんにちは。サイボウズ株式会社 開発本部 People Experienceチーム Developer Councource Unit(以降DCU)の貴島(@jnkykn)です。DCUは、エンジニアの成長や情報の流通を軸に活動をしています。さて、2025年3月9日「エンジニアがこの先生き残るためのカンファレンス2025」に、西原(@tomio2480)さんじゃなくて、貴島(@jnkykn)が登壇します！（しかも、LTじゃなくて20分のトーク！大変、珍しい！）続きをみる",
+            "url": "https://note.com/_tetrapod/n/nff18e3d5eec7",
+            "title": "スライドをMarpで作ってGitHub Pagesで公開したい | Developer Concourse Unit の活動",
+            "summary": "こんにちは。サイボウズ株式会社 開発本部 People Experienceチーム Developer Councource Unit(以降DCU)の貴島(@jnkykn)です。DCUは、エンジニアの成長や情報の流通を軸に活動をしています。さて、2025年3月9日「エンジニアがこの先生き残るためのカンファレンス2025」に、西原(@tomio2480)さんじゃなくて、貴島(@jnkykn)が登壇し",
+            "image": {
+                "url": "https://assets.st-note.com/production/uploads/images/176947801/rectangle_large_type_2_a9e0dd4b49388250b80c14e885279583.png?fit=bounds&quality=85&width=1280",
+                "type": "png"
+            },
+            "date_modified": "2025-03-02T06:20:46.000Z",
+            "date_published": "2025-03-02T06:20:46.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "スライドをMarpで作ってGitHub Pagesで公開したい",
+                "blogTitle": "Developer Concourse Unit の活動",
+                "blogLink": "https://note.com/cybozu_dev_px/m/m000a1ff77a6b",
+                "blogLinkMd5Hash": "b7ee02f000b74f0f8b7ecd616368849c",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico"
+            }
+        }
+    ]
+}

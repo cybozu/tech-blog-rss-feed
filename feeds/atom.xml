@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cybozu.github.io/tech-blog-rss-feed/</id>
+    <title>サイボウズのTech系ブログRSS</title>
+    <updated>2025-03-22T15:00:50.615Z</updated>
+    <generator>cybozu/tech-blog-rss-feed</generator>
+    <link rel="alternate" href="https://cybozu.github.io/tech-blog-rss-feed/"/>
+    <link rel="self" href="https://cybozu.github.io/tech-blog-rss-feed/feeds/atom.xml"/>
+    <subtitle>サイボウズのTech系ブログの更新をまとめたRSSフィード</subtitle>
+    <logo>https://cybozu.github.io/tech-blog-rss-feed/images/icon.png</logo>
+    <icon>https://cybozu.github.io/tech-blog-rss-feed/images/favicon.ico</icon>
+    <rights>cybozu/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[社内でCTFを開催してみた | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2025/03/21/112000</id>
+        <link href="https://blog.cybozu.io/entry/2025/03/21/112000"/>
+        <updated>2025-03-21T02:20:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。開発本部内でセキュリティ活動を行っているPSIRTです。PSIRTで初の社内CTF（Capture The Flag）を開催したので、本記事ではその開催準備の様子や開催中の様子を紹介します。 開催背景 2025年2月4日から6日にかけて、開発・運用系のメンバーが一同に集まる「開運冬まつり」が開催されました。このイベントは、部門やチーム、職能を超えて社員同士が交流し、新たな視点や刺激を得]]></summary>
+        <content type="html"><![CDATA[こんにちは。開発本部内でセキュリティ活動を行っているPSIRTです。PSIRTで初の社内CTF（Capture The Flag）を開催したので、本記事ではその開催準備の様子や開催中の様子を紹介します。 開催背景 2025年2月4日から6日にかけて、開発・運用系のメンバーが一同に集まる「開運冬まつり」が開催されました。このイベントは、部門やチーム、職能を超えて社員同士が交流し、新たな視点や刺激を得ることを目的としています。 昨年の開運冬まつりの様子は以下のブログを御覧ください。 blog.cybozu.io このイベントのコンテンツとして、PSIRT有志のメンバーで初の社内CTFを開催すること…]]></content>
+        <published>2025-03-21T02:20:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【連載】Cybozu.comクラウド基盤の全貌 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2025/03/19/112000</id>
+        <link href="https://blog.cybozu.io/entry/2025/03/19/112000"/>
+        <updated>2025-03-19T02:20:00.000Z</updated>
+        <summary type="html"><![CDATA[イントロダクション クラウド基盤本部の吉川拓哉です。「Cybozu.comクラウド基盤の全貌」と題して私たちが運用している基盤を連載形式で紹介することになりました。第1回となる本記事はイントロを兼ねたサイボウズのクラウド基盤の概要説明です。 サイボウズのクラウド サイボウズが自社クラウド「cybozu.com」でサービス提供を開始したのは2011年。パッケージ提供していたグループウェア製品であるO]]></summary>
+        <content type="html"><![CDATA[イントロダクション クラウド基盤本部の吉川拓哉です。「Cybozu.comクラウド基盤の全貌」と題して私たちが運用している基盤を連載形式で紹介することになりました。第1回となる本記事はイントロを兼ねたサイボウズのクラウド基盤の概要説明です。 サイボウズのクラウド サイボウズが自社クラウド「cybozu.com」でサービス提供を開始したのは2011年。パッケージ提供していたグループウェア製品であるOfficeやGaroon、メールワイズをクラウド版として移植し、業務アプリケーションを手軽に開発できるkintoneをクラウド製品として新たに開発するなど、クラウドを通じてより多くのユーザーにサービス…]]></content>
+        <published>2025-03-19T02:20:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[きのこカンファレンスはこの先生きのこるためのヒントが溢れていた #きのこ2025 | Developer Concourse Unit の活動]]></title>
+        <id>https://note.com/_tetrapod/n/n0025fb39a0c5</id>
+        <link href="https://note.com/_tetrapod/n/n0025fb39a0c5"/>
+        <updated>2025-03-16T07:55:44.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。サイボウズ株式会社 開発本部 People Experienceチーム Developer Councource Unit(以降DCU)の貴島(@jnkykn)です。DCUは、エンジニアの成長や情報の流通を軸に活動をしています。「エンジニアがこの先生きのこるためのカンファレンス2025」（以降、きのこカンファレンス）から1週間が経ちました。先週の今頃は、会場でワイワイしていたんですよね]]></summary>
+        <content type="html"><![CDATA[こんにちは。サイボウズ株式会社 開発本部 People Experienceチーム Developer Councource Unit(以降DCU)の貴島(@jnkykn)です。DCUは、エンジニアの成長や情報の流通を軸に活動をしています。「エンジニアがこの先生きのこるためのカンファレンス2025」（以降、きのこカンファレンス）から1週間が経ちました。先週の今頃は、会場でワイワイしていたんですよね。たのしかったな～続きをみる]]></content>
+        <published>2025-03-16T07:55:44.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「CLINEに全部賭けろ」など(2025-03-11号) | サイボウズ フロントエンドのフィード]]></title>
+        <id>https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20250311</id>
+        <link href="https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20250311"/>
+        <updated>2025-03-14T08:31:06.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！サイボウズ株式会社フロントエンドエンジニアのdaiki（@k1tikurisu）です。 はじめにサイボウズ社内では毎週火曜日にFrontend Weeklyと題し「一週間の間にあったフロントエンドニュースを共有する会」を開催しています。今回は、2025/03/11のFrontend Weeklyで取り上げた記事や話題を紹介します。 取り上げた記事・話題 Prisma 6.4.0http]]></summary>
+        <content type="html"><![CDATA[こんにちは！サイボウズ株式会社フロントエンドエンジニアのdaiki（@k1tikurisu）です。 はじめにサイボウズ社内では毎週火曜日にFrontend Weeklyと題し「一週間の間にあったフロントエンドニュースを共有する会」を開催しています。今回は、2025/03/11のFrontend Weeklyで取り上げた記事や話題を紹介します。 取り上げた記事・話題 Prisma 6.4.0https://github.com/prisma/prisma/releases/tag/6.4.0Prisma 6.4.0がリリースされました。主な更新内容は次の通りです。T...]]></content>
+        <author>
+            <name>daiki / きちくりす</name>
+        </author>
+        <published>2025-03-14T08:31:06.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイボウズは JaSST'25 Tokyo で協賛＆登壇します！ | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2025/03/11/112000</id>
+        <link href="https://blog.cybozu.io/entry/2025/03/11/112000"/>
+        <updated>2025-03-11T02:20:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、QAエンジニアの小竹です。 サイボウズは 2025年3月27日(木)〜28日(金)に開催されるソフトウェアテストのシンポジウムJaSST'25 Tokyoに、ゴールドスポンサーとして協賛します。 今年はテクノロジーセッションと事例セッションに弊社のメンバーが登壇いたしますので、本記事ではその紹介をさせてください！ サイボウズ社員が登壇するセッション紹介 テクノロジーセッションに登壇しま]]></summary>
+        <content type="html"><![CDATA[こんにちは、QAエンジニアの小竹です。 サイボウズは 2025年3月27日(木)〜28日(金)に開催されるソフトウェアテストのシンポジウムJaSST'25 Tokyoに、ゴールドスポンサーとして協賛します。 今年はテクノロジーセッションと事例セッションに弊社のメンバーが登壇いたしますので、本記事ではその紹介をさせてください！ サイボウズ社員が登壇するセッション紹介 テクノロジーセッションに登壇します！ 以下のテクノロジーセッションに登壇します。ぜひご視聴ください。 C3-1）無理なく続ける、サイボウズの社内勉強会 日時 3月27日(木) 14:30〜 登壇者 斉藤 裕希 内容紹介 サイボウズに…]]></content>
+        <published>2025-03-11T02:20:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Docker Hub の課金周りの変更や、ワークフロー可視化など｜Productivity Weekly(2025-02-26) | サイボウズ 生産性向上チーム 💪のフィード]]></title>
+        <id>https://zenn.dev/cybozu_ept/articles/productivity-weekly-20250226</id>
+        <link href="https://zenn.dev/cybozu_ept/articles/productivity-weekly-20250226"/>
+        <updated>2025-03-11T01:00:01.000Z</updated>
+        <summary type="html"><![CDATA[!Productivity Weekly 2025-02-19 号より、投稿アカウントが @korosuke613 から @cy_ept に変わりました！過去の Productivity Weekly は、#productivityweekly よりご覧いただけます！こんにちは。サイボウズ株式会社 生産性向上チームの uta8a です。僕たち生産性向上チームは毎週水曜日に Productivity]]></summary>
+        <content type="html"><![CDATA[!Productivity Weekly 2025-02-19 号より、投稿アカウントが @korosuke613 から @cy_ept に変わりました！過去の Productivity Weekly は、#productivityweekly よりご覧いただけます！こんにちは。サイボウズ株式会社 生産性向上チームの uta8a です。僕たち生産性向上チームは毎週水曜日に Productivity Weekly という「1 週間の間に発見された開発者の生産性向上に関するネタを共有する会」を社内で開催しています。本記事はその時のネタをまとめたものです。2023-01-25 号...]]></content>
+        <author>
+            <name>サイボウズ 生産性向上チーム 💪</name>
+        </author>
+        <published>2025-03-11T01:00:01.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[スライドをGitHub Actionsで出力して、GitHub Pagesに公開したい | Developer Concourse Unit の活動]]></title>
+        <id>https://note.com/_tetrapod/n/n59f2092306bc</id>
+        <link href="https://note.com/_tetrapod/n/n59f2092306bc"/>
+        <updated>2025-03-09T06:38:35.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。サイボウズ株式会社 開発本部 People Experienceチーム Developer Councource Unit(以降DCU)の貴島(@jnkykn)です。DCUは、エンジニアの成長や情報の流通を軸に活動をしています。さて、2025年3月9日「エンジニアがこの先生き残るためのカンファレンス2025」に、西原(@tomio2480)さんじゃなくて、貴島(@jnkykn)が登壇し]]></summary>
+        <content type="html"><![CDATA[こんにちは。サイボウズ株式会社 開発本部 People Experienceチーム Developer Councource Unit(以降DCU)の貴島(@jnkykn)です。DCUは、エンジニアの成長や情報の流通を軸に活動をしています。さて、2025年3月9日「エンジニアがこの先生き残るためのカンファレンス2025」に、西原(@tomio2480)さんじゃなくて、貴島(@jnkykn)が登壇しました！お聞きくださった皆さま、ありがとうございました！！！お聞きくださった皆さま、ありがとうございました！フィードバックも、ありがとうございます！資料は、こちらです（初Marp資料🎉）https://t.co/E1SDDtSlvi#きのこ2025_a #きのこ2025 https://t.co/HY8L3oi1ga— きじま (@jnkykn) March 9, 2025続きをみる]]></content>
+        <published>2025-03-09T06:38:35.000Z</published>
+    </entry>
+</feed>

@@ -220,6 +220,12 @@ export class FeedCrawler {
         break;
     }
 
+    // baseUrlが設定されている場合は、それを使用（switch文で上書きされていない場合）
+    // customFeed.linkがfeedInfo.url（RSSフィードのURL）と同じ場合は、baseUrlに置き換える
+    if (feedInfo.baseUrl && customFeed.link === feedInfo.url) {
+      customFeed.link = feedInfo.baseUrl;
+    }
+
     if (!isValidHttpUrl(customFeed.link)) {
       logger.warn('取得したフィードのURLが正しくありません。 ', feedInfo.label, customFeed.link);
     }

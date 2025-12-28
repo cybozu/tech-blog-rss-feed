@@ -48,22 +48,31 @@ try {
   ]);
 }
 
-// URL を正規化する関数（末尾から最後の '/' までをキーとして取得）
-// 例: 'https://tech.cybozu.vn/rss.xml' → 'https://tech.cybozu.vn/'
+// URL を正規化する関数（末尾のファイル名を削除してキーとして取得）
+// 例: 'https://tech.cybozu.vn/rss.xml' → 'https://tech.cybozu.vn'
+// 例: 'https://note.com/cybozu_dev_px/m/m000a1ff77a6b/rss' → 'https://note.com/cybozu_dev_px/m/m000a1ff77a6b'
 const normalizeUrl = (url) => {
   if (!url) return url;
   try {
     const urlObj = new URL(url);
-    // origin + pathnameの最後の '/' までを取得
     const pathname = urlObj.pathname;
+    
+    // パスがない、または '/' のみの場合は origin のみを返す
+    if (!pathname || pathname === '/') {
+      return urlObj.origin;
+    }
+    
+    // パスの最後のセグメント（ファイル名部分）を削除
+    // 例: '/cybozu_dev_px/m/m000a1ff77a6b/rss' → '/cybozu_dev_px/m/m000a1ff77a6b'
     const lastSlashIndex = pathname.lastIndexOf('/');
-    if (lastSlashIndex >= 0) {
-      // 最後の '/' を含むまでを取得
-      const normalizedPath = pathname.substring(0, lastSlashIndex + 1);
+    if (lastSlashIndex > 0) {
+      // 最後の '/' より前の部分を取得
+      const normalizedPath = pathname.substring(0, lastSlashIndex);
       return `${urlObj.origin}${normalizedPath}`;
     }
-    // '/' がない場合は origin + '/' を返す
-    return `${urlObj.origin}/`;
+    
+    // パスが '/' のみの場合は origin のみを返す
+    return urlObj.origin;
   } catch (error) {
     // URLパースに失敗した場合は元のURLを返す
     console.warn(`[blogFeeds] Failed to parse URL: ${url}`, error);

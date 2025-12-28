@@ -29,9 +29,9 @@ try {
   };
   FEED_INFO_LIST = createFeedInfoList([
     ['Cybozu Vietnam Tech Sharing', 'https://tech.cybozu.vn/rss.xml', 'https://tech.cybozu.vn', 'blog'],
-    ['Kintone Engineering Blog', 'https://blog.kintone.io/feed', 'https://blog.kintone.io', 'blog'],
+    ['Kintone Engineering Blog', 'https://blog.kintone.io/feed', 'https://blog.kintone.io/', 'blog'],
     ['サイボウズ Developer Concourse', 'https://note.com/cybozu_dev_px/m/m000a1ff77a6b/rss', 'https://note.com/cybozu_dev_px/m/m000a1ff77a6b', 'blog'],
-    ['サイボウズ Inside Out', 'https://blog.cybozu.io/feed', 'https://blog.cybozu.io', 'blog'],
+    ['サイボウズ Inside Out', 'https://blog.cybozu.io/feed', 'https://blog.cybozu.io/', 'blog'],
     ['サイボウズ Necoチーム', 'https://zenn.dev/p/cybozu_neco/feed', 'https://zenn.dev/p/cybozu_neco', 'blog'],
     ['サイボウズ PeopleExperienceチーム', 'https://note.com/cybozu_dev_px/m/me5cfe2c532ef/rss', 'https://note.com/cybozu_dev_px/m/me5cfe2c532ef', 'blog'],
     ['サイボウズ Product Design', 'https://note.com/cybozu_design/m/mc12622f890cf/rss', 'https://note.com/cybozu_design/m/mc12622f890cf', 'blog'],

@@ -48,10 +48,35 @@ try {
   ]);
 }
 
+// URL を正規化する関数（末尾から最後の '/' までをキーとして取得）
+// 例: 'https://tech.cybozu.vn/rss.xml' → 'https://tech.cybozu.vn/'
+const normalizeUrl = (url) => {
+  if (!url) return url;
+  try {
+    const urlObj = new URL(url);
+    // origin + pathnameの最後の '/' までを取得
+    const pathname = urlObj.pathname;
+    const lastSlashIndex = pathname.lastIndexOf('/');
+    if (lastSlashIndex >= 0) {
+      // 最後の '/' を含むまでを取得
+      const normalizedPath = pathname.substring(0, lastSlashIndex + 1);
+      return `${urlObj.origin}${normalizedPath}`;
+    }
+    // '/' がない場合は origin + '/' を返す
+    return `${urlObj.origin}/`;
+  } catch (error) {
+    // URLパースに失敗した場合は元のURLを返す
+    console.warn(`[blogFeeds] Failed to parse URL: ${url}`, error);
+    return url;
+  }
+};
+
 // URL から mediatype を取得するマップを作成
+// FEED_INFO_LIST の各要素の url を正規化してキーとして、mediatype を値として設定
 const feedUrlToMediatypeMap = new Map();
 for (const feedInfo of FEED_INFO_LIST) {
-  feedUrlToMediatypeMap.set(feedInfo.url, feedInfo.mediatype);
+  const normalizedUrl = normalizeUrl(feedInfo.url);
+  feedUrlToMediatypeMap.set(normalizedUrl, feedInfo.mediatype);
 }
 
 module.exports = async () => {
@@ -69,10 +94,12 @@ module.exports = async () => {
     }
 
     // mediatype を追加
-    const mediatype = feedUrlToMediatypeMap.get(blogFeed.link);
+    // blogFeed.link も正規化してから検索
+    const normalizedLink = normalizeUrl(blogFeed.link);
+    const mediatype = feedUrlToMediatypeMap.get(normalizedLink);
     if (!mediatype) {
       // デバッグ用: URLが見つからない場合にログ出力
-      console.warn(`[blogFeeds] mediatype not found for URL: ${blogFeed.link}`);
+      console.warn(`[blogFeeds] mediatype not found for URL: ${blogFeed.link} (normalized: ${normalizedLink})`);
     }
     blogFeed.mediatype = mediatype || 'blog';
 

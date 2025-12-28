@@ -68,7 +68,12 @@ module.exports = async () => {
     }
 
     // mediatype を追加
-    blogFeed.mediatype = feedUrlToMediatypeMap.get(blogFeed.link) || 'blog';
+    const mediatype = feedUrlToMediatypeMap.get(blogFeed.link);
+    if (!mediatype) {
+      // デバッグ用: URLが見つからない場合にログ出力
+      console.warn(`[blogFeeds] mediatype not found for URL: ${blogFeed.link}`);
+    }
+    blogFeed.mediatype = mediatype || 'blog';
 
     for (const feedItem of blogFeed.items) {
       feedItem.diffDateForHuman = dayjs().to(feedItem.isoDate);

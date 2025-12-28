@@ -416,6 +416,12 @@ img {
         max-height: 8.0em;
     }
 }
+h2 {
+    background-color: var(--material-color-cybozu-blue-100);
+    padding: 0.5em 0.5em;
+    border-radius: 0.5em;
+    margin: 1em 0;
+}
 
 /**
  * ブログのフィード

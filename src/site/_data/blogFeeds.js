@@ -48,36 +48,24 @@ try {
   ]);
 }
 
-// URL を正規化する関数（末尾のファイル名を削除してキーとして取得）
+// URL を正規化する関数（URL文字列の後ろから最初に見つかった'/'から後ろを削除）
+// 例: 'https://zenn.dev/p/cybozu_neco/feed' → 'https://zenn.dev/p/cybozu_neco'
+// 例: 'https://zenn.dev/p/cybozu_psirt/feed' → 'https://zenn.dev/p/cybozu_psirt'
 // 例: 'https://tech.cybozu.vn/rss.xml' → 'https://tech.cybozu.vn'
-// 例: 'https://note.com/cybozu_dev_px/m/m000a1ff77a6b/rss' → 'https://note.com/cybozu_dev_px/m/m000a1ff77a6b'
 const normalizeUrl = (url) => {
   if (!url) return url;
-  try {
-    const urlObj = new URL(url);
-    const pathname = urlObj.pathname;
-    
-    // パスがない、または '/' のみの場合は origin のみを返す
-    if (!pathname || pathname === '/') {
-      return urlObj.origin;
-    }
-    
-    // パスの最後のセグメント（ファイル名部分）を削除
-    // 例: '/cybozu_dev_px/m/m000a1ff77a6b/rss' → '/cybozu_dev_px/m/m000a1ff77a6b'
-    const lastSlashIndex = pathname.lastIndexOf('/');
-    if (lastSlashIndex > 0) {
-      // 最後の '/' より前の部分を取得
-      const normalizedPath = pathname.substring(0, lastSlashIndex);
-      return `${urlObj.origin}${normalizedPath}`;
-    }
-    
-    // パスが '/' のみの場合は origin のみを返す
-    return urlObj.origin;
-  } catch (error) {
-    // URLパースに失敗した場合は元のURLを返す
-    console.warn(`[blogFeeds] Failed to parse URL: ${url}`, error);
+  
+  // URL文字列全体の最後の '/' の位置を検索
+  const lastSlashIndex = url.lastIndexOf('/');
+  
+  // '/' が見つからない、または 'https://' の '//' の '/' のみの場合は元のURLを返す
+  if (lastSlashIndex === -1 || lastSlashIndex < 8) {
+    // 'https://' は8文字なので、8文字未満の '/' はプロトコルの一部
     return url;
   }
+  
+  // 最後の '/' より前の部分を取得
+  return url.substring(0, lastSlashIndex);
 };
 
 // URL から mediatype を取得するマップを作成

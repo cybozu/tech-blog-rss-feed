@@ -48,32 +48,11 @@ try {
   ]);
 }
 
-// URL を正規化する関数（URL文字列の後ろから最初に見つかった'/'から後ろを削除）
-// 例: 'https://zenn.dev/p/cybozu_neco/feed' → 'https://zenn.dev/p/cybozu_neco'
-// 例: 'https://zenn.dev/p/cybozu_psirt/feed' → 'https://zenn.dev/p/cybozu_psirt'
-// 例: 'https://tech.cybozu.vn/rss.xml' → 'https://tech.cybozu.vn'
-const normalizeUrl = (url) => {
-  if (!url) return url;
-  
-  // URL文字列全体の最後の '/' の位置を検索
-  const lastSlashIndex = url.lastIndexOf('/');
-  
-  // '/' が見つからない、または 'https://' の '//' の '/' のみの場合は元のURLを返す
-  if (lastSlashIndex === -1 || lastSlashIndex < 8) {
-    // 'https://' は8文字なので、8文字未満の '/' はプロトコルの一部
-    return url;
-  }
-  
-  // 最後の '/' より前の部分を取得
-  return url.substring(0, lastSlashIndex);
-};
-
 // URL から mediatype を取得するマップを作成
-// FEED_INFO_LIST の各要素の url を正規化してキーとして、mediatype を値として設定
+// FEED_INFO_LIST の各要素の url をキーとして、mediatype を値として設定
 const feedUrlToMediatypeMap = new Map();
 for (const feedInfo of FEED_INFO_LIST) {
-  const normalizedUrl = normalizeUrl(feedInfo.url);
-  feedUrlToMediatypeMap.set(normalizedUrl, feedInfo.mediatype);
+  feedUrlToMediatypeMap.set(feedInfo.url, feedInfo.mediatype);
 }
 
 module.exports = async () => {
@@ -91,12 +70,10 @@ module.exports = async () => {
     }
 
     // mediatype を追加
-    // blogFeed.link も正規化してから検索
-    const normalizedLink = normalizeUrl(blogFeed.link);
-    const mediatype = feedUrlToMediatypeMap.get(normalizedLink);
+    const mediatype = feedUrlToMediatypeMap.get(blogFeed.link);
     if (!mediatype) {
       // デバッグ用: URLが見つからない場合にログ出力
-      console.warn(`[blogFeeds] mediatype not found for URL: ${blogFeed.link} (normalized: ${normalizedLink})`);
+      console.warn(`[blogFeeds] mediatype not found for URL: ${blogFeed.link}`);
     }
     blogFeed.mediatype = mediatype || 'blog';
 

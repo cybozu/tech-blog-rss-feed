@@ -54,6 +54,8 @@ const feedUrlToMediatypeMap = new Map();
 for (const feedInfo of FEED_INFO_LIST) {
   feedUrlToMediatypeMap.set(feedInfo.url, feedInfo.mediatype);
   // デバッグ用: feedInfo.url が前方一致するFEED_INFO_LISTの要素をログ出力
+  console.log(`[blogFeeds] feedInfo.url: ${feedInfo.url}`);
+  console.log(`[blogFeeds] FEED_INFO_LIST: ${JSON.stringify(FEED_INFO_LIST)}`);
 }
 
 module.exports = async () => {

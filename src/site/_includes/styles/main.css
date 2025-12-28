@@ -417,9 +417,8 @@ img {
     }
 }
 h2 {
-    background-color: var(--material-color-cybozu-blue-100);
+    border-bottom: 1px solid var(--material-color-cybozu-blue-70);
     padding-top: 0.5em;
-    border-radius: 0.5em;
     margin: 1em 0;
 }
 

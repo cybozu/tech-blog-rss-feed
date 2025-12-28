@@ -17,6 +17,7 @@ try {
   require('esbuild-register');
   FEED_INFO_LIST = require('../../resources/feed-info-list').FEED_INFO_LIST;
 } catch (error) {
+  console.error('[blogFeeds] error loading feed-info-list.ts', error);
   // TypeScriptファイルが読み込めない場合は、直接データを定義
   // feed-info-list.ts のデータを再現
   const createFeedInfoList = (feedInfoTuples) => {

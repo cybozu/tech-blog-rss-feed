@@ -28,6 +28,7 @@ export type CustomRssParserItem = RssParser.Item & {
   isoDate: string;
   blogTitle: string;
   blogLink: string;
+  mediatype?: string;
 };
 export type CustomRssParserFeed = RssParser.Output<CustomRssParserItem> & {
   link: string;
@@ -377,8 +378,8 @@ export class FeedCrawler {
     const [error, ogsResponse] = await to<{ result: OgObject }>(ogs(options));
     if (error) {
       // 一部サイトでJsonParseErrorが発生するが、サイフロ通信は固定のogpを設定して返却する
-      const regexCyFro = 'podcasters.spotify.com\/pod\/show\/cybozu-frontend';
-    
+      const regexCyFro = 'podcasters.spotify.com/pod/show/cybozu-frontend';
+
       const matchResult = url.match(regexCyFro);
       if (matchResult !== null && matchResult.length > 0) {
         return {
@@ -390,13 +391,14 @@ export class FeedCrawler {
               height: 415,
               type: 'image/jpeg',
             },
-          ]}
+          ],
+        };
       } else {
-      return Promise.reject(
-        new Error(`OGの取得に失敗しました。 url: ${url}`, {
-          cause: error,
-        }),
-      );
+        return Promise.reject(
+          new Error(`OGの取得に失敗しました。 url: ${url}`, {
+            cause: error,
+          }),
+        );
       }
     }
 

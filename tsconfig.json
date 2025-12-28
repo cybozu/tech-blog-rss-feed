@@ -18,12 +18,18 @@
     "noImplicitAny": true,
     "removeComments": true,
     "skipLibCheck": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "noEmit": true,
+    "outDir": "./dist"
   },
   "include": [
     "src/**/*",
     "tests/**/*",
     "vitest.config.ts",
     "eleventy.config.ts",
+  ],
+  "exclude": [
+    "src/site/_data/**/*",
+    "src/common/**/*.js"
   ]
 }

@@ -48,14 +48,32 @@ try {
   ]);
 }
 
+// URL を正規化する関数（URL文字列の後ろから最初に見つかった'/'から後ろを削除）
+// FEED_INFO_LIST の url から末尾のファイル名（/rss, /feed など）を削除してキーとして使用
+// 例: 'https://note.com/cybozu_dev_px/m/m000a1ff77a6b/rss' → 'https://note.com/cybozu_dev_px/m/m000a1ff77a6b'
+// 例: 'https://zenn.dev/p/cybozu_neco/feed' → 'https://zenn.dev/p/cybozu_neco'
+const normalizeFeedUrl = (url) => {
+  if (!url) return url;
+  
+  // URL文字列全体の最後の '/' の位置を検索
+  const lastSlashIndex = url.lastIndexOf('/');
+  
+  // '/' が見つからない、または 'https://' の '//' の '/' のみの場合は元のURLを返す
+  if (lastSlashIndex === -1 || lastSlashIndex < 8) {
+    // 'https://' は8文字なので、8文字未満の '/' はプロトコルの一部
+    return url;
+  }
+  
+  // 最後の '/' より前の部分を取得
+  return url.substring(0, lastSlashIndex);
+};
+
 // URL から mediatype を取得するマップを作成
-// FEED_INFO_LIST の各要素の url をキーとして、mediatype を値として設定
+// FEED_INFO_LIST の各要素の url を正規化してキーとして、mediatype を値として設定
 const feedUrlToMediatypeMap = new Map();
 for (const feedInfo of FEED_INFO_LIST) {
-  feedUrlToMediatypeMap.set(feedInfo.url, feedInfo.mediatype);
-  // デバッグ用: feedInfo.url が前方一致するFEED_INFO_LISTの要素をログ出力
-  console.log(`[blogFeeds] feedInfo.url: ${feedInfo.url}`);
-  console.log(`[blogFeeds] FEED_INFO_LIST: ${JSON.stringify(FEED_INFO_LIST)}`);
+  const normalizedUrl = normalizeFeedUrl(feedInfo.url);
+  feedUrlToMediatypeMap.set(normalizedUrl, feedInfo.mediatype);
 }
 
 module.exports = async () => {

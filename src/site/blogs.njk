@@ -46,6 +46,8 @@ eleventyComputed:
                         <a class='ui-blog__og-image' href='./{{ blogFeed.linkMd5Hash }}/'>
                             {% if blogFeed.ogImageUrl %}
                                 {% imageThumbnail blogFeed.ogImageUrl, 'ブログのアイキャッチ画像', '../' %}
+                            {% else if blogFeed.link === 'https://podcasters.spotify.com/pod/show/cybozu-frontend' %}
+                                {% imageThumbnail 'https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39505250/39505250-1698713094175-b366f8cd22ee2.jpg', 'ブログのアイキャッチ画像', '../' %}
                             {% else %}
                                 <img src='{{ page.url | relativeUrl }}images/alternate-feed-image.png' loading="lazy" alt='記事のアイキャッチ画像' width='256' height='256'>
                             {% endif %}

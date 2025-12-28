@@ -245,6 +245,9 @@ export class FeedCrawler {
       // view用
       feedItem.blogTitle = customFeed.title || '';
       feedItem.blogLink = customFeed.link || '';
+
+      // Blogsページの表示用にメディアタイプを設定
+      feedItem.mediatype = feedInfo.mediatype;
     }
 
     return customFeed;

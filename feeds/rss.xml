@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>サイボウズのTech系ブログRSS</title>
+        <link>https://cybozu.github.io/tech-blog-rss-feed/</link>
+        <description>サイボウズのTech系ブログの更新をまとめたRSSフィード</description>
+        <lastBuildDate>Fri, 09 Jan 2026 08:09:19 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>cybozu/tech-blog-rss-feed</generator>
+        <language>ja</language>
+        <image>
+            <title>サイボウズのTech系ブログRSS</title>
+            <url>https://cybozu.github.io/tech-blog-rss-feed/images/icon.png</url>
+            <link>https://cybozu.github.io/tech-blog-rss-feed/</link>
+        </image>
+        <copyright>cybozu/tech-blog-rss-feed</copyright>
+        <atom:link href="https://cybozu.github.io/tech-blog-rss-feed/feeds/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[DTCGのColorトークンの仕様が更新されている件 | Cybozu Product Design Magazine]]></title>
+            <link>https://note.com/kamy0042/n/n549142a635b7</link>
+            <guid>https://note.com/kamy0042/n/n549142a635b7</guid>
+            <pubDate>Fri, 26 Dec 2025 08:22:06 GMT</pubDate>
+            <description><![CDATA[こんにちは！サイボウズのデザインテクノロジストの釜堀です。私が所属しているkintone Design System Teamでは、デザインシステムの要素の1つとしてデザイントークンの運用を行っています。続きをみる]]></description>
+            <content:encoded><![CDATA[こんにちは！サイボウズのデザインテクノロジストの釜堀です。私が所属しているkintone Design System Teamでは、デザインシステムの要素の1つとしてデザイントークンの運用を行っています。続きをみる]]></content:encoded>
+            <enclosure length="0" type="png" url="https://assets.st-note.com/production/uploads/images/239005196/rectangle_large_type_2_ab44802ad6d18d0a1d8a7d3266683808.png?fit=bounds&amp;quality=85&amp;width=1280"/>
+        </item>
+    </channel>
+</rss>

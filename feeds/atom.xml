@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cybozu.github.io/tech-blog-rss-feed/</id>
+    <title>サイボウズのTech系ブログRSS</title>
+    <updated>2026-01-09T08:09:19.815Z</updated>
+    <generator>cybozu/tech-blog-rss-feed</generator>
+    <link rel="alternate" href="https://cybozu.github.io/tech-blog-rss-feed/"/>
+    <link rel="self" href="https://cybozu.github.io/tech-blog-rss-feed/feeds/atom.xml"/>
+    <subtitle>サイボウズのTech系ブログの更新をまとめたRSSフィード</subtitle>
+    <logo>https://cybozu.github.io/tech-blog-rss-feed/images/icon.png</logo>
+    <icon>https://cybozu.github.io/tech-blog-rss-feed/images/favicon.ico</icon>
+    <rights>cybozu/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[DTCGのColorトークンの仕様が更新されている件 | Cybozu Product Design Magazine]]></title>
+        <id>https://note.com/kamy0042/n/n549142a635b7</id>
+        <link href="https://note.com/kamy0042/n/n549142a635b7"/>
+        <updated>2025-12-26T08:22:06.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！サイボウズのデザインテクノロジストの釜堀です。私が所属しているkintone Design System Teamでは、デザインシステムの要素の1つとしてデザイントークンの運用を行っています。続きをみる]]></summary>
+        <content type="html"><![CDATA[こんにちは！サイボウズのデザインテクノロジストの釜堀です。私が所属しているkintone Design System Teamでは、デザインシステムの要素の1つとしてデザイントークンの運用を行っています。続きをみる]]></content>
+        <published>2025-12-26T08:22:06.000Z</published>
+    </entry>
+</feed>

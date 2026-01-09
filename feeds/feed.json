@@ -1,0 +1,32 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "サイボウズのTech系ブログRSS",
+    "home_page_url": "https://cybozu.github.io/tech-blog-rss-feed/",
+    "feed_url": "https://cybozu.github.io/tech-blog-rss-feed/feeds/feed.json",
+    "description": "サイボウズのTech系ブログの更新をまとめたRSSフィード",
+    "icon": "https://cybozu.github.io/tech-blog-rss-feed/images/icon.png",
+    "items": [
+        {
+            "id": "https://note.com/kamy0042/n/n549142a635b7",
+            "content_html": "こんにちは！サイボウズのデザインテクノロジストの釜堀です。私が所属しているkintone Design System Teamでは、デザインシステムの要素の1つとしてデザイントークンの運用を行っています。続きをみる",
+            "url": "https://note.com/kamy0042/n/n549142a635b7",
+            "title": "DTCGのColorトークンの仕様が更新されている件 | Cybozu Product Design Magazine",
+            "summary": "こんにちは！サイボウズのデザインテクノロジストの釜堀です。私が所属しているkintone Design System Teamでは、デザインシステムの要素の1つとしてデザイントークンの運用を行っています。続きをみる",
+            "image": {
+                "url": "https://assets.st-note.com/production/uploads/images/239005196/rectangle_large_type_2_ab44802ad6d18d0a1d8a7d3266683808.png?fit=bounds&quality=85&width=1280",
+                "type": "png"
+            },
+            "date_modified": "2025-12-26T08:22:06.000Z",
+            "date_published": "2025-12-26T08:22:06.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "DTCGのColorトークンの仕様が更新されている件",
+                "blogTitle": "Cybozu Product Design Magazine",
+                "blogLink": "https://note.com/cybozu_design/m/mc12622f890cf",
+                "blogLinkMd5Hash": "2a932d7f7fed9dfa8fea4678be3579d6",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico"
+            }
+        }
+    ]
+}

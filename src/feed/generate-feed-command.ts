@@ -10,6 +10,8 @@ const FEED_FETCH_CONCURRENCY = 50;
 const FEED_OG_FETCH_CONCURRENCY = 20;
 const FETCH_IMAGE_CONCURRENCY = 100;
 const FILTER_ARTICLE_DATE = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000);
+const FILTER_MORE_ARTICLE_DATE = new Date(Date.now() - 28 * 24 * 60 * 60 * 1000);
+const MAX_ARTICLE_LENGTH = 5;
 const MAX_FEED_DESCRIPTION_LENGTH = 200;
 const MAX_FEED_CONTENT_LENGTH = 500;
 const STORE_FEEDS_DIR_PATH = path.join(__dirname, '../site/feeds');
@@ -22,13 +24,25 @@ const feedStorer = new FeedStorer();
 const feedImagePrecacher = new FeedImagePrecacher();
 
 (async () => {
-  // フィード取得
-  const crawlFeedsResult = await feedCrawler.crawlFeeds(
+  // フィード取得（最初は14日前以降）
+  let filterArticleDate = FILTER_ARTICLE_DATE;
+  let crawlFeedsResult = await feedCrawler.crawlFeeds(
     FEED_INFO_LIST,
     FEED_FETCH_CONCURRENCY,
     FEED_OG_FETCH_CONCURRENCY,
-    FILTER_ARTICLE_DATE,
+    filterArticleDate,
   );
+
+  // 記事が10件未満の場合、4週間前まで遡る
+  if (crawlFeedsResult.feedItems.length < MAX_ARTICLE_LENGTH) {
+    filterArticleDate = FILTER_MORE_ARTICLE_DATE;
+    crawlFeedsResult = await feedCrawler.crawlFeeds(
+      FEED_INFO_LIST,
+      FEED_FETCH_CONCURRENCY,
+      FEED_OG_FETCH_CONCURRENCY,
+      filterArticleDate,
+    );
+  }
 
   // まとめフィード作成
   const ogObjectMap = new Map([...crawlFeedsResult.feedItemOgObjectMap, ...crawlFeedsResult.feedBlogOgObjectMap]);

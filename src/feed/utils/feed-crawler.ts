@@ -294,6 +294,19 @@ export class FeedCrawler {
       allFeedItems = allFeedItems.concat(feed.items);
     }
 
+    // 重複を排除（linkをキーとして）
+    const feedItemMap = new Map<string, CustomRssParserItem>();
+    for (const feedItem of allFeedItems) {
+      if (feedItem.link) {
+        // 既に存在する場合は、より新しい日付のものを優先
+        const existingItem = feedItemMap.get(feedItem.link);
+        if (!existingItem || (feedItem.isoDate && existingItem.isoDate && feedItem.isoDate > existingItem.isoDate)) {
+          feedItemMap.set(feedItem.link, feedItem);
+        }
+      }
+    }
+    allFeedItems = Array.from(feedItemMap.values());
+
     // 日付でソート
     allFeedItems.sort((a, b) => {
       return -1 * a.isoDate.localeCompare(b.isoDate);

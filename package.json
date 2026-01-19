@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "",
   "scripts": {
-    "build": "yarn feed-generate && yarn site-build",
+    "build": "pnpm feed-generate && pnpm site-build",
     "feed-generate": "node --require esbuild-register src/feed/generate-feed-command.ts",
     "register-index": "node --require esbuild-register src/feed/register-index-command.ts",
     "site-build": "node --require esbuild-register ./node_modules/.bin/eleventy --config=eleventy.config.ts",
@@ -94,7 +94,7 @@
   },
   "engines": {
     "node": ">=20",
-    "yarn": ">=3.7.0"
+    "pnpm": ">=8.0.0"
   },
-  "packageManager": "yarn@4.4.0"
+  "packageManager": "pnpm@9.0.0"
 }

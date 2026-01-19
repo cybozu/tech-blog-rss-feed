@@ -18,25 +18,25 @@ GitHub Actions で定期的に更新されており、サイトの生成は [Ele
 
 パッケージのインストール
 ```bash
-$ yarn
+$ pnpm install
 ```
 
 フィード生成とサイト立ち上げ
 ```bash
 $ # フィードを取得して作成
-$ yarn feed-generate
+$ pnpm feed-generate
 
 $ # localhost:8080 で確認
-$ yarn site-serve
+$ pnpm site-serve
 ```
 
 コードのチェック
 ```bash
 $ # eslint, tsc --noEmit
-$ yarn lint
+$ pnpm lint
 
 $ # テスト
-$ yarn test
+$ pnpm test
 ```
 
 ## ライセンス

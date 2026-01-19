@@ -28,10 +28,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version-file: .tool-versions
-          cache: yarn
+          cache: pnpm
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
 
       - name: Install node packages
-        run: yarn install
+        run: pnpm install
 
       - name: Get date
         id: get-date
@@ -46,10 +51,10 @@ jobs:
           key: ${{ runner.os }}-feed-images-${{ steps.get-date.outputs.date }}
 
       - name: Generate feed
-        run: yarn feed-generate
+        run: pnpm feed-generate
 
       - name: Generate site
-        run: yarn site-build
+        run: pnpm site-build
 
       - name: Push to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

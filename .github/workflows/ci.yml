@@ -23,13 +23,18 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version-file: .tool-versions
-        cache: yarn
+        cache: pnpm
+
+    - name: Install pnpm
+      uses: pnpm/action-setup@v4
+      with:
+        version: 9
 
     - name: Install dependencies
-      run: yarn install
+      run: pnpm install
 
     - name: Lint
-      run: yarn lint
+      run: pnpm lint
 
   test:
     runs-on: ubuntu-22.04
@@ -42,13 +47,18 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version-file: .tool-versions
-        cache: yarn
+        cache: pnpm
+
+    - name: Install pnpm
+      uses: pnpm/action-setup@v4
+      with:
+        version: 9
 
     - name: Install dependencies
-      run: yarn install
+      run: pnpm install
 
     - name: Test
-      run: yarn test-coverage
+      run: pnpm test-coverage
 
   generate:
     runs-on: ubuntu-22.04
@@ -61,16 +71,21 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version-file: .tool-versions
-        cache: yarn
+        cache: pnpm
+
+    - name: Install pnpm
+      uses: pnpm/action-setup@v4
+      with:
+        version: 9
 
     - name: Install dependencies
-      run: yarn install
+      run: pnpm install
 
     - name: Generate feed
-      run: yarn feed-generate
+      run: pnpm feed-generate
 
     - name: Generate site
-      run: yarn site-build
+      run: pnpm site-build
 
     - name: Archive feed
       uses: actions/upload-artifact@v4

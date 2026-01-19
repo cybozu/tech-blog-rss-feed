@@ -38,7 +38,7 @@ describe('フィード生成', async () => {
 
     // フィードアイテムが生成されていることを確認
     expect(generateFeedsResult.aggregatedFeed.items.length).toBeGreaterThan(0);
-    
+
     // 一つでもimageがあればok（画像取得に失敗してもフィードは生成される）
     let isImageFound = false;
     for (const item of generateFeedsResult.aggregatedFeed.items) {

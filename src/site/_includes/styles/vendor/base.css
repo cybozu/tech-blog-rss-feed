@@ -603,6 +603,7 @@ button {
     ------------------------------------------------------------*/
 
     .ui-text-intro { font-size: var(--ui-typography-h4); }
+    .ui-text-update-schedule { font-size: 0.875em; }
 
     /*------------------------------------------------------------
     LAYOUT

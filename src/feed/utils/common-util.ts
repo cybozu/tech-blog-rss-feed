@@ -1,4 +1,3 @@
-import * as v8 from 'v8';
 import * as crypto from 'crypto';
 import axios from 'axios';
 import { to } from 'await-to-js';
@@ -6,8 +5,7 @@ import { to } from 'await-to-js';
 type HatenaCountMap = Record<string, number>;
 
 export const objectDeepCopy = <T>(data: T): T => {
-  // TODO: Node.js 17 以上にしたら structuredClone 使う
-  return v8.deserialize(v8.serialize(data));
+  return structuredClone(data);
 };
 
 export const textToMd5Hash = (text: string): string => {

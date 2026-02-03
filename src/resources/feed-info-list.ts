@@ -24,14 +24,36 @@ const createFeedInfoList = (feedInfoTuples: FeedInfoTuple[]) => {
   return feedInfoList;
 };
 
+
+/**
+ * CYBOZU SUMMER BLOG FESのRSSフィードURL
+ * https://cybozu.github.io/summer-blog-fes-{YYYY}/rss.xml
+ * の{YYYY}に、実行する年を適用する
+ */
+const CYBOZU_SUMMER_BLOG_FES_RSS_URL = 'https://cybozu.github.io/summer-blog-fes-{YYYY}/rss.xml'.replace(
+  '{YYYY}',
+  new Date().getFullYear().toString(),
+) as ValidUrl;
+
+/**
+ * CYBOZU SUMMER BLOG FESのbaseUrl
+ * https://cybozu.github.io/summer-blog-fes-{YYYY}
+ * の{YYYY}に、実行する年を適用する
+ */
+const CYBOZU_SUMMER_BLOG_FES_BASE_URL = 'https://cybozu.github.io/summer-blog-fes-{YYYY}'.replace(
+  '{YYYY}',
+  new Date().getFullYear().toString(),
+) as ValidUrl;
+
 /**
  * フィード情報一覧。アルファベット順
  * ラベルが被るとバリデーションエラーになるので別のラベルを設定してください
- * ブログリストでブログと音声コンテンツを分けて表示するために、feedとの比較用のbaseUrlとメディアタイプ（blog, podcast のみ）を設定してください
+ * ブログリストでブログと音声コンテンツを分けて表示するために、feedとの比較用のbaseUrlとメディアタイプ（blog, podcast のいずれか）を設定してください
  */
 // prettier-ignore
 export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   // ['企業名・製品名など', 'RSS/AtomフィードのURL', feedとの比較用のbaseUrl, 'メディアタイプ（blog, podcast)],
+  ['CYBOZU SUMMER BLOG FES', CYBOZU_SUMMER_BLOG_FES_RSS_URL, CYBOZU_SUMMER_BLOG_FES_BASE_URL, 'blog'],
   ['Cybozu Vietnam Tech Sharing', 'https://tech.cybozu.vn/rss.xml','https://tech.cybozu.vn', 'blog'],
   ['Kintone Engineering Blog', 'https://blog.kintone.io/feed', 'https://blog.kintone.io/', 'blog'],
   ['サイボウズ Developer Concourse', 'https://note.com/cybozu_dev_px/m/m000a1ff77a6b/rss', 'https://note.com/cybozu_dev_px/m/m000a1ff77a6b', 'blog'],
@@ -55,10 +77,6 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
 /**
  * その他候補
  *
- * CYBOZU SUMMER BLOG FES'25のRSSフィードは入れていない。
- * 2026年開催時に、以下の対応をしたい
- * - 既存のfeedと重複したらFESの記事を優先してマージ
- * - CYBOZU SUMMER BLOG FES'26用のタグ追加（どのフィールドが使えるか確認も必要）
- * CYBOZU SUMMER BLOG FES'25のRSSフィード
- * https://cybozu.github.io/summer-blog-fes-2025/rss.xml
+ * CYBOZU SUMMER BLOG FES'YYのRSSフィードは追加済。
+ * 開催年ごとに更新するのではなく、開催年をFeed URLとBase URLに適用して設定している。
  */

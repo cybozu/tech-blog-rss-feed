@@ -1,4 +1,4 @@
-import { FEED_INFO_LIST } from '../resources/feed-info-list';
+import { getFeedInfoList } from '../resources/feed-info-list';
 import { FeedCrawler } from './utils/feed-crawler';
 import { FeedGenerator } from './utils/feed-generator';
 import * as path from 'path';
@@ -24,10 +24,12 @@ const feedStorer = new FeedStorer();
 const feedImagePrecacher = new FeedImagePrecacher();
 
 (async () => {
+  const feedInfoList = await getFeedInfoList();
+
   // フィード取得（最初は14日前以降）
   let filterArticleDate = FILTER_ARTICLE_DATE;
   let crawlFeedsResult = await feedCrawler.crawlFeeds(
-    FEED_INFO_LIST,
+    feedInfoList,
     FEED_FETCH_CONCURRENCY,
     FEED_OG_FETCH_CONCURRENCY,
     filterArticleDate,
@@ -37,7 +39,7 @@ const feedImagePrecacher = new FeedImagePrecacher();
   if (crawlFeedsResult.feedItems.length < MAX_ARTICLE_LENGTH) {
     filterArticleDate = FILTER_MORE_ARTICLE_DATE;
     crawlFeedsResult = await feedCrawler.crawlFeeds(
-      FEED_INFO_LIST,
+      feedInfoList,
       FEED_FETCH_CONCURRENCY,
       FEED_OG_FETCH_CONCURRENCY,
       filterArticleDate,

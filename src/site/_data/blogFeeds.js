@@ -11,23 +11,17 @@ dayjs.tz.setDefault('Asia/Tokyo');
 
 // feed-info-list.ts から mediatype を取得
 // esbuild-register を有効にしてTypeScriptファイルを読み込む
-let FEED_INFO_LIST;
+let getFeedInfoList;
 try {
-  // esbuild-register が有効な場合、TypeScriptファイルを読み込める
   require('esbuild-register');
-  FEED_INFO_LIST = require('../../resources/feed-info-list').FEED_INFO_LIST;
+  getFeedInfoList = require('../../resources/feed-info-list').getFeedInfoList;
 } catch (error) {
   console.error('[blogFeeds] error loading feed-info-list.ts', error);
-  // TypeScriptファイルが読み込めない場合は、直接データを定義
-  // feed-info-list.ts のデータを再現
+  // TypeScriptが読み込めない場合のフォールバック（BLOG FES除く）
   const createFeedInfoList = (feedInfoTuples) => {
-    const feedInfoList = [];
-    for (const [label, url, baseUrl, mediatype] of feedInfoTuples) {
-      feedInfoList.push({ label, url, baseUrl, mediatype });
-    }
-    return feedInfoList;
+    return feedInfoTuples.map(([label, url, baseUrl, mediatype]) => ({ label, url, baseUrl, mediatype }));
   };
-  FEED_INFO_LIST = createFeedInfoList([
+  const FALLBACK_FEED_INFO_LIST = createFeedInfoList([
     ['Cybozu Vietnam Tech Sharing', 'https://tech.cybozu.vn/rss.xml', 'https://tech.cybozu.vn', 'blog'],
     ['Kintone Engineering Blog', 'https://blog.kintone.io/feed', 'https://blog.kintone.io/', 'blog'],
     ['サイボウズ Developer Concourse', 'https://note.com/cybozu_dev_px/m/m000a1ff77a6b/rss', 'https://note.com/cybozu_dev_px/m/m000a1ff77a6b', 'blog'],
@@ -46,16 +40,17 @@ try {
     ['Cybozu Design Podcast', 'https://feed.podbean.com/cybozudesign/feed.xml', 'https://cybozudesign.podbean.com', 'podcast'],
     ['流氷交差点', 'https://feeds.soundcloud.com/users/soundcloud:users:970362685/sounds.rss', 'https://soundcloud.com/cybozutech', 'podcast'],
   ]);
-}
-
-
-// baseUrl から mediatype を取得するマップを作成
-const feedUrlToMediatypeMap = new Map();
-for (const feedInfo of FEED_INFO_LIST) {
-  feedUrlToMediatypeMap.set(feedInfo.baseUrl, feedInfo.mediatype);
+  getFeedInfoList = () => Promise.resolve(FALLBACK_FEED_INFO_LIST);
 }
 
 module.exports = async () => {
+  // baseUrl から mediatype を取得するマップ（getFeedInfoList で解決したBLOG FESのURLに合わせる）
+  const feedInfoList = await getFeedInfoList();
+  const feedUrlToMediatypeMap = new Map();
+  for (const feedInfo of feedInfoList) {
+    feedUrlToMediatypeMap.set(feedInfo.baseUrl, feedInfo.mediatype);
+  }
+
   let blogFeeds = JSON.parse(await fs.readFile(path.join(__dirname, '../blog-feeds/blog-feeds.json')));
 
   // データ調整

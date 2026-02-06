@@ -188,35 +188,9 @@ export class FeedCrawler {
 
     // ブログごとの調整
     switch (feedInfo.label) {
-      case 'メルカリ':
-        // 9時間ずれているので調整
-        FeedCrawler.subtractFeedItemsDateHour(customFeed, 9);
-        customFeed.link = 'https://engineering.mercari.com/blog/';
-        break;
-      case 'KAIZEN PLATFORM':
-        // 9時間ずれているので調整
-        FeedCrawler.subtractFeedItemsDateHour(customFeed, 9);
-        break;
-      case 'Tokyo Otaku Mode':
-        customFeed.link = 'https://blog.otakumode.com/';
-        break;
-      case 'フューチャー':
-        customFeed.link = 'https://future-architect.github.io/';
-        break;
-      case 'さくら':
-        customFeed.link = 'https://knowledge.sakura.ad.jp/';
-        break;
-      case 'YOJO Technologies':
-        customFeed.title = 'YOJO Technologies Blog';
-        break;
-      case 'POL':
-        customFeed.title = 'POL テックノート';
-        break;
-      case 'mofmof':
-        customFeed.link = 'https://tech.mof-mof.co.jp';
-        break;
-      case 'CADDi':
-        customFeed.link = 'https://caddi.tech/';
+      case 'CYBOZU SUMMER BLOG FES':
+        // RSSのchannel/linkがhttps://cybozu.github.io/のため、baseUrlで上書き（isFromSummerBlogFesの判定に必要）
+        customFeed.link = feedInfo.baseUrl;
         break;
     }
 
@@ -294,14 +268,26 @@ export class FeedCrawler {
       allFeedItems = allFeedItems.concat(feed.items);
     }
 
-    // 重複を排除（linkをキーとして）
+    // 重複を排除（linkをキーとして）。SUMMER BLOG FESと他ブログの両方にある場合はFESを優先
     const feedItemMap = new Map<string, CustomRssParserItem>();
     for (const feedItem of allFeedItems) {
       if (feedItem.link) {
-        // 既に存在する場合は、より新しい日付のものを優先
         const existingItem = feedItemMap.get(feedItem.link);
-        if (!existingItem || (feedItem.isoDate && existingItem.isoDate && feedItem.isoDate > existingItem.isoDate)) {
+        const currentIsFes = FeedCrawler.isFromSummerBlogFes(feedItem);
+        const existingIsFes = existingItem ? FeedCrawler.isFromSummerBlogFes(existingItem) : false;
+
+        if (!existingItem) {
           feedItemMap.set(feedItem.link, feedItem);
+        } else if (currentIsFes && !existingIsFes) {
+          // 現在がFES・既存が他ブログ → FESを優先
+          feedItemMap.set(feedItem.link, feedItem);
+        } else if (!currentIsFes && existingIsFes) {
+          // 現在が他ブログ・既存がFES → 既存のまま（何もしない）
+        } else {
+          // 両方FES or 両方FESでない → より新しい日付のものを優先
+          if (feedItem.isoDate && existingItem.isoDate && feedItem.isoDate > existingItem.isoDate) {
+            feedItemMap.set(feedItem.link, feedItem);
+          }
         }
       }
     }
@@ -313,6 +299,13 @@ export class FeedCrawler {
     });
 
     return allFeedItems;
+  }
+
+  /**
+   * SUMMER BLOG FESのRSS由来の記事かどうかを判定する（blogLinkに summer-blog-fes を含むか）
+   */
+  private static isFromSummerBlogFes(feedItem: CustomRssParserItem): boolean {
+    return Boolean(feedItem.blogLink && feedItem.blogLink.includes('summer-blog-fes'));
   }
 
   private async fetchFeedItemOgObjectMap(feedItems: CustomRssParserItem[], concurrency: number): Promise<OgObjectMap> {
@@ -428,11 +421,6 @@ export class FeedCrawler {
     if (ogImages !== undefined) {
       for (const ogImage of ogImages) {
         const ogImageUrl = ogImage.url;
-
-        // 一部URLがおかしいものの対応
-        if (ogImageUrl && ogImageUrl.startsWith('https://tech.fusic.co.jphttps')) {
-          ogImage.url = ogImageUrl.substring('https://tech.fusic.co.jp'.length);
-        }
 
         // http から始まってなければ調整
         if (ogImageUrl && !ogImageUrl.startsWith('http')) {

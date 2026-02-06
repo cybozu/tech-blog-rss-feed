@@ -1,4 +1,4 @@
-import { FEED_INFO_LIST, FeedInfo } from '../src/resources/feed-info-list';
+import { getFeedInfoList, FeedInfo } from '../src/resources/feed-info-list';
 import { FeedCrawler } from '../src/feed/utils/feed-crawler';
 import { describe, it, expect } from 'vitest';
 import { exponentialBackoff } from '../src/feed/utils/common-util';
@@ -8,28 +8,32 @@ const rssParser = new RssParser({
   maxRedirects: 0,
 });
 
-// 設定のテスト
-describe('FEED_INFO_LIST', () => {
-  it('FEED_INFO_LIST の設定が正しい', () => {
+// 設定のテスト（getFeedInfoList は存在する年のBLOG FES URLに解決済み）
+describe('getFeedInfoList', () => {
+  it('返すフィード一覧の設定が正しい', async () => {
+    const feedInfoList = await getFeedInfoList();
     expect(() => {
-      FeedCrawler.validateFeedInfoList(FEED_INFO_LIST);
+      FeedCrawler.validateFeedInfoList(feedInfoList);
     }).not.toThrow();
   });
 });
 
-// フィード取得テスト
+// フィード取得テスト（BLOG FESは getFeedInfoList で解決済みのURLを使用）
 describe('フィードが取得可能', () => {
-  FEED_INFO_LIST.map((feedInfo: FeedInfo) => {
-    const testTitle = `${feedInfo.label} / ${feedInfo.url}`;
-    it.concurrent(
-      testTitle,
-      async () => {
-        const feed = await exponentialBackoff(async () => {
-          return rssParser.parseURL(feedInfo.url);
-        });
-        expect(feed.items.length).toBeGreaterThanOrEqual(0);
-      },
-      180 * 1000,
-    );
-  });
+  it(
+    '各フィードが取得可能',
+    async () => {
+      const feedInfoList = await getFeedInfoList();
+      await Promise.all(
+        feedInfoList.map(async (feedInfo: FeedInfo) => {
+          const fetchFeed = async (url: string) => {
+            return exponentialBackoff(async () => rssParser.parseURL(url));
+          };
+          const feed = await fetchFeed(feedInfo.url);
+          expect(feed.items.length).toBeGreaterThanOrEqual(0);
+        }),
+      );
+    },
+    180 * 1000,
+  );
 });

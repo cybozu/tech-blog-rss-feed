@@ -1,4 +1,4 @@
-import { FEED_INFO_LIST } from '../../src/resources/feed-info-list';
+import { getFeedInfoList } from '../../src/resources/feed-info-list';
 import { FeedCrawler } from '../../src/feed/utils/feed-crawler';
 import { FeedGenerator } from '../../src/feed/utils/feed-generator';
 import { describe, it, expect } from 'vitest';
@@ -12,10 +12,11 @@ const MAX_FEED_CONTENT_LENGTH = 500;
 const feedCrawler = new FeedCrawler();
 const feedGenerator = new FeedGenerator();
 
-describe('フィード生成', async () => {
+describe('フィード生成', () => {
   it('フィードを正しく生成できるか', async () => {
+    const allFeedInfoList = await getFeedInfoList();
     // 10個適当に取得
-    const shuffledFeedInfoList = FEED_INFO_LIST.sort(() => 0.5 - Math.random());
+    const shuffledFeedInfoList = [...allFeedInfoList].sort(() => 0.5 - Math.random());
     const feedInfoList = shuffledFeedInfoList.slice(0, 10);
 
     // フィード取得

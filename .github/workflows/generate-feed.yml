@@ -27,7 +27,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v4
         with:
-          node-version-file: .tool-versions
+          node-version-file: .node-version
           cache: pnpm
 
       - name: Install node packages

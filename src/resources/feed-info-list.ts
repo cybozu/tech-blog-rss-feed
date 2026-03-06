@@ -102,6 +102,12 @@ export const getFeedInfoList = async (): Promise<FeedInfo[]> => {
       'blog',
     ],
     [
+      'サイボウズ Tech Media Platformチーム',
+      'https://note.com/cybozutech/m/m459547f65fe8/rss',
+      'https://note.com/cybozutech/m/m459547f65fe8',
+      'blog',
+    ],
+    [
       'サイボウズ 流氷自由帳',
       'https://note.com/cybozutech/m/m9707f4c496e6/rss',
       'https://note.com/cybozutech/m/m9707f4c496e6',
@@ -149,6 +155,7 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['サイボウズ セキュリティ室', 'https://note.com/security_cybozu/rss', 'https://note.com/security_cybozu', 'blog'],
   ['サイボウズ コネクト支援チーム', 'https://note.com/cybozutech/m/mc0c086e78c4f/rss', 'https://note.com/cybozutech/m/mc0c086e78c4f', 'blog'],
   ['サイボウズ 流氷自由帳', 'https://note.com/cybozutech/m/m9707f4c496e6/rss', 'https://note.com/cybozutech/m/m9707f4c496e6', 'blog'],
+  ['サイボウズ Tech Media Platformチーム', 'https://note.com/cybozutech/m/m459547f65fe8/rss', 'https://note.com/cybozutech/m/m459547f65fe8', 'blog'],
   // 音声コンテンツ
   ['サイボウズ フロントエンド通信', 'https://anchor.fm/s/ec10d0c8/podcast/rss', 'https://podcasters.spotify.com/pod/show/cybozu-frontend', 'podcast'],
   ['Cybozu Design Podcast', 'https://feed.podbean.com/cybozudesign/feed.xml', 'https://cybozudesign.podbean.com', 'podcast'],

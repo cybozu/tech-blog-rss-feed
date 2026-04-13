@@ -15,6 +15,9 @@ jobs:
   lint:
     runs-on: ubuntu-22.04
     timeout-minutes: 10
+    permissions:
+      id-token: write
+      contents: read
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -27,6 +30,10 @@ jobs:
       with:
         node-version-file: .node-version
         cache: pnpm
+
+    - uses: flatt-security/setup-takumi-guard-npm@8f53b50568e4466f2d92504f349c05b9ffcb8b59 # v1
+      with:
+        bot-id: ${{ vars.TAKUMI_GUARD_BOT_ID }}
 
     - name: Install dependencies
       run: pnpm install
@@ -37,6 +44,9 @@ jobs:
   test:
     runs-on: ubuntu-22.04
     timeout-minutes: 10
+    permissions:
+      id-token: write
+      contents: read
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -49,6 +59,10 @@ jobs:
       with:
         node-version-file: .node-version
         cache: pnpm
+
+    - uses: flatt-security/setup-takumi-guard-npm@8f53b50568e4466f2d92504f349c05b9ffcb8b59 # v1
+      with:
+        bot-id: ${{ vars.TAKUMI_GUARD_BOT_ID }}
 
     - name: Install dependencies
       run: pnpm install
@@ -59,6 +73,9 @@ jobs:
   generate:
     runs-on: ubuntu-22.04
     timeout-minutes: 20
+    permissions:
+      id-token: write
+      contents: read
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -71,6 +88,10 @@ jobs:
       with:
         node-version-file: .node-version
         cache: pnpm
+
+    - uses: flatt-security/setup-takumi-guard-npm@8f53b50568e4466f2d92504f349c05b9ffcb8b59 # v1
+      with:
+        bot-id: ${{ vars.TAKUMI_GUARD_BOT_ID }}
 
     - name: Install dependencies
       run: pnpm install

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cybozu.github.io/tech-blog-rss-feed/</id>
+    <title>サイボウズのTech系ブログRSS</title>
+    <updated>2026-04-27T05:03:27.312Z</updated>
+    <generator>cybozu/tech-blog-rss-feed</generator>
+    <link rel="alternate" href="https://cybozu.github.io/tech-blog-rss-feed/"/>
+    <link rel="self" href="https://cybozu.github.io/tech-blog-rss-feed/feeds/atom.xml"/>
+    <subtitle>サイボウズのTech系ブログの更新をまとめたRSSフィード</subtitle>
+    <logo>https://cybozu.github.io/tech-blog-rss-feed/images/icon.png</logo>
+    <icon>https://cybozu.github.io/tech-blog-rss-feed/images/favicon.ico</icon>
+    <rights>cybozu/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[モバイルQAで積んだテスト設計が、gRPCの自動テストを支えてくれた | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/04/27/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/04/27/113000"/>
+        <updated>2026-04-27T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！サイボウズ Office で QA エンジニアをしている、水谷（@dog_dog_3dog）です！ 今回は、新卒3年目を迎える3人のQA同期メンバーのリレーブログの2本目として、「仕事の変化はあるけれど、やってきたことはちゃんと力になっている」というテーマで書いてみようと思います。 1年前には想像していなかった今の仕事 3年目を迎えた今、私はグループウェア製品の中のLLM アプリの開発]]></summary>
+        <content type="html"><![CDATA[こんにちは！サイボウズ Office で QA エンジニアをしている、水谷（@dog_dog_3dog）です！ 今回は、新卒3年目を迎える3人のQA同期メンバーのリレーブログの2本目として、「仕事の変化はあるけれど、やってきたことはちゃんと力になっている」というテーマで書いてみようと思います。 1年前には想像していなかった今の仕事 3年目を迎えた今、私はグループウェア製品の中のLLM アプリの開発チームで、QA のリードとして働いています。 その中で、LLM アプリのバックエンドで使っている gRPC API のテストを、2か月で 500〜600 シナリオほど実装しました。 今の自分だけを見る…]]></content>
+        <published>2026-04-27T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新卒3年目QAの振り返り：少しずつできることが増えてきた話 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/04/24/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/04/24/113000"/>
+        <updated>2026-04-24T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[はじめに こんにちは、24卒のQAエンジニアの永田です。 kintoneのアプリ設定チームに所属しています。 本記事は、同期3人での振り返りブログの1本目です。 24卒のQAの3人は、それぞれ異なるプロダクトのチームに所属しているため、同じQAという職種であっても業務内容は少しずつ異なります。 そのため入社してから月に1回、ざつだん会を開き、各自の近況報告や悩み相談などをゆるく共有しています。 そ]]></summary>
+        <content type="html"><![CDATA[はじめに こんにちは、24卒のQAエンジニアの永田です。 kintoneのアプリ設定チームに所属しています。 本記事は、同期3人での振り返りブログの1本目です。 24卒のQAの3人は、それぞれ異なるプロダクトのチームに所属しているため、同じQAという職種であっても業務内容は少しずつ異なります。 そのため入社してから月に1回、ざつだん会を開き、各自の近況報告や悩み相談などをゆるく共有しています。 そんなざつだん会の中で、「入社して3年目が経った記念にブログを書こう！」という話になり、今回の記事を書くことになりました。 サイボウズでは内定者アルバイトや入社1年目の振り返りブログが多く公開されていま…]]></content>
+        <published>2026-04-24T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MythosとProject Glasswingなど: Cybozu PSIRT Monthly（2026年4月号） | サイボウズ PSIRTのフィード]]></title>
+        <id>https://zenn.dev/cybozu_psirt/articles/a034c845769eb8</id>
+        <link href="https://zenn.dev/cybozu_psirt/articles/a034c845769eb8"/>
+        <updated>2026-04-24T00:02:37.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは🌸massanです。 はじめにPSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年4月にスレッド内で共有された記事や話題を紹介します。今回は、4月の1ヶ月間PSIRTに体験入部しているmassanがお送りします！普段は開発チームでのQAと、プロダクトのセキュリティチャンピオンをしています。 共有された記事・話題]]></summary>
+        <content type="html"><![CDATA[こんにちは🌸massanです。 はじめにPSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年4月にスレッド内で共有された記事や話題を紹介します。今回は、4月の1ヶ月間PSIRTに体験入部しているmassanがお送りします！普段は開発チームでのQAと、プロダクトのセキュリティチャンピオンをしています。 共有された記事・話題 サプライチェーン強化に向けたセキュリティ対策評価制度に関する制度構築方針https://www.meti.go.jp/press/2025/03/20260327001/202...]]></content>
+        <author>
+            <name>massan</name>
+        </author>
+        <published>2026-04-24T00:02:37.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.04.23号 | サイボウズ開発本部  Tech Media Platform]]></title>
+        <id>https://note.com/_tetrapod/n/n249d962583d0</id>
+        <link href="https://note.com/_tetrapod/n/n249d962583d0"/>
+        <updated>2026-04-23T01:34:38.000Z</updated>
+        <summary type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部の貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部の貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる]]></content>
+        <published>2026-04-23T01:34:38.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[actions-timelineがcomposite actionsを展開してタイムライン表示可能になった | サイボウズ 生産性向上チーム 💪のフィード]]></title>
+        <id>https://zenn.dev/cybozu_ept/articles/20260418_actions_timeline_expand_composite</id>
+        <link href="https://zenn.dev/cybozu_ept/articles/20260418_actions_timeline_expand_composite"/>
+        <updated>2026-04-21T00:00:10.000Z</updated>
+        <summary type="html"><![CDATA[actions-timelineがcomposite actionsの展開をサポートしましたGitHub Actionsの各ステップにどれだけ時間がかかっているかをタイムライン形式で表示できるKesin11/actions-timelineというOSSを開発しています。actions-timelineのリリース当初から要望をいただいていたものの、今まで実現できなかった機能の1つに、composit]]></summary>
+        <content type="html"><![CDATA[actions-timelineがcomposite actionsの展開をサポートしましたGitHub Actionsの各ステップにどれだけ時間がかかっているかをタイムライン形式で表示できるKesin11/actions-timelineというOSSを開発しています。actions-timelineのリリース当初から要望をいただいていたものの、今まで実現できなかった機能の1つに、composite actionsを実際に実行されている各stepへ分解する機能がありました。先日リリースしたv3.1.0で、ようやくそれを実装できました。以下のオプションを指定すると、composit...]]></content>
+        <author>
+            <name>Kesin11</name>
+        </author>
+        <published>2026-04-21T00:00:10.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[不確実性を下げるリファインメントでのQAの関わり方 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/04/17/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/04/17/113000"/>
+        <updated>2026-04-17T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、2026年2月に開催された社内カンファレンス「開運冬まつり2026 Day1セッション」のQAエンジニアレーンで発表されたLTをブログ形式にして発信しているものです。2026春QAエンジニアリレーブログ、ついに最後の6本目の記事となります。 こんにちは。kintone拡張基盤チームQAエンジニアのmassanです。拡張基盤チームではここ1年半ほど、チーム全員（EM・PdE・QA）でPB]]></summary>
+        <content type="html"><![CDATA[この記事は、2026年2月に開催された社内カンファレンス「開運冬まつり2026 Day1セッション」のQAエンジニアレーンで発表されたLTをブログ形式にして発信しているものです。2026春QAエンジニアリレーブログ、ついに最後の6本目の記事となります。 こんにちは。kintone拡張基盤チームQAエンジニアのmassanです。拡張基盤チームではここ1年半ほど、チーム全員（EM・PdE・QA）でPBIのストーリーポイント（SP）を見積もっています。今回はその経緯、リファインメントでの会話の変化、効果についてお話しします。 なんとなくで見積もっていた従来方針 チームが立ち上がった当時はスクラムを厳…]]></content>
+        <published>2026-04-17T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[エンジニアインターンシップ2026を開催します！ | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/04/16/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/04/16/113000"/>
+        <updated>2026-04-16T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[インターンシップ/ロゴ こんにちは！エンジニアインターン運営チームです。 サイボウズでは毎年夏に、エンジニア向けのサマーインターンシップを開催しています。今年はフルリモートに加えて、対面のオフラインでも開催しますのでぜひ実際にサイボウズの雰囲気を体験しにきてみてください！ どんなインターン？ 製品開発を行うチームに加えて、製品開発を支えるチームやプラットフォームに関わるコースなど、全14コースをご]]></summary>
+        <content type="html"><![CDATA[インターンシップ/ロゴ こんにちは！エンジニアインターン運営チームです。 サイボウズでは毎年夏に、エンジニア向けのサマーインターンシップを開催しています。今年はフルリモートに加えて、対面のオフラインでも開催しますのでぜひ実際にサイボウズの雰囲気を体験しにきてみてください！ どんなインターン？ 製品開発を行うチームに加えて、製品開発を支えるチームやプラットフォームに関わるコースなど、全14コースをご用意しています。 課題や業務を通して、チームが実際に使っている環境を体験しながら、開発や現場の雰囲気に触れることができます。 社長と話す機会や、気になる社員を指名して1対1で話す時間など、コンテンツ以…]]></content>
+        <published>2026-04-16T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.04.16号 | サイボウズ開発本部  Tech Media Platform]]></title>
+        <id>https://note.com/_tetrapod/n/n5ff5b34e17df</id>
+        <link href="https://note.com/_tetrapod/n/n5ff5b34e17df"/>
+        <updated>2026-04-16T00:07:59.000Z</updated>
+        <summary type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部の貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部の貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる]]></content>
+        <published>2026-04-16T00:07:59.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SEB SUMMITは札幌のエンジニアの素敵な交流の場でした | サイボウズ開発本部  Tech Media Platform]]></title>
+        <id>https://note.com/_tetrapod/n/n2f427f1e2409</id>
+        <link href="https://note.com/_tetrapod/n/n2f427f1e2409"/>
+        <updated>2026-04-15T07:13:54.000Z</updated>
+        <summary type="html"><![CDATA[皆さん、ごきげんよう。サイボウズ株式会社 開発本部 Tech Media Platformチームの貴島(@jnkykn)です。2026/2/22に、札幌近郊のITエンジニアやITエンジニアを目指す学生の皆さんを対象にしたミートアップ、SEB SUMMITに参加しました。ブログを書くまでが勉強会なので、当日得られた学びや、感じたことを書きます。 SEB SUMMIT | ITでつながる、札幌。SEB]]></summary>
+        <content type="html"><![CDATA[皆さん、ごきげんよう。サイボウズ株式会社 開発本部 Tech Media Platformチームの貴島(@jnkykn)です。2026/2/22に、札幌近郊のITエンジニアやITエンジニアを目指す学生の皆さんを対象にしたミートアップ、SEB SUMMITに参加しました。ブログを書くまでが勉強会なので、当日得られた学びや、感じたことを書きます。 SEB SUMMIT | ITでつながる、札幌。SEB SUMMITは札幌近郊のITエンジニアやITエンジニアを志望する学生、IT企業を対象としたミートアップイベントですsummit.sapporo-engineer-base.dev 続きをみる]]></content>
+        <published>2026-04-15T07:13:54.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebのWYSIWYGなルビ入力の現在 | サイボウズ フロントエンドのフィード]]></title>
+        <id>https://zenn.dev/cybozu_frontend/articles/ruby-wysiwyg</id>
+        <link href="https://zenn.dev/cybozu_frontend/articles/ruby-wysiwyg"/>
+        <updated>2026-04-14T03:13:06.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！26卒でサイボウズに入社した、かりんとうです。会社ではコサキンと名乗ることにしたので、ニックネームをどう切り替えるか悩みです。早速ですが、最近ルビについて調べる機会があったので、情報を整理するためにもこの記事で紹介します。 はじめにルビ（ruby）は、文字にふりがなや補足情報を付けるための仕組みです。日本では、漫画・小説・教科書・新聞など、さまざまな場面でルビが使われています。ルビは、]]></summary>
+        <content type="html"><![CDATA[こんにちは！26卒でサイボウズに入社した、かりんとうです。会社ではコサキンと名乗ることにしたので、ニックネームをどう切り替えるか悩みです。早速ですが、最近ルビについて調べる機会があったので、情報を整理するためにもこの記事で紹介します。 はじめにルビ（ruby）は、文字にふりがなや補足情報を付けるための仕組みです。日本では、漫画・小説・教科書・新聞など、さまざまな場面でルビが使われています。ルビは、難読漢字や固有名詞の読みを示し、読者の理解を助けるために用いられることが多いです。縦書きと併用されることも少なくありません。他の国でも使われており、例えば中国では発音を示す拼音（ピ...]]></content>
+        <author>
+            <name>かりんとう（コサキン）</name>
+        </author>
+        <published>2026-04-14T03:13:06.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイボウズのQA内定者アルバイトって何をするの？ | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/04/14/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/04/14/113000"/>
+        <updated>2026-04-14T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！26卒で新卒入社をしたQAエンジニアのまりケロんです。私は2025年9月〜2026年3月までの6ヶ月間、QAエンジニアとして内定者アルバイトをしていました。 今回は、サイボウズのQAエンジニア内定者アルバイトでは何をするのか？私が何をしていたのか？を、その時々で感じた感情と共にお伝えできたらと思います！ 自己紹介 QAエンジニア内定者アルバイト、どうやって始めた？ kintoneの開発]]></summary>
+        <content type="html"><![CDATA[こんにちは！26卒で新卒入社をしたQAエンジニアのまりケロんです。私は2025年9月〜2026年3月までの6ヶ月間、QAエンジニアとして内定者アルバイトをしていました。 今回は、サイボウズのQAエンジニア内定者アルバイトでは何をするのか？私が何をしていたのか？を、その時々で感じた感情と共にお伝えできたらと思います！ 自己紹介 QAエンジニア内定者アルバイト、どうやって始めた？ kintoneの開発チームに参画しました 本題！QAエンジニア内定者アルバイトでは何をする？ タスク紹介 kintoneについて学ぶ（2025年9月〜10月） QAの業務について学ぶ：初級編（11月） QAの業務について…]]></content>
+        <published>2026-04-14T02:30:00.000Z</published>
+    </entry>
+</feed>

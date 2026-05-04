@@ -1,0 +1,219 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "サイボウズのTech系ブログRSS",
+    "home_page_url": "https://cybozu.github.io/tech-blog-rss-feed/",
+    "feed_url": "https://cybozu.github.io/tech-blog-rss-feed/feeds/feed.json",
+    "description": "サイボウズのTech系ブログの更新をまとめたRSSフィード",
+    "icon": "https://cybozu.github.io/tech-blog-rss-feed/images/icon.png",
+    "items": [
+        {
+            "id": "https://note.com/_tetrapod/n/n1f9e9a8275f4",
+            "content_html": "皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部の貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる",
+            "url": "https://note.com/_tetrapod/n/n1f9e9a8275f4",
+            "title": "今週のCybozuのエンジニアの登壇・イベント情報 2026.04.30号 | サイボウズ開発本部  Tech Media Platform",
+            "summary": "皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部の貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる",
+            "image": {
+                "url": "https://assets.st-note.com/production/uploads/images/271650565/rectangle_large_type_2_f4f7a381c052e53d2f46e06423aacdf1.png?fit=bounds&quality=85&width=1280",
+                "type": "png"
+            },
+            "date_modified": "2026-04-30T08:51:16.000Z",
+            "date_published": "2026-04-30T08:51:16.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "今週のCybozuのエンジニアの登壇・イベント情報 2026.04.30号",
+                "blogTitle": "サイボウズ開発本部  Tech Media Platform",
+                "blogLink": "https://note.com/cybozutech/m/m459547f65fe8",
+                "blogLinkMd5Hash": "e5c9fcd1f59f2109f605cf853f635f7c",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico"
+            }
+        },
+        {
+            "id": "https://blog.cybozu.io/entry/2026/04/30/113000",
+            "content_html": "入社5年、同期3人の振り返り こんにちは！2021年にサイボウズへ新卒入社した massan、taguchi、taku3n です。気がつけば入社から5年。同期3人がそろって在籍しているこの機会に、それぞれの5年間を振り返ってみました。 massan kintone拡張基盤チームのQAエンジニアです。着物の勉強をしています。 taguchi PSIRTのプロダクトセキュリティエンジニアです。ラーメンが好きです。 taku3n Garoon開発チームのQAエンジニアです。最近ボードゲームにハマってます。 この記事は、QA として入社して１年経った話のリバイバル記事です。 ※元記事では柔軟な働き方に…",
+            "url": "https://blog.cybozu.io/entry/2026/04/30/113000",
+            "title": "QAとして入社して5年が経ちました | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "入社5年、同期3人の振り返り こんにちは！2021年にサイボウズへ新卒入社した massan、taguchi、taku3n です。気がつけば入社から5年。同期3人がそろって在籍しているこの機会に、それぞれの5年間を振り返ってみました。 massan kintone拡張基盤チームのQAエンジニアです。着物の勉強をしています。 taguchi PSIRTのプロダクトセキュリティエンジニアです。ラーメン",
+            "image": {
+                "url": "https://cdn.image.st-hatena.com/image/scale/c0503d6e29afaac3d6c76bbc3df5012e17df018a/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fc%2Fcybozuinsideout%2F20260430%2F20260430113002.png",
+                "alt": "QAとして入社して5年が経ちました - Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "type": "png"
+            },
+            "date_modified": "2026-04-30T02:30:00.000Z",
+            "date_published": "2026-04-30T02:30:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "QAとして入社して5年が経ちました",
+                "blogTitle": "Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "blogLink": "https://blog.cybozu.io/",
+                "blogLinkMd5Hash": "334895ad2f27bf31195a54902c472405",
+                "favicon": "https://blog.cybozu.io/icon/favicon"
+            }
+        },
+        {
+            "id": "https://blog.cybozu.io/entry/2026/04/28/170000",
+            "content_html": "こんにちは、この記事はフロントエンドエンジニアのmehm8128とデザインテクノロジストの小林大輔の共著記事です。 サイボウズは2018年に、WAIC（ウェブアクセシビリティ基盤委員会）の会員組織になりました。 2025年までは、実際に委員として活動しているサイボウズのメンバーは小林大輔1名でしたが、2026年から新しくmehm8128が作業協力者として活動を開始しました。そこで、改めてサイボウズ社員がなぜWAICの活動を行っているのか、具体的にどのような活動を行っているのかを紹介していきます。 そもそもWAICとは WAICについては、公式サイトに以下のような説明が記載されています。 ウェブ…",
+            "url": "https://blog.cybozu.io/entry/2026/04/28/170000",
+            "title": "ウェブアクセシビリティ基盤委員会（WAIC）にてサイボウズメンバーはこんな活動をしています | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "こんにちは、この記事はフロントエンドエンジニアのmehm8128とデザインテクノロジストの小林大輔の共著記事です。 サイボウズは2018年に、WAIC（ウェブアクセシビリティ基盤委員会）の会員組織になりました。 2025年までは、実際に委員として活動しているサイボウズのメンバーは小林大輔1名でしたが、2026年から新しくmehm8128が作業協力者として活動を開始しました。そこで、改めてサイボウズ",
+            "image": {
+                "url": "https://cdn.image.st-hatena.com/image/scale/c537918e18ece9f7d2ca56336c516c0e932e16ef/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fc%2Fcybozuinsideout%2F20260428%2F20260428170007.png",
+                "alt": "ウェブアクセシビリティ基盤委員会（WAIC）にてサイボウズメンバーはこんな活動をしています - Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "type": "png"
+            },
+            "date_modified": "2026-04-28T08:00:00.000Z",
+            "date_published": "2026-04-28T08:00:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 1,
+                "originalTitle": "ウェブアクセシビリティ基盤委員会（WAIC）にてサイボウズメンバーはこんな活動をしています",
+                "blogTitle": "Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "blogLink": "https://blog.cybozu.io/",
+                "blogLinkMd5Hash": "334895ad2f27bf31195a54902c472405",
+                "favicon": "https://blog.cybozu.io/icon/favicon"
+            }
+        },
+        {
+            "id": "https://blog.cybozu.io/entry/2026/04/28/113000",
+            "content_html": "本記事は、2024年入社のQAエンジニア 3人による振り返りブログの3本目です。 まだ読んでいない方は、ぜひ1本目・2本目もあわせてご覧ください！ blog.cybozu.io はじめに こんにちは、GaroonというプロダクトでQAエンジニアをしている reo（@i_moqa）です⛄️ Garoonの開発チームは複数のチームで構成されているのですが、私はその中のYukimiチームに所属しています。 YukimiチームはGaroonで使用しているOSS（オープンソースソフトウェア）の更新や、セキュリティの維持・向上に向けた開発・保守を担当しています。 Yukimiチームの詳細については以下の記…",
+            "url": "https://blog.cybozu.io/entry/2026/04/28/113000",
+            "title": "QAエンジニアとして 1年目 → 2年目 の仕事はどう変わった？これまでの変化を振り返る | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "本記事は、2024年入社のQAエンジニア 3人による振り返りブログの3本目です。 まだ読んでいない方は、ぜひ1本目・2本目もあわせてご覧ください！ blog.cybozu.io はじめに こんにちは、GaroonというプロダクトでQAエンジニアをしている reo（@i_moqa）です⛄️ Garoonの開発チームは複数のチームで構成されているのですが、私はその中のYukimiチームに所属しています",
+            "image": {
+                "url": "https://cdn.image.st-hatena.com/image/scale/88c393e102be2ff5ed735c9aeb71152471abd984/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fc%2Fcybozuinsideout%2F20260428%2F20260428113001.png",
+                "alt": "QAエンジニアとして 1年目 → 2年目 の仕事はどう変わった？これまでの変化を振り返る - Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "type": "png"
+            },
+            "date_modified": "2026-04-28T02:30:00.000Z",
+            "date_published": "2026-04-28T02:30:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "QAエンジニアとして 1年目 → 2年目 の仕事はどう変わった？これまでの変化を振り返る",
+                "blogTitle": "Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "blogLink": "https://blog.cybozu.io/",
+                "blogLinkMd5Hash": "334895ad2f27bf31195a54902c472405",
+                "favicon": "https://blog.cybozu.io/icon/favicon"
+            }
+        },
+        {
+            "id": "https://blog.cybozu.io/entry/2026/04/27/113000",
+            "content_html": "こんにちは！サイボウズ Office で QA エンジニアをしている、水谷（@dog_dog_3dog）です！ 今回は、新卒3年目を迎える3人のQA同期メンバーのリレーブログの2本目として、「仕事の変化はあるけれど、やってきたことはちゃんと力になっている」というテーマで書いてみようと思います。 1年前には想像していなかった今の仕事 3年目を迎えた今、私はグループウェア製品の中のLLM アプリの開発チームで、QA のリードとして働いています。 その中で、LLM アプリのバックエンドで使っている gRPC API のテストを、2か月で 500〜600 シナリオほど実装しました。 今の自分だけを見る…",
+            "url": "https://blog.cybozu.io/entry/2026/04/27/113000",
+            "title": "モバイルQAで積んだテスト設計が、gRPCの自動テストを支えてくれた | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "こんにちは！サイボウズ Office で QA エンジニアをしている、水谷（@dog_dog_3dog）です！ 今回は、新卒3年目を迎える3人のQA同期メンバーのリレーブログの2本目として、「仕事の変化はあるけれど、やってきたことはちゃんと力になっている」というテーマで書いてみようと思います。 1年前には想像していなかった今の仕事 3年目を迎えた今、私はグループウェア製品の中のLLM アプリの開発",
+            "image": {
+                "url": "https://cdn.image.st-hatena.com/image/scale/215af649253cc3c30b7a297ceb08468a93a46809/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fc%2Fcybozuinsideout%2F20260427%2F20260427113001.png",
+                "alt": "モバイルQAで積んだテスト設計が、gRPCの自動テストを支えてくれた - Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "type": "png"
+            },
+            "date_modified": "2026-04-27T02:30:00.000Z",
+            "date_published": "2026-04-27T02:30:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "モバイルQAで積んだテスト設計が、gRPCの自動テストを支えてくれた",
+                "blogTitle": "Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "blogLink": "https://blog.cybozu.io/",
+                "blogLinkMd5Hash": "334895ad2f27bf31195a54902c472405",
+                "favicon": "https://blog.cybozu.io/icon/favicon"
+            }
+        },
+        {
+            "id": "https://blog.cybozu.io/entry/2026/04/24/113000",
+            "content_html": "はじめに こんにちは、24卒のQAエンジニアの永田です。 kintoneのアプリ設定チームに所属しています。 本記事は、同期3人での振り返りブログの1本目です。 24卒のQAの3人は、それぞれ異なるプロダクトのチームに所属しているため、同じQAという職種であっても業務内容は少しずつ異なります。 そのため入社してから月に1回、ざつだん会を開き、各自の近況報告や悩み相談などをゆるく共有しています。 そんなざつだん会の中で、「入社して3年目が経った記念にブログを書こう！」という話になり、今回の記事を書くことになりました。 サイボウズでは内定者アルバイトや入社1年目の振り返りブログが多く公開されていま…",
+            "url": "https://blog.cybozu.io/entry/2026/04/24/113000",
+            "title": "新卒3年目QAの振り返り：少しずつできることが増えてきた話 | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "はじめに こんにちは、24卒のQAエンジニアの永田です。 kintoneのアプリ設定チームに所属しています。 本記事は、同期3人での振り返りブログの1本目です。 24卒のQAの3人は、それぞれ異なるプロダクトのチームに所属しているため、同じQAという職種であっても業務内容は少しずつ異なります。 そのため入社してから月に1回、ざつだん会を開き、各自の近況報告や悩み相談などをゆるく共有しています。 そ",
+            "image": {
+                "url": "https://cdn.image.st-hatena.com/image/scale/97abefc6cd972d765be2f3c50c0c58fe05417105/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fc%2Fcybozuinsideout%2F20260424%2F20260424113002.png",
+                "alt": "新卒3年目QAの振り返り：少しずつできることが増えてきた話 - Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "type": "png"
+            },
+            "date_modified": "2026-04-24T02:30:00.000Z",
+            "date_published": "2026-04-24T02:30:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "新卒3年目QAの振り返り：少しずつできることが増えてきた話",
+                "blogTitle": "Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "blogLink": "https://blog.cybozu.io/",
+                "blogLinkMd5Hash": "334895ad2f27bf31195a54902c472405",
+                "favicon": "https://blog.cybozu.io/icon/favicon"
+            }
+        },
+        {
+            "id": "https://zenn.dev/cybozu_psirt/articles/a034c845769eb8",
+            "content_html": "こんにちは🌸massanです。 はじめにPSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年4月にスレッド内で共有された記事や話題を紹介します。今回は、4月の1ヶ月間PSIRTに体験入部しているmassanがお送りします！普段は開発チームでのQAと、プロダクトのセキュリティチャンピオンをしています。 共有された記事・話題 サプライチェーン強化に向けたセキュリティ対策評価制度に関する制度構築方針https://www.meti.go.jp/press/2025/03/20260327001/202...",
+            "url": "https://zenn.dev/cybozu_psirt/articles/a034c845769eb8",
+            "title": "MythosとProject Glasswingなど: Cybozu PSIRT Monthly（2026年4月号） | サイボウズ PSIRTのフィード",
+            "summary": "こんにちは🌸massanです。 はじめにPSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年4月にスレッド内で共有された記事や話題を紹介します。今回は、4月の1ヶ月間PSIRTに体験入部しているmassanがお送りします！普段は開発チームでのQAと、プロダクトのセキュリティチャンピオンをしています。 共有された記事・話題",
+            "image": {
+                "url": "https://res.cloudinary.com/zenn/image/upload/s--WPrc5Gaq--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Mythos%25E3%2581%25A8Project%2520Glasswing%25E3%2581%25AA%25E3%2581%25A9%253A%2520Cybozu%2520PSIRT%2520Monthly%25EF%25BC%25882026%25E5%25B9%25B44%25E6%259C%2588%25E5%258F%25B7%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:massan%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJhYzE0YjIxMzQuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%259C%25E3%2582%25A6%25E3%2582%25BA%2520PSIRT%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RlNzg2MjM3ODcuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACAGSGT",
+                "type": "png"
+            },
+            "date_modified": "2026-04-24T00:02:37.000Z",
+            "date_published": "2026-04-24T00:02:37.000Z",
+            "author": {
+                "name": "massan"
+            },
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "MythosとProject Glasswingなど: Cybozu PSIRT Monthly（2026年4月号）",
+                "blogTitle": "サイボウズ PSIRTのフィード",
+                "blogLink": "https://zenn.dev/p/cybozu_psirt",
+                "blogLinkMd5Hash": "7d65c8362dc0f284d6eb51b2222d8e52",
+                "favicon": "https://static.zenn.studio/images/logo-transparent.png"
+            }
+        },
+        {
+            "id": "https://note.com/_tetrapod/n/n249d962583d0",
+            "content_html": "皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部の貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる",
+            "url": "https://note.com/_tetrapod/n/n249d962583d0",
+            "title": "今週のCybozuのエンジニアの登壇・イベント情報 2026.04.23号 | サイボウズ開発本部  Tech Media Platform",
+            "summary": "皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部の貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる",
+            "image": {
+                "url": "https://assets.st-note.com/production/uploads/images/269403346/rectangle_large_type_2_43d42045c981fdd8724cfda1d3621196.png?fit=bounds&quality=85&width=1280",
+                "type": "png"
+            },
+            "date_modified": "2026-04-23T01:34:38.000Z",
+            "date_published": "2026-04-23T01:34:38.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "今週のCybozuのエンジニアの登壇・イベント情報 2026.04.23号",
+                "blogTitle": "サイボウズ開発本部  Tech Media Platform",
+                "blogLink": "https://note.com/cybozutech/m/m459547f65fe8",
+                "blogLinkMd5Hash": "e5c9fcd1f59f2109f605cf853f635f7c",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico"
+            }
+        },
+        {
+            "id": "https://zenn.dev/cybozu_ept/articles/20260418_actions_timeline_expand_composite",
+            "content_html": "actions-timelineがcomposite actionsの展開をサポートしましたGitHub Actionsの各ステップにどれだけ時間がかかっているかをタイムライン形式で表示できるKesin11/actions-timelineというOSSを開発しています。actions-timelineのリリース当初から要望をいただいていたものの、今まで実現できなかった機能の1つに、composite actionsを実際に実行されている各stepへ分解する機能がありました。先日リリースしたv3.1.0で、ようやくそれを実装できました。以下のオプションを指定すると、composit...",
+            "url": "https://zenn.dev/cybozu_ept/articles/20260418_actions_timeline_expand_composite",
+            "title": "actions-timelineがcomposite actionsを展開してタイムライン表示可能になった | サイボウズ 生産性向上チーム 💪のフィード",
+            "summary": "actions-timelineがcomposite actionsの展開をサポートしましたGitHub Actionsの各ステップにどれだけ時間がかかっているかをタイムライン形式で表示できるKesin11/actions-timelineというOSSを開発しています。actions-timelineのリリース当初から要望をいただいていたものの、今まで実現できなかった機能の1つに、composit",
+            "image": {
+                "url": "https://res.cloudinary.com/zenn/image/upload/s--EwYZkTbP--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:actions-timeline%25E3%2581%258Ccomposite%2520actions%25E3%2582%2592%25E5%25B1%2595%25E9%2596%258B%25E3%2581%2597%25E3%2581%25A6%25E3%2582%25BF%25E3%2582%25A4%25E3%2583%25A0%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%25B3%25E8%25A1%25A8%25E7%25A4%25BA%25E5%258F%25AF%25E8%2583%25BD%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Kesin11%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RmZGEyOTIyNDQuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%259C%25E3%2582%25A6%25E3%2582%25BA%2520%25E7%2594%259F%25E7%2594%25A3%25E6%2580%25A7%25E5%2590%2591%25E4%25B8%258A%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%2520%2520%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2l5YnpxY196Y2VPbEhIWlJGajNaSDdYWlM0OXVCNzdFZVZjV2xrbXc9czI1MC1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACAGSGT",
+                "type": "png"
+            },
+            "date_modified": "2026-04-21T00:00:10.000Z",
+            "date_published": "2026-04-21T00:00:10.000Z",
+            "author": {
+                "name": "Kesin11"
+            },
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "actions-timelineがcomposite actionsを展開してタイムライン表示可能になった",
+                "blogTitle": "サイボウズ 生産性向上チーム 💪のフィード",
+                "blogLink": "https://zenn.dev/p/cybozu_ept",
+                "blogLinkMd5Hash": "b9b4fbc3d2a86a3d0fbe358d7c297290",
+                "favicon": "https://static.zenn.studio/images/logo-transparent.png"
+            }
+        }
+    ]
+}

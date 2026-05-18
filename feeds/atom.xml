@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cybozu.github.io/tech-blog-rss-feed/</id>
+    <title>サイボウズのTech系ブログRSS</title>
+    <updated>2026-05-18T09:07:17.415Z</updated>
+    <generator>cybozu/tech-blog-rss-feed</generator>
+    <link rel="alternate" href="https://cybozu.github.io/tech-blog-rss-feed/"/>
+    <link rel="self" href="https://cybozu.github.io/tech-blog-rss-feed/feeds/atom.xml"/>
+    <subtitle>サイボウズのTech系ブログの更新をまとめたRSSフィード</subtitle>
+    <logo>https://cybozu.github.io/tech-blog-rss-feed/images/icon.png</logo>
+    <icon>https://cybozu.github.io/tech-blog-rss-feed/images/favicon.ico</icon>
+    <rights>cybozu/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.05.14号 | サイボウズ開発本部  Tech Media Platform]]></title>
+        <id>https://note.com/_tetrapod/n/n5b09db350eae</id>
+        <link href="https://note.com/_tetrapod/n/n5b09db350eae"/>
+        <updated>2026-05-14T09:02:30.000Z</updated>
+        <summary type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部の貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部の貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる]]></content>
+        <published>2026-05-14T09:02:30.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.05.07号 | サイボウズ開発本部  Tech Media Platform]]></title>
+        <id>https://note.com/_tetrapod/n/n8996b39a3904</id>
+        <link href="https://note.com/_tetrapod/n/n8996b39a3904"/>
+        <updated>2026-05-07T06:41:47.000Z</updated>
+        <summary type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部の貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部の貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる]]></content>
+        <published>2026-05-07T06:41:47.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web 標準動向 2026年4月版 | サイボウズ フロントエンドのフィード]]></title>
+        <id>https://zenn.dev/cybozu_frontend/articles/web_standards_trends_202604</id>
+        <link href="https://zenn.dev/cybozu_frontend/articles/web_standards_trends_202604"/>
+        <updated>2026-05-07T03:38:32.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！ サイボウズ株式会社 フロントエンドエンジニアの Saji (@sajikix) です。 はじめにサイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。https://blog.cybozu.io/entry/joining-w3c標準化プロセスに関わることができるようになるための最初の一歩として、フロントエンドエンジニアの一部のメンバーは積極的に Web 標準のキ]]></summary>
+        <content type="html"><![CDATA[こんにちは！ サイボウズ株式会社 フロントエンドエンジニアの Saji (@sajikix) です。 はじめにサイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。https://blog.cybozu.io/entry/joining-w3c標準化プロセスに関わることができるようになるための最初の一歩として、フロントエンドエンジニアの一部のメンバーは積極的に Web 標準のキャッチアップを行っています。そこで、毎月メンバーが興味を持った Web 標準に関する話題や、実際に標準化プロセスに関わることができた場合にはその報告などを 1 つの記事としてまとめ、...]]></content>
+        <author>
+            <name>Saji</name>
+        </author>
+        <published>2026-05-07T03:38:32.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[成長し続ける大規模プロダクトを、小さなチームでどう切り拓くか？開発陣のセッションから見えた意思決定の現在地 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/05/07/090000</id>
+        <link href="https://blog.cybozu.io/entry/2026/05/07/090000"/>
+        <updated>2026-05-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！開発本部 開発広報チームの北地（@tos_kitt）です。 4月8日に開催した Cybozu Tech Meetup では、「巨大プロダクトに小さいチームで大きな変化を起こす」をテーマに、kintone の性能ダッシュボード開発の裏側を取り上げました。 イベント当日は、技術的な工夫だけでなく、チームの意思決定のあり方や、プロダクトに向き合う姿勢まで含めて、学びの多い時間になりました。こ]]></summary>
+        <content type="html"><![CDATA[こんにちは！開発本部 開発広報チームの北地（@tos_kitt）です。 4月8日に開催した Cybozu Tech Meetup では、「巨大プロダクトに小さいチームで大きな変化を起こす」をテーマに、kintone の性能ダッシュボード開発の裏側を取り上げました。 イベント当日は、技術的な工夫だけでなく、チームの意思決定のあり方や、プロダクトに向き合う姿勢まで含めて、学びの多い時間になりました。この記事では、運営者として印象に残ったポイントも交えながら、当日の内容を振り返ります。 なぜこのテーマで開催したのか サイボウズが提供するkintoneは、現在42,000社以上にご利用いただいている巨…]]></content>
+        <published>2026-05-07T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.04.30号 | サイボウズ開発本部  Tech Media Platform]]></title>
+        <id>https://note.com/_tetrapod/n/n1f9e9a8275f4</id>
+        <link href="https://note.com/_tetrapod/n/n1f9e9a8275f4"/>
+        <updated>2026-04-30T08:51:16.000Z</updated>
+        <summary type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部の貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部の貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる]]></content>
+        <published>2026-04-30T08:51:16.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QAとして入社して5年が経ちました | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/04/30/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/04/30/113000"/>
+        <updated>2026-04-30T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[入社5年、同期3人の振り返り こんにちは！2021年にサイボウズへ新卒入社した massan、taguchi、taku3n です。気がつけば入社から5年。同期3人がそろって在籍しているこの機会に、それぞれの5年間を振り返ってみました。 massan kintone拡張基盤チームのQAエンジニアです。着物の勉強をしています。 taguchi PSIRTのプロダクトセキュリティエンジニアです。ラーメン]]></summary>
+        <content type="html"><![CDATA[入社5年、同期3人の振り返り こんにちは！2021年にサイボウズへ新卒入社した massan、taguchi、taku3n です。気がつけば入社から5年。同期3人がそろって在籍しているこの機会に、それぞれの5年間を振り返ってみました。 massan kintone拡張基盤チームのQAエンジニアです。着物の勉強をしています。 taguchi PSIRTのプロダクトセキュリティエンジニアです。ラーメンが好きです。 taku3n Garoon開発チームのQAエンジニアです。最近ボードゲームにハマってます。 この記事は、QA として入社して１年経った話のリバイバル記事です。 ※元記事では柔軟な働き方に…]]></content>
+        <published>2026-04-30T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ウェブアクセシビリティ基盤委員会（WAIC）にてサイボウズメンバーはこんな活動をしています | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/04/28/170000</id>
+        <link href="https://blog.cybozu.io/entry/2026/04/28/170000"/>
+        <updated>2026-04-28T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、この記事はフロントエンドエンジニアのmehm8128とデザインテクノロジストの小林大輔の共著記事です。 サイボウズは2018年に、WAIC（ウェブアクセシビリティ基盤委員会）の会員組織になりました。 2025年までは、実際に委員として活動しているサイボウズのメンバーは小林大輔1名でしたが、2026年から新しくmehm8128が作業協力者として活動を開始しました。そこで、改めてサイボウズ]]></summary>
+        <content type="html"><![CDATA[こんにちは、この記事はフロントエンドエンジニアのmehm8128とデザインテクノロジストの小林大輔の共著記事です。 サイボウズは2018年に、WAIC（ウェブアクセシビリティ基盤委員会）の会員組織になりました。 2025年までは、実際に委員として活動しているサイボウズのメンバーは小林大輔1名でしたが、2026年から新しくmehm8128が作業協力者として活動を開始しました。そこで、改めてサイボウズ社員がなぜWAICの活動を行っているのか、具体的にどのような活動を行っているのかを紹介していきます。 そもそもWAICとは WAICについては、公式サイトに以下のような説明が記載されています。 ウェブ…]]></content>
+        <published>2026-04-28T08:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QAエンジニアとして 1年目 → 2年目 の仕事はどう変わった？これまでの変化を振り返る | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/04/28/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/04/28/113000"/>
+        <updated>2026-04-28T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[本記事は、2024年入社のQAエンジニア 3人による振り返りブログの3本目です。 まだ読んでいない方は、ぜひ1本目・2本目もあわせてご覧ください！ blog.cybozu.io はじめに こんにちは、GaroonというプロダクトでQAエンジニアをしている reo（@i_moqa）です⛄️ Garoonの開発チームは複数のチームで構成されているのですが、私はその中のYukimiチームに所属しています]]></summary>
+        <content type="html"><![CDATA[本記事は、2024年入社のQAエンジニア 3人による振り返りブログの3本目です。 まだ読んでいない方は、ぜひ1本目・2本目もあわせてご覧ください！ blog.cybozu.io はじめに こんにちは、GaroonというプロダクトでQAエンジニアをしている reo（@i_moqa）です⛄️ Garoonの開発チームは複数のチームで構成されているのですが、私はその中のYukimiチームに所属しています。 YukimiチームはGaroonで使用しているOSS（オープンソースソフトウェア）の更新や、セキュリティの維持・向上に向けた開発・保守を担当しています。 Yukimiチームの詳細については以下の記…]]></content>
+        <published>2026-04-28T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[モバイルQAで積んだテスト設計が、gRPCの自動テストを支えてくれた | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/04/27/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/04/27/113000"/>
+        <updated>2026-04-27T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！サイボウズ Office で QA エンジニアをしている、水谷（@dog_dog_3dog）です！ 今回は、新卒3年目を迎える3人のQA同期メンバーのリレーブログの2本目として、「仕事の変化はあるけれど、やってきたことはちゃんと力になっている」というテーマで書いてみようと思います。 1年前には想像していなかった今の仕事 3年目を迎えた今、私はグループウェア製品の中のLLM アプリの開発]]></summary>
+        <content type="html"><![CDATA[こんにちは！サイボウズ Office で QA エンジニアをしている、水谷（@dog_dog_3dog）です！ 今回は、新卒3年目を迎える3人のQA同期メンバーのリレーブログの2本目として、「仕事の変化はあるけれど、やってきたことはちゃんと力になっている」というテーマで書いてみようと思います。 1年前には想像していなかった今の仕事 3年目を迎えた今、私はグループウェア製品の中のLLM アプリの開発チームで、QA のリードとして働いています。 その中で、LLM アプリのバックエンドで使っている gRPC API のテストを、2か月で 500〜600 シナリオほど実装しました。 今の自分だけを見る…]]></content>
+        <published>2026-04-27T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新卒3年目QAの振り返り：少しずつできることが増えてきた話 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/04/24/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/04/24/113000"/>
+        <updated>2026-04-24T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[はじめに こんにちは、24卒のQAエンジニアの永田です。 kintoneのアプリ設定チームに所属しています。 本記事は、同期3人での振り返りブログの1本目です。 24卒のQAの3人は、それぞれ異なるプロダクトのチームに所属しているため、同じQAという職種であっても業務内容は少しずつ異なります。 そのため入社してから月に1回、ざつだん会を開き、各自の近況報告や悩み相談などをゆるく共有しています。 そ]]></summary>
+        <content type="html"><![CDATA[はじめに こんにちは、24卒のQAエンジニアの永田です。 kintoneのアプリ設定チームに所属しています。 本記事は、同期3人での振り返りブログの1本目です。 24卒のQAの3人は、それぞれ異なるプロダクトのチームに所属しているため、同じQAという職種であっても業務内容は少しずつ異なります。 そのため入社してから月に1回、ざつだん会を開き、各自の近況報告や悩み相談などをゆるく共有しています。 そんなざつだん会の中で、「入社して3年目が経った記念にブログを書こう！」という話になり、今回の記事を書くことになりました。 サイボウズでは内定者アルバイトや入社1年目の振り返りブログが多く公開されていま…]]></content>
+        <published>2026-04-24T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MythosとProject Glasswingなど: Cybozu PSIRT Monthly（2026年4月号） | サイボウズ PSIRTのフィード]]></title>
+        <id>https://zenn.dev/cybozu_psirt/articles/a034c845769eb8</id>
+        <link href="https://zenn.dev/cybozu_psirt/articles/a034c845769eb8"/>
+        <updated>2026-04-24T00:02:37.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは🌸massanです。 はじめにPSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年4月にスレッド内で共有された記事や話題を紹介します。今回は、4月の1ヶ月間PSIRTに体験入部しているmassanがお送りします！普段は開発チームでのQAと、プロダクトのセキュリティチャンピオンをしています。 共有された記事・話題]]></summary>
+        <content type="html"><![CDATA[こんにちは🌸massanです。 はじめにPSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年4月にスレッド内で共有された記事や話題を紹介します。今回は、4月の1ヶ月間PSIRTに体験入部しているmassanがお送りします！普段は開発チームでのQAと、プロダクトのセキュリティチャンピオンをしています。 共有された記事・話題 サプライチェーン強化に向けたセキュリティ対策評価制度に関する制度構築方針https://www.meti.go.jp/press/2025/03/20260327001/202...]]></content>
+        <author>
+            <name>massan</name>
+        </author>
+        <published>2026-04-24T00:02:37.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.04.23号 | サイボウズ開発本部  Tech Media Platform]]></title>
+        <id>https://note.com/_tetrapod/n/n249d962583d0</id>
+        <link href="https://note.com/_tetrapod/n/n249d962583d0"/>
+        <updated>2026-04-23T01:34:38.000Z</updated>
+        <summary type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部の貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部の貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる]]></content>
+        <published>2026-04-23T01:34:38.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[actions-timelineがcomposite actionsを展開してタイムライン表示可能になった | サイボウズ 生産性向上チーム 💪のフィード]]></title>
+        <id>https://zenn.dev/cybozu_ept/articles/20260418_actions_timeline_expand_composite</id>
+        <link href="https://zenn.dev/cybozu_ept/articles/20260418_actions_timeline_expand_composite"/>
+        <updated>2026-04-21T00:00:10.000Z</updated>
+        <summary type="html"><![CDATA[actions-timelineがcomposite actionsの展開をサポートしましたGitHub Actionsの各ステップにどれだけ時間がかかっているかをタイムライン形式で表示できるKesin11/actions-timelineというOSSを開発しています。actions-timelineのリリース当初から要望をいただいていたものの、今まで実現できなかった機能の1つに、composit]]></summary>
+        <content type="html"><![CDATA[actions-timelineがcomposite actionsの展開をサポートしましたGitHub Actionsの各ステップにどれだけ時間がかかっているかをタイムライン形式で表示できるKesin11/actions-timelineというOSSを開発しています。actions-timelineのリリース当初から要望をいただいていたものの、今まで実現できなかった機能の1つに、composite actionsを実際に実行されている各stepへ分解する機能がありました。先日リリースしたv3.1.0で、ようやくそれを実装できました。以下のオプションを指定すると、composit...]]></content>
+        <author>
+            <name>Kesin11</name>
+        </author>
+        <published>2026-04-21T00:00:10.000Z</published>
+    </entry>
+</feed>

@@ -27,10 +27,10 @@ const createFeedInfoList = (feedInfoTuples: FeedInfoTuple[]) => {
 const getYear = () => new Date().getFullYear();
 
 /** 今年のBLOG FESのRSSフィードURL */
-const getBlogFesRssUrl = (year: number) => `https://cybozu.github.io/summer-blog-fes-${year}/rss.xml` as ValidUrl;
+const getBlogFesRssUrl = (year: number) => `https://summer-blog-fes.cybozu.io/${year}/rss.xml` as ValidUrl;
 
 /** 今年のBLOG FESのbaseUrl */
-const getBlogFesBaseUrl = (year: number) => `https://cybozu.github.io/summer-blog-fes-${year}` as ValidUrl;
+const getBlogFesBaseUrl = (year: number) => `https://summer-blog-fes.cybozu.io/${year}` as ValidUrl;
 
 /** 指定URLが存在するか（HEADで確認） */
 const existsUrl = async (url: string): Promise<boolean> => {

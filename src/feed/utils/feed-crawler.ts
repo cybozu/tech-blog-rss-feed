@@ -268,26 +268,17 @@ export class FeedCrawler {
       allFeedItems = allFeedItems.concat(feed.items);
     }
 
-    // 重複を排除（linkをキーとして）。SUMMER BLOG FESと他ブログの両方にある場合はFESを優先
+    // 重複を排除（FESと常設ブログは集約しない。同一ソース内での重複は新しい日付を優先）
     const feedItemMap = new Map<string, CustomRssParserItem>();
     for (const feedItem of allFeedItems) {
       if (feedItem.link) {
-        const existingItem = feedItemMap.get(feedItem.link);
-        const currentIsFes = FeedCrawler.isFromSummerBlogFes(feedItem);
-        const existingIsFes = existingItem ? FeedCrawler.isFromSummerBlogFes(existingItem) : false;
+        const key = `${FeedCrawler.isFromSummerBlogFes(feedItem) ? 'fes' : 'blog'}:${feedItem.link}`;
+        const existingItem = feedItemMap.get(key);
 
         if (!existingItem) {
-          feedItemMap.set(feedItem.link, feedItem);
-        } else if (currentIsFes && !existingIsFes) {
-          // 現在がFES・既存が他ブログ → FESを優先
-          feedItemMap.set(feedItem.link, feedItem);
-        } else if (!currentIsFes && existingIsFes) {
-          // 現在が他ブログ・既存がFES → 既存のまま（何もしない）
-        } else {
-          // 両方FES or 両方FESでない → より新しい日付のものを優先
-          if (feedItem.isoDate && existingItem.isoDate && feedItem.isoDate > existingItem.isoDate) {
-            feedItemMap.set(feedItem.link, feedItem);
-          }
+          feedItemMap.set(key, feedItem);
+        } else if (feedItem.isoDate && existingItem.isoDate && feedItem.isoDate > existingItem.isoDate) {
+          feedItemMap.set(key, feedItem);
         }
       }
     }

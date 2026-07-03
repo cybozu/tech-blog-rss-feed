@@ -44,25 +44,29 @@ const existsUrl = async (url: string): Promise<boolean> => {
 
 /**
  * CYBOZU SUMMER BLOG FESのRSSフィードURLとbaseUrlを解決する。
- * 今年のURLが存在すれば今年、存在しなければ1年前のURLを返す。
+ * 今年・前年の順に存在確認し、どちらも存在しなければnullを返す。
  */
-const resolveBlogFesUrls = async (): Promise<{ url: ValidUrl; baseUrl: ValidUrl }> => {
+const resolveBlogFesUrls = async (): Promise<{ url: ValidUrl; baseUrl: ValidUrl } | null> => {
   const thisYear = getYear();
-  const thisYearRssUrl = getBlogFesRssUrl(thisYear);
-  if (await existsUrl(thisYearRssUrl)) {
-    return { url: thisYearRssUrl, baseUrl: getBlogFesBaseUrl(thisYear) };
+  for (const year of [thisYear, thisYear - 1]) {
+    const rssUrl = getBlogFesRssUrl(year);
+    if (await existsUrl(rssUrl)) {
+      return { url: rssUrl, baseUrl: getBlogFesBaseUrl(year) };
+    }
   }
-  const lastYear = thisYear - 1;
-  return { url: getBlogFesRssUrl(lastYear), baseUrl: getBlogFesBaseUrl(lastYear) };
+  return null;
 };
 
 /**
- * フィード情報一覧を取得する（BLOG FESは存在する年のURLに解決される）
+ * フィード情報一覧を取得する（BLOG FESはRSSが存在する年のURLに解決され、存在しない場合はスキップ）
  */
 export const getFeedInfoList = async (): Promise<FeedInfo[]> => {
   const blogFes = await resolveBlogFesUrls();
+  const blogFesTuples: FeedInfoTuple[] = blogFes
+    ? [['CYBOZU SUMMER BLOG FES', blogFes.url, blogFes.baseUrl, 'blog']]
+    : [];
   return createFeedInfoList([
-    ['CYBOZU SUMMER BLOG FES', blogFes.url, blogFes.baseUrl, 'blog'],
+    ...blogFesTuples,
     ['Cybozu Vietnam Tech Sharing', 'https://tech.cybozu.vn/rss.xml', 'https://tech.cybozu.vn', 'blog'],
     ['Kintone Engineering Blog', 'https://blog.kintone.io/feed', 'https://blog.kintone.io/', 'blog'],
     [

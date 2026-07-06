@@ -389,10 +389,10 @@ export class FeedCrawler {
     const [error, ogsResponse] = await to<{ result: OgObject }>(ogs(options));
     if (error) {
       // 一部サイトでJsonParseErrorが発生するが、サイフロ通信は固定のogpを設定して返却する
-      const regexCyFro = 'podcasters.spotify.com/pod/show/cybozu-frontend';
+      // Spotifyはpodcasters.spotify.com（旧）→ creators.spotify.com（新）にドメイン移行済み
+      const isCyFro = /spotify\.com\/.*cybozu-frontend/.test(url);
 
-      const matchResult = url.match(regexCyFro);
-      if (matchResult !== null && matchResult.length > 0) {
+      if (isCyFro) {
         return {
           ogTitle: 'サイボウズ フロントエンド通信',
           ogImage: [

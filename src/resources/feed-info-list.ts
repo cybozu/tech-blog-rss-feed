@@ -120,7 +120,7 @@ export const getFeedInfoList = async (): Promise<FeedInfo[]> => {
     [
       'サイボウズ フロントエンド通信',
       'https://anchor.fm/s/ec10d0c8/podcast/rss',
-      'https://podcasters.spotify.com/pod/show/cybozu-frontend',
+      'https://creators.spotify.com/pod/profile/cybozu-frontend',
       'podcast',
     ],
     [
@@ -161,7 +161,7 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['サイボウズ 流氷自由帳', 'https://note.com/cybozutech/m/m9707f4c496e6/rss', 'https://note.com/cybozutech/m/m9707f4c496e6', 'blog'],
   ['サイボウズ Tech Media Platformチーム', 'https://note.com/cybozutech/m/m459547f65fe8/rss', 'https://note.com/cybozutech/m/m459547f65fe8', 'blog'],
   // 音声コンテンツ
-  ['サイボウズ フロントエンド通信', 'https://anchor.fm/s/ec10d0c8/podcast/rss', 'https://podcasters.spotify.com/pod/show/cybozu-frontend', 'podcast'],
+  ['サイボウズ フロントエンド通信', 'https://anchor.fm/s/ec10d0c8/podcast/rss', 'https://creators.spotify.com/pod/profile/cybozu-frontend', 'podcast'],
   ['Cybozu Design Podcast', 'https://feed.podbean.com/cybozudesign/feed.xml', 'https://cybozudesign.podbean.com', 'podcast'],
   ['流氷交差点', 'https://feeds.soundcloud.com/users/soundcloud:users:970362685/sounds.rss', 'https://soundcloud.com/cybozutech', 'podcast'],
  ]);

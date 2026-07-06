@@ -189,7 +189,7 @@ export class FeedCrawler {
     // ブログごとの調整
     switch (feedInfo.label) {
       case 'CYBOZU SUMMER BLOG FES':
-        // RSSのchannel/linkがhttps://cybozu.github.io/のため、baseUrlで上書き（isFromSummerBlogFesの判定に必要）
+        // RSSのchannel/linkがhttps://cybozu.github.io/のため、baseUrlで上書き（記事のblogLinkに正しいURLを設定するために必要）
         customFeed.link = feedInfo.baseUrl;
         break;
     }
@@ -268,17 +268,28 @@ export class FeedCrawler {
       allFeedItems = allFeedItems.concat(feed.items);
     }
 
-    // 重複を排除（FESと常設ブログは集約しない。同一ソース内での重複は新しい日付を優先）
+    // 重複を排除（常設ブログ優先。同種の場合は新しい日付を優先）
     const feedItemMap = new Map<string, CustomRssParserItem>();
     for (const feedItem of allFeedItems) {
       if (feedItem.link) {
-        const key = `${FeedCrawler.isFromSummerBlogFes(feedItem) ? 'fes' : 'blog'}:${feedItem.link}`;
+        const key = feedItem.link;
         const existingItem = feedItemMap.get(key);
 
         if (!existingItem) {
           feedItemMap.set(key, feedItem);
-        } else if (feedItem.isoDate && existingItem.isoDate && feedItem.isoDate > existingItem.isoDate) {
-          feedItemMap.set(key, feedItem);
+        } else {
+          const isCurrentFes = FeedCrawler.isFromSummerBlogFes(feedItem);
+          const isExistingFes = FeedCrawler.isFromSummerBlogFes(existingItem);
+
+          if (isExistingFes && !isCurrentFes) {
+            // 既存がFES・新規が常設ブログ → 常設ブログで上書き
+            feedItemMap.set(key, feedItem);
+          } else if (!isExistingFes && isCurrentFes) {
+            // 既存が常設ブログ・新規がFES → 変更しない
+          } else if (feedItem.isoDate && existingItem.isoDate && feedItem.isoDate > existingItem.isoDate) {
+            // 同種（両方FES or 両方常設ブログ）の場合は新しい日付を優先
+            feedItemMap.set(key, feedItem);
+          }
         }
       }
     }
@@ -292,9 +303,6 @@ export class FeedCrawler {
     return allFeedItems;
   }
 
-  /**
-   * SUMMER BLOG FESのRSS由来の記事かどうかを判定する（blogLinkに summer-blog-fes を含むか）
-   */
   private static isFromSummerBlogFes(feedItem: CustomRssParserItem): boolean {
     return Boolean(feedItem.blogLink && feedItem.blogLink.includes('summer-blog-fes'));
   }

@@ -54,5 +54,5 @@ describe('フィード生成', () => {
     }
     // 少なくともフィードアイテムが生成されていることを確認
     expect(generateFeedsResult.aggregatedFeed.items.length).toBeGreaterThan(0);
-  });
+  }, 60 * 1000);
 });

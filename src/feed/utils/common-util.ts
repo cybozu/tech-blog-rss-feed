@@ -85,3 +85,12 @@ export const sleep = (waitTime: number) => {
     return setTimeout(resolve, waitTime);
   });
 };
+
+export const existsUrl = async (url: string): Promise<boolean> => {
+  try {
+    const res = await fetch(url, { method: 'HEAD' });
+    return res.ok;
+  } catch {
+    return false;
+  }
+};

@@ -1,3 +1,5 @@
+import { existsUrl } from '../feed/utils/common-util';
+
 type ValidUrl = `${'http' | 'https'}://${string}.${string}`;
 
 type FeedInfoTuple = [label: string, url: ValidUrl, baseUrl: ValidUrl, mediatype: string];
@@ -31,16 +33,6 @@ const getBlogFesRssUrl = (year: number) => `https://summer-blog-fes.cybozu.io/${
 
 /** 今年のBLOG FESのbaseUrl */
 const getBlogFesBaseUrl = (year: number) => `https://summer-blog-fes.cybozu.io/${year}` as ValidUrl;
-
-/** 指定URLが存在するか（HEADで確認） */
-const existsUrl = async (url: string): Promise<boolean> => {
-  try {
-    const res = await fetch(url, { method: 'HEAD' });
-    return res.ok;
-  } catch {
-    return false;
-  }
-};
 
 /**
  * CYBOZU SUMMER BLOG FESのRSSフィードURLとbaseUrlを解決する。

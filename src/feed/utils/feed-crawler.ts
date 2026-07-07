@@ -10,6 +10,7 @@ import {
   removeInvalidUnicode,
   exponentialBackoff,
   urlRemoveQueryParams,
+  existsUrl,
 } from './common-util';
 import { logger } from './logger';
 import constants from '../../common/constants';
@@ -102,6 +103,13 @@ export class FeedCrawler {
     await PromisePool.for(feedInfoList)
       .withConcurrency(concurrency)
       .process(async (feedInfo) => {
+        const urlExists = await existsUrl(feedInfo.url);
+        if (!urlExists) {
+          logger.warn('[fetch-feed] URL が存在しないためスキップ', feedInfo.label, feedInfo.url);
+          fetchProcessCounter++;
+          return;
+        }
+
         const [error, feed] = await to(
           exponentialBackoff(async (attemptCount: number) => {
             if (attemptCount > 0) {

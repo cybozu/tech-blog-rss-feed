@@ -7,7 +7,7 @@ import EleventyImage from '@11ty/eleventy-img';
 import constants from '../../common/constants';
 
 const THUMBNAIL_OUTPUT_DIR = 'public/images/feed-thumbnails';
-const THUMBNAIL_URL_PATH = `${constants.siteUrlStem}/images/feed-thumbnails/`;
+const THUMBNAIL_URL_PATH = '/images/feed-thumbnails/';
 
 export type ThumbnailUrlMap = Map<string, string>;
 
@@ -61,7 +61,7 @@ export class ImagePrecacher {
         const jpegImages = metadata.jpeg;
         const largestJpeg = jpegImages?.[jpegImages.length - 1];
         if (largestJpeg?.url) {
-          thumbnailUrlMap.set(ogImageUrl, largestJpeg.url);
+          thumbnailUrlMap.set(ogImageUrl, `${constants.siteUrlStem}${largestJpeg.url}`);
         }
         logger.info('[cache-og-image] fetched', `${fetchProcessCounter++}/${ogImageUrlsLength}`, ogImageUrl);
       });

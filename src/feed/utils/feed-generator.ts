@@ -77,6 +77,13 @@ export class FeedGenerator {
       // 配列担っているが2つ目以降を使う理由もないので0を使う
       const ogImage = ogObject?.customOgImage;
       const feedThumbnailUrl = ogImage?.url ? thumbnailUrlMap.get(ogImage.url) : undefined;
+      // cross-origin-resource-policy: same-originでブロックされるOG画像URLの代わりに
+      // キャッシュ済みサムネイルURLを使用する
+      const imageForFeed = feedThumbnailUrl
+        ? { url: feedThumbnailUrl, type: 'jpeg' }
+        : ogImage && ogImage.url
+          ? ogImage
+          : undefined;
 
       // 日付がないものは入れない
       if (!feedItem.isoDate) {
@@ -105,7 +112,7 @@ export class FeedGenerator {
                 },
               ]
             : undefined,
-        image: ogImage && ogImage.url ? ogImage : undefined,
+        image: imageForFeed,
         published: new Date(feedItem.isoDate),
         date: new Date(feedItem.isoDate),
         extensions: [

@@ -1,5 +1,6 @@
 import { Feed, FeedOptions } from 'feed';
 import { CustomRssParserItem, FeedItemHatenaCountMap, OgObjectMap } from './feed-crawler';
+import { ThumbnailUrlMap } from './feed-image-precacher';
 import { escapeTextForXml, textToMd5Hash, textTruncate } from './common-util';
 import { logger } from './logger';
 import * as constants from '../../common/constants';
@@ -22,6 +23,7 @@ export class FeedGenerator {
     allFeedItemHatenaCountMap: FeedItemHatenaCountMap,
     maxFeedDescriptionLength: number,
     maxFeedContentLength: number,
+    thumbnailUrlMap: ThumbnailUrlMap = new Map(),
   ): GenerateFeedResult {
     const aggregatedFeed = this.generateAggregatedFeed(
       feedItems,
@@ -29,6 +31,7 @@ export class FeedGenerator {
       allFeedItemHatenaCountMap,
       maxFeedDescriptionLength,
       maxFeedContentLength,
+      thumbnailUrlMap,
     );
 
     return {
@@ -48,6 +51,7 @@ export class FeedGenerator {
     allFeedItemHatenaCountMap: FeedItemHatenaCountMap,
     maxFeedDescriptionLength: number,
     maxFeedContentLength: number,
+    thumbnailUrlMap: ThumbnailUrlMap,
   ): Feed {
     const outputFeed = new Feed({
       title: constants.feedTitle,
@@ -72,6 +76,7 @@ export class FeedGenerator {
       const ogObject = feedItemOgObjectMap.get(feedItem.link);
       // 配列担っているが2つ目以降を使う理由もないので0を使う
       const ogImage = ogObject?.customOgImage;
+      const feedThumbnailUrl = ogImage?.url ? thumbnailUrlMap.get(ogImage.url) : undefined;
 
       // 日付がないものは入れない
       if (!feedItem.isoDate) {
@@ -113,6 +118,7 @@ export class FeedGenerator {
               blogLink: feedItem.blogLink,
               blogLinkMd5Hash: textToMd5Hash(feedItem.blogLink),
               favicon: ogObject?.favicon,
+              feedThumbnailUrl: feedThumbnailUrl || '',
             },
           },
         ],

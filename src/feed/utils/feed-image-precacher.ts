@@ -59,8 +59,10 @@ export class ImagePrecacher {
 
         // 最大サイズのjpegをfeed用サムネイルURLとして登録
         const jpegImages = metadata.jpeg;
-        const largestJpeg = jpegImages[jpegImages.length - 1];
-        thumbnailUrlMap.set(ogImageUrl, largestJpeg.url);
+        const largestJpeg = jpegImages?.[jpegImages.length - 1];
+        if (largestJpeg?.url) {
+          thumbnailUrlMap.set(ogImageUrl, largestJpeg.url);
+        }
         logger.info('[cache-og-image] fetched', `${fetchProcessCounter++}/${ogImageUrlsLength}`, ogImageUrl);
       });
 

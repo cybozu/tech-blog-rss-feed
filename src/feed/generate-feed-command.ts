@@ -46,14 +46,24 @@ const feedImagePrecacher = new FeedImagePrecacher();
     );
   }
 
-  // まとめフィード作成
   const ogObjectMap = new Map([...crawlFeedsResult.feedItemOgObjectMap, ...crawlFeedsResult.feedBlogOgObjectMap]);
+
+  // 画像のキャッシュとサムネイルURL取得（フィード生成前に実行してURLをフィードに含める）
+  const thumbnailUrlMap = await feedImagePrecacher.fetchAndCacheFeedImages(
+    crawlFeedsResult.feeds,
+    crawlFeedsResult.feedItems,
+    ogObjectMap,
+    FETCH_IMAGE_CONCURRENCY,
+  );
+
+  // まとめフィード作成
   const generateFeedsResult = feedGenerator.generateFeeds(
     crawlFeedsResult.feedItems,
     ogObjectMap,
     crawlFeedsResult.feedItemHatenaCountMap,
     MAX_FEED_DESCRIPTION_LENGTH,
     MAX_FEED_CONTENT_LENGTH,
+    thumbnailUrlMap,
   );
 
   // まとめフィードのバリデーション。エラーならすぐに終了する
@@ -69,13 +79,5 @@ const feedImagePrecacher = new FeedImagePrecacher();
     ogObjectMap,
     crawlFeedsResult.feedItemHatenaCountMap,
     STORE_BLOG_FEEDS_DIR_PATH,
-  );
-
-  // 画像の事前キャッシュ
-  await feedImagePrecacher.fetchAndCacheFeedImages(
-    crawlFeedsResult.feeds,
-    crawlFeedsResult.feedItems,
-    ogObjectMap,
-    FETCH_IMAGE_CONCURRENCY,
   );
 })();

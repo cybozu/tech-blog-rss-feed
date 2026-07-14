@@ -5,6 +5,7 @@ import { textToMd5Hash, textTruncate } from './common-util';
 import { FeedDistributionSet } from './feed-generator';
 import { logger } from './logger';
 import { to } from 'await-to-js';
+import { FeedInfo } from '../../resources/feed-info-list';
 
 export interface BlogFeed {
   title: string;
@@ -94,5 +95,28 @@ export class FeedStorer {
     await fs.writeFile(path.join(storeDirPath, `blog-feeds.json`), JSON.stringify(blogFeeds, null, 2), 'utf-8');
 
     logger.info('[store-blog-feeds] finished');
+  }
+
+  public async storeArchiveFeeds(
+    archiveFeedInfoList: FeedInfo[],
+    archiveOgObjectMap: OgObjectMap,
+    storeDirPath: string,
+  ): Promise<void> {
+    const archiveFeeds = archiveFeedInfoList.map((feedInfo) => ({
+      title: feedInfo.label,
+      link: feedInfo.baseUrl,
+      linkMd5Hash: textToMd5Hash(feedInfo.baseUrl),
+      ogImageUrl: archiveOgObjectMap.get(feedInfo.baseUrl)?.customOgImage?.url || '',
+      ogDescription: archiveOgObjectMap.get(feedInfo.baseUrl)?.ogDescription || '',
+    }));
+
+    await fs.mkdir(storeDirPath, { recursive: true });
+    await fs.writeFile(
+      path.join(storeDirPath, 'archive-feeds.json'),
+      JSON.stringify(archiveFeeds, null, 2),
+      'utf-8',
+    );
+
+    logger.info('[store-archive-feeds] finished');
   }
 }

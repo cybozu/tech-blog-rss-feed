@@ -26,10 +26,14 @@ const feedImagePrecacher = new FeedImagePrecacher();
 (async () => {
   const feedInfoList = await getFeedInfoList();
 
+  // archive を除いたアクティブフィードと、アーカイブフィードに分割
+  const activeFeedInfoList = feedInfoList.filter((f) => f.mediatype !== 'archive');
+  const archiveFeedInfoList = feedInfoList.filter((f) => f.mediatype === 'archive');
+
   // フィード取得（最初は14日前以降）
   let filterArticleDate = FILTER_ARTICLE_DATE;
   let crawlFeedsResult = await feedCrawler.crawlFeeds(
-    feedInfoList,
+    activeFeedInfoList,
     FEED_FETCH_CONCURRENCY,
     FEED_OG_FETCH_CONCURRENCY,
     filterArticleDate,
@@ -80,4 +84,11 @@ const feedImagePrecacher = new FeedImagePrecacher();
     crawlFeedsResult.feedItemHatenaCountMap,
     STORE_BLOG_FEEDS_DIR_PATH,
   );
+
+  // アーカイブフィードのOGP取得・保存
+  const archiveOgObjectMap = await feedCrawler.fetchFeedInfoOgObjectMap(
+    archiveFeedInfoList,
+    FEED_OG_FETCH_CONCURRENCY,
+  );
+  await feedStorer.storeArchiveFeeds(archiveFeedInfoList, archiveOgObjectMap, STORE_BLOG_FEEDS_DIR_PATH);
 })();

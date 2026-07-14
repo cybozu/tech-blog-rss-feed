@@ -352,6 +352,40 @@ export class FeedCrawler {
     return feedItemOgObjectMap;
   }
 
+  public async fetchFeedInfoOgObjectMap(feedInfoList: FeedInfo[], concurrency: number): Promise<OgObjectMap> {
+    const ogObjectMap: OgObjectMap = new Map();
+    const feedInfoListLength = feedInfoList.length;
+    let counter = 1;
+
+    await PromisePool.for(feedInfoList)
+      .withConcurrency(concurrency)
+      .process(async (feedInfo) => {
+        const [error, ogObject] = await to(
+          exponentialBackoff((attemptCount: number) => {
+            if (attemptCount > 0) {
+              logger.warn(`[fetch-archive-og] retry ${feedInfo.baseUrl}`);
+            }
+            return FeedCrawler.fetchOgObject(feedInfo.baseUrl);
+          }),
+        );
+        if (error) {
+          logger.error(
+            '[fetch-archive-og] error',
+            `${counter++}/${feedInfoListLength}`,
+            feedInfo.label,
+            feedInfo.baseUrl,
+          );
+          logger.trace(error);
+          return;
+        }
+        ogObjectMap.set(feedInfo.baseUrl, ogObject);
+        logger.info('[fetch-archive-og] fetched', `${counter++}/${feedInfoListLength}`, feedInfo.label);
+      });
+
+    logger.info('[fetch-archive-og] finished');
+    return ogObjectMap;
+  }
+
   private async fetchFeedBlogOgObjectMap(feeds: CustomRssParserFeed[], concurrency: number): Promise<OgObjectMap> {
     const feedOgObjectMap: OgObjectMap = new Map();
     const feedsLength = feeds.length;

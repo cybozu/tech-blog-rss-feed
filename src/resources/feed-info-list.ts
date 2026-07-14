@@ -65,7 +65,7 @@ export const getFeedInfoList = async (): Promise<FeedInfo[]> => {
       'サイボウズ Developer Concourse',
       'https://note.com/cybozu_dev_px/m/m000a1ff77a6b/rss',
       'https://note.com/cybozu_dev_px/m/m000a1ff77a6b',
-      'blog',
+      'archive',
     ],
     ['サイボウズ Inside Out', 'https://blog.cybozu.io/feed', 'https://blog.cybozu.io/', 'blog'],
     ['サイボウズ Necoチーム', 'https://zenn.dev/p/cybozu_neco/feed', 'https://zenn.dev/p/cybozu_neco', 'blog'],
@@ -73,7 +73,7 @@ export const getFeedInfoList = async (): Promise<FeedInfo[]> => {
       'サイボウズ PeopleExperienceチーム',
       'https://note.com/cybozu_dev_px/m/me5cfe2c532ef/rss',
       'https://note.com/cybozu_dev_px/m/me5cfe2c532ef',
-      'blog',
+      'archive',
     ],
     [
       'サイボウズ Product Design',
@@ -95,7 +95,7 @@ export const getFeedInfoList = async (): Promise<FeedInfo[]> => {
       'サイボウズ コネクト支援チーム',
       'https://note.com/cybozutech/m/mc0c086e78c4f/rss',
       'https://note.com/cybozutech/m/mc0c086e78c4f',
-      'blog',
+      'archive',
     ],
     [
       'サイボウズ Tech Media Platformチーム',
@@ -113,7 +113,7 @@ export const getFeedInfoList = async (): Promise<FeedInfo[]> => {
       'サイボウズ 流氷自由帳',
       'https://note.com/cybozutech/m/m9707f4c496e6/rss',
       'https://note.com/cybozutech/m/m9707f4c496e6',
-      'blog',
+      'archive',
     ],
     [
       'サイボウズ フロントエンド通信',
@@ -125,13 +125,13 @@ export const getFeedInfoList = async (): Promise<FeedInfo[]> => {
       'Cybozu Design Podcast',
       'https://feed.podbean.com/cybozudesign/feed.xml',
       'https://cybozudesign.podbean.com',
-      'podcast',
+      'archive',
     ],
     [
       '流氷交差点',
       'https://feeds.soundcloud.com/users/soundcloud:users:970362685/sounds.rss',
       'https://soundcloud.com/cybozutech',
-      'podcast',
+      'archive',
     ],
   ]);
 };

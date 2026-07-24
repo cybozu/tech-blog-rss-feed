@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cybozu.github.io/tech-blog-rss-feed/</id>
+    <title>サイボウズのTech系ブログRSS</title>
+    <updated>2026-07-24T18:27:29.570Z</updated>
+    <generator>cybozu/tech-blog-rss-feed</generator>
+    <link rel="alternate" href="https://cybozu.github.io/tech-blog-rss-feed/"/>
+    <link rel="self" href="https://cybozu.github.io/tech-blog-rss-feed/feeds/atom.xml"/>
+    <subtitle>サイボウズのTech系ブログの更新をまとめたRSSフィード</subtitle>
+    <logo>https://cybozu.github.io/tech-blog-rss-feed/images/icon.png</logo>
+    <icon>https://cybozu.github.io/tech-blog-rss-feed/images/favicon.ico</icon>
+    <rights>cybozu/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[Actionのカバレッジをテスト品質指標に用いる | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://elmetal.github.io/la-voix-du-code/action-coverage-as-test-quality-metric/</id>
+        <link href="https://elmetal.github.io/la-voix-du-code/action-coverage-as-test-quality-metric/"/>
+        <updated>2026-07-24T07:25:34.000Z</updated>
+        <author>
+            <name>el_metal</name>
+        </author>
+        <published>2026-07-24T07:25:34.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[変化への柔軟性と変わらない本質〜2026年エンジニア新人研修の裏側〜 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/24/160000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/24/160000"/>
+        <updated>2026-07-24T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめに こんにちは。開発本部でオンボーディングを担当している久宗（@tignyax）です。 前回は「新卒目線による記事」をご紹介しましたが、 今回は運営目線による記事として「2026年のエンジニア新人研修の裏側」をご紹介したいと思います！ AIの急速な発展や新卒メンバーのバックグラウンドの変化に伴い、事前に設計した研修]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめに こんにちは。開発本部でオンボーディングを担当している久宗（@tignyax）です。 前回は「新卒目線による記事」をご紹介しましたが、 今回は運営目線による記事として「2026年のエンジニア新人研修の裏側」をご紹介したいと思います！ AIの急速な発展や新卒メンバーのバックグラウンドの変化に伴い、事前に設計した研修カリキュラムだけでは対応しきれない場面が増えてきています。 この記事では、今年の試行錯誤と、そこから得た「変化への柔軟性と、変わらない本質」についての学びを共有します。 研修の目的と目指す状態 研修の…]]></content>
+        <published>2026-07-24T07:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React移行を機にグラフ描画ロジックを整理した話 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/24/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/24/113000"/>
+        <updated>2026-07-24T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは、サイボウズでプロダクトエンジニアをしている大塚です。 サイボウズでは現在、kintoneのフロントエンドをGoogle Closure ToolsからReactへ移行する刷新プロジェクトを進めています。 私はkintoneアプリに関連する画面のReact移行を担当する「ババロア」チームに所属し、グラフ詳細画面]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは、サイボウズでプロダクトエンジニアをしている大塚です。 サイボウズでは現在、kintoneのフロントエンドをGoogle Closure ToolsからReactへ移行する刷新プロジェクトを進めています。 私はkintoneアプリに関連する画面のReact移行を担当する「ババロア」チームに所属し、グラフ詳細画面のReact移行にも深く関わりました。 この記事では、その中でグラフ描画に関して行った工夫を紹介します。 刷新前の構成と課題 グラフ詳細画面では、棒グラフ・折れ線グラフ・円グラフなどのグラフ形式の描画…]]></content>
+        <published>2026-07-24T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ここがハオ（好）！キャリア入社4か月目が語る、"チームワーク"のサイボウズ一問一答 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/24/103000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/24/103000"/>
+        <updated>2026-07-24T01:30:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめまして！2026年4月にキャリア入社しました、開発本部 kintoneプラットフォーム副本部の いこ（@ico_penjelly） と申します。 入社してもうすぐ4か月、長かったような短かったような……その中で私なりに色々体験したり考えたことをまとめるためにも、サイボウズに入って感じたことを一問一答形式で書いていき]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめまして！2026年4月にキャリア入社しました、開発本部 kintoneプラットフォーム副本部の いこ（@ico_penjelly） と申します。 入社してもうすぐ4か月、長かったような短かったような……その中で私なりに色々体験したり考えたことをまとめるためにも、サイボウズに入って感じたことを一問一答形式で書いていきます！ 「サイボウズってどんな会社？」が少しでも伝われば嬉しいです。 ※あくまでキャリア入社4か月目時点での個人的な感想です。完全に主観の話となりますのであらかじめご了承ください。 今回答える質問はこ…]]></content>
+        <published>2026-07-24T01:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://summer-blog-fes.cybozu.io/</id>
+        <link href="https://summer-blog-fes.cybozu.io/"/>
+        <updated>2026-07-24T00:00:00.000Z</updated>
+        <author>
+            <name>岡ピー</name>
+        </author>
+        <published>2026-07-24T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[kintone開発のリサーチャーの現在地と今後 | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://note.com/haruka329/n/n7edb64be7921</id>
+        <link href="https://note.com/haruka329/n/n7edb64be7921"/>
+        <updated>2026-07-23T23:06:24.000Z</updated>
+        <author>
+            <name>わね</name>
+        </author>
+        <published>2026-07-23T23:06:24.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新卒QAエンジニア 1年目の仕事を振り返る | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/23/170000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/23/170000"/>
+        <updated>2026-07-23T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめに こんにちは！サイボウズでQA(品質保証)エンジニアをしているすずりん🦒です。 入社して1年とちょっと、チームに配属されてからは丸1年が経ちました。 現在は、Garoonの品質にかかわる活動を担当するSpicaチームに所属し、品質基準の見直しや社内外から報告された不具合の再現調査・不具合登録に取り組んでいます。 ]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめに こんにちは！サイボウズでQA(品質保証)エンジニアをしているすずりん🦒です。 入社して1年とちょっと、チームに配属されてからは丸1年が経ちました。 現在は、Garoonの品質にかかわる活動を担当するSpicaチームに所属し、品質基準の見直しや社内外から報告された不具合の再現調査・不具合登録に取り組んでいます。 先日、先輩たちとのランチで「普段の業務についてのブログってあんまりないよね」という話になりました。 思い返せば私自身、入社前は1年後にどんな業務をしているか全く想像できていませんでした。 ということで…]]></content>
+        <published>2026-07-23T08:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.07.23号 | サイボウズ開発本部  Tech Media Platform]]></title>
+        <id>https://note.com/_tetrapod/n/nbb25410d3a19</id>
+        <link href="https://note.com/_tetrapod/n/nbb25410d3a19"/>
+        <updated>2026-07-23T06:04:02.000Z</updated>
+        <summary type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部 Tech Media Platformチームの貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部 Tech Media Platformチームの貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる]]></content>
+        <published>2026-07-23T06:04:02.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[kintoneパフォーマンス改善の裏側 - 相関サブクエリをsemijoinで解決する | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/23/133000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/23/133000"/>
+        <updated>2026-07-23T04:30:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは。kintone開発チームのプロダクトエンジニアの宇都宮です。主にkintoneのバックエンドを開発しています。 本題に入る前に、この記事に出てくるkintoneの用語を簡単に説明します。kintoneでは、ユーザーが「アプリ」と呼ばれる業務アプリケーションをノーコードで作れます。アプリはデータベースのテーブル]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは。kintone開発チームのプロダクトエンジニアの宇都宮です。主にkintoneのバックエンドを開発しています。 本題に入る前に、この記事に出てくるkintoneの用語を簡単に説明します。kintoneでは、ユーザーが「アプリ」と呼ばれる業務アプリケーションをノーコードで作れます。アプリはデータベースのテーブルに近い存在で、そこに登録される1件1件のデータが「レコード」です。RDBでいう行にあたります。登録したレコードは「一覧」と呼ばれる画面で確認でき、ユーザーはここで条件を指定してレコードを絞り込んだり、…]]></content>
+        <published>2026-07-23T04:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[スプリントゴールを当たり前にする | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/23/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/23/113000"/>
+        <updated>2026-07-23T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめに こんにちは！スクラムマスターのOhishiです。 私は今、iOSのkintoneモバイルアプリを開発するチームに所属しています。 このチームでうまく運用されているなと感じるのがスプリントゴールの設定です。 今回の記事では、私の所属するモバイルアプリチームがどのようなことを意識してスプリントゴールを設定し、運用し]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめに こんにちは！スクラムマスターのOhishiです。 私は今、iOSのkintoneモバイルアプリを開発するチームに所属しています。 このチームでうまく運用されているなと感じるのがスプリントゴールの設定です。 今回の記事では、私の所属するモバイルアプリチームがどのようなことを意識してスプリントゴールを設定し、運用しているかをご紹介します。 スプリントゴールとは スプリントゴールは、スプリントで目指す唯一の目的です。 開発チームはスプリントゴールの達成に向けて必要な作業を行います。 スプリントプランニングで決める…]]></content>
+        <published>2026-07-23T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CYBOZU SUMMER BLOG FES '26 7/17レポ | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://note.com/okap0528/n/nc1d9cc6de010</id>
+        <link href="https://note.com/okap0528/n/nc1d9cc6de010"/>
+        <updated>2026-07-23T02:21:11.000Z</updated>
+        <author>
+            <name>岡ピー</name>
+        </author>
+        <published>2026-07-23T02:21:11.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CYBOZU SUMMER BLOG FES '26 7/15レポ | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://note.com/okap0528/n/n7c9445a4826b</id>
+        <link href="https://note.com/okap0528/n/n7c9445a4826b"/>
+        <updated>2026-07-23T02:18:02.000Z</updated>
+        <author>
+            <name>岡ピー</name>
+        </author>
+        <published>2026-07-23T02:18:02.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[kintone.com プラットフォームを提供 ~ われら Yakumo にござる | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/23/100000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/23/100000"/>
+        <updated>2026-07-23T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、kintone.com を提供する Yakumo チームの rin（@rindrics.com）です。 当チームに関する記事は、これまでにもこの Cybozu Inside Out からカテゴリー "Yakumo" で発表されてきたのですが、実は Yakumo チーム自身については紹介されたことがなかったようです。 ちょうど先日、当社におけるプラットフォームエンジニアリング部の誕生・現]]></summary>
+        <content type="html"><![CDATA[こんにちは、kintone.com を提供する Yakumo チームの rin（@rindrics.com）です。 当チームに関する記事は、これまでにもこの Cybozu Inside Out からカテゴリー "Yakumo" で発表されてきたのですが、実は Yakumo チーム自身については紹介されたことがなかったようです。 ちょうど先日、当社におけるプラットフォームエンジニアリング部の誕生・現状・展望が語られたことを踏まえて、本記事ではその下位チームとしての Yakumo チームとその役割について紹介します。 目次 Yakumo チームとプラットフォームエンジニアリング部との関係 社内外に…]]></content>
+        <published>2026-07-23T01:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[気がつけば、ブログに支えられていた私 | サイボウズ開発本部  Tech Media Platform]]></title>
+        <id>https://note.com/_tetrapod/n/n1d399f4e6b46</id>
+        <link href="https://note.com/_tetrapod/n/n1d399f4e6b46"/>
+        <updated>2026-07-23T00:40:26.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。皆さん、ごきげんよう。サイボウズ株式会社 開発本部 Tech Media Platformチームの貴島(@jnkykn)です。CYBOZU SUMMER BLOG FES '26（以降BLOG FES）は、サイボウズによる夏のブログの祭典です。2024年、2025年に続いて、今年は3回目です。毎年少しずつ形を変えながら続い]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。皆さん、ごきげんよう。サイボウズ株式会社 開発本部 Tech Media Platformチームの貴島(@jnkykn)です。CYBOZU SUMMER BLOG FES '26（以降BLOG FES）は、サイボウズによる夏のブログの祭典です。2024年、2025年に続いて、今年は3回目です。毎年少しずつ形を変えながら続いているBLOG FES、今年は、所属チームを越えた「即席チーム」という新企画が登場！まさに、サイボウズの理念「チームワークあふれる社会を創る」にぴったりな企画です。私はこの企画にとても共感し、「集まれ！ブログ職人」というチームで参加することにしました！続きをみる]]></content>
+        <published>2026-07-23T00:40:26.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[プロダクトのことを考えるようになったら、開発がもっと面白くなった | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/23/090000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/23/090000"/>
+        <updated>2026-07-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 プロダクトのことを考えるようになったら、開発がもっと面白くなった こんにちは！kintoneのダッシュボード開発チームでエンジニアリングマネージャー(EM)をしている kenny です。 私は、2025年4月のダッシュボード開発のチーム発足時にEMになりました。今回は、EMになってから今日までの試行錯誤と学びを振り返って]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 プロダクトのことを考えるようになったら、開発がもっと面白くなった こんにちは！kintoneのダッシュボード開発チームでエンジニアリングマネージャー(EM)をしている kenny です。 私は、2025年4月のダッシュボード開発のチーム発足時にEMになりました。今回は、EMになってから今日までの試行錯誤と学びを振り返ってみようと思います。 つくるものを検討するという仕事 ダッシュボード開発チームでは、何をつくるかの検討に深く関わっていくことができます。最初から何をつくるかが決まっていてそれが渡されるのではなく、プロダ…]]></content>
+        <published>2026-07-23T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CYBOZU SUMMER BLOG FES '26 7/16レポ | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://note.com/okap0528/n/n036c091990be</id>
+        <link href="https://note.com/okap0528/n/n036c091990be"/>
+        <updated>2026-07-22T15:45:19.000Z</updated>
+        <author>
+            <name>岡ピー</name>
+        </author>
+        <published>2026-07-22T15:45:19.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CYBOZU SUMMER BLOG FES '26 7/14レポ | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://note.com/okap0528/n/nbc3aad5aee08</id>
+        <link href="https://note.com/okap0528/n/nbc3aad5aee08"/>
+        <updated>2026-07-22T15:44:40.000Z</updated>
+        <author>
+            <name>岡ピー</name>
+        </author>
+        <published>2026-07-22T15:44:40.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「後で読む」が溜まり続けた私が、RSS 購読を AI に委ねるまで | サイボウズ 生産性向上チーム 💪のフィード]]></title>
+        <id>https://zenn.dev/cybozu_ept/articles/ai-newspaper-using-rss</id>
+        <link href="https://zenn.dev/cybozu_ept/articles/ai-newspaper-using-rss"/>
+        <updated>2026-07-22T07:46:21.000Z</updated>
+        <summary type="html"><![CDATA[!この記事は、CYBOZU SUMMER BLOG FES '26 の記事です。 未読 RSS を毎朝全部読むのは無理RSS[1] は昔からウェブサイトの更新を知らせる、素晴らしい技術の 1 つです。Web Notification などのリッチな API が登場する前から、インターネット利用者たちが新鮮な情報を得るのに使用してきました。私は大学生の頃から RSS リーダーで情報を収集していて、収]]></summary>
+        <content type="html"><![CDATA[!この記事は、CYBOZU SUMMER BLOG FES '26 の記事です。 未読 RSS を毎朝全部読むのは無理RSS[1] は昔からウェブサイトの更新を知らせる、素晴らしい技術の 1 つです。Web Notification などのリッチな API が登場する前から、インターネット利用者たちが新鮮な情報を得るのに使用してきました。私は大学生の頃から RSS リーダーで情報を収集していて、収集する RSS Feed を増やし続けてきました。今では 500 以上の RSS Feed を購読しています。各社のテックブログ、開発者個人のブログ、などなど...問題は「量」です...]]></content>
+        <author>
+            <name>defaultcf</name>
+        </author>
+        <published>2026-07-22T07:46:21.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AIでなんでもわかりそうな今だからこそ、わからないままでいる | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://note.com/toitoitoi/n/n7b238cba771a</id>
+        <link href="https://note.com/toitoitoi/n/n7b238cba771a"/>
+        <updated>2026-07-22T04:33:50.000Z</updated>
+        <author>
+            <name>樋田 勇也</name>
+        </author>
+        <published>2026-07-22T04:33:50.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebエディタのTab問題について調べてみた | サイボウズ フロントエンドのフィード]]></title>
+        <id>https://zenn.dev/cybozu_frontend/articles/contenteditable-tab</id>
+        <link href="https://zenn.dev/cybozu_frontend/articles/contenteditable-tab"/>
+        <updated>2026-07-22T03:36:06.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。こんにちは！26卒でフロントエンドエンジニア職として入社したコサキンです。内定者バイトでもお世話になった kintone のチームに配属され、わいわい働いています。今回はWebエディタでのTab 入力時の挙動が気になったので、調べてみました。 今回気になったことエディタでは Tab を入力すると、\t や複数のスペースが入]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。こんにちは！26卒でフロントエンドエンジニア職として入社したコサキンです。内定者バイトでもお世話になった kintone のチームに配属され、わいわい働いています。今回はWebエディタでのTab 入力時の挙動が気になったので、調べてみました。 今回気になったことエディタでは Tab を入力すると、\t や複数のスペースが入力されるケースが多いと思います。しかし、ブラウザでは Tab 入力にフォーカスの移動が割り当てられているため、単純に Tab を入力に置き換えると、エディタから抜けられなくなる問題...]]></content>
+        <author>
+            <name>コサキン</name>
+        </author>
+        <published>2026-07-22T03:36:06.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[kintoneプラグインを作り続けて溜まった、小さな学びを並べてみる | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://zenn.dev/takeuchimokko/articles/36a45a1ffd5859</id>
+        <link href="https://zenn.dev/takeuchimokko/articles/36a45a1ffd5859"/>
+        <updated>2026-07-21T23:00:00.000Z</updated>
+        <author>
+            <name>たけち</name>
+        </author>
+        <published>2026-07-21T23:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ AndroidのWebViewでJavascriptInterfaceを使うときの落とし穴 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/21/180000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/21/180000"/>
+        <updated>2026-07-21T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめに 新卒2年目でkintone Androidチームに所属している市村です。 本記事では、最近のkintone Androidチームでどのようなことをしているかの紹介と、そうした業務の中で向き合った問題の一例を紹介します。 モバイルアプリ開発を越境してWeb領域へ介入 kintoneのモバイルアプリはWeb側のモバ]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめに 新卒2年目でkintone Androidチームに所属している市村です。 本記事では、最近のkintone Androidチームでどのようなことをしているかの紹介と、そうした業務の中で向き合った問題の一例を紹介します。 モバイルアプリ開発を越境してWeb領域へ介入 kintoneのモバイルアプリはWeb側のモバイルビュー表示をベースとしている、いわゆるWebViewのアプリです。 Web実装だけでは手の届かない部分を、Androidアプリの機能として部分的に実装し、モバイル端末での利用体験向上につなげていま…]]></content>
+        <published>2026-07-21T09:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RTE 選定で本当に選んでいるのは、エディタではなく「数十年後も残るデータフォーマット」だ | サイボウズ フロントエンドのフィード]]></title>
+        <id>https://zenn.dev/cybozu_frontend/articles/blog_fes_2026_rte_decision</id>
+        <link href="https://zenn.dev/cybozu_frontend/articles/blog_fes_2026_rte_decision"/>
+        <updated>2026-07-21T04:34:28.000Z</updated>
+        <summary type="html"><![CDATA[!この記事は、CYBOZU SUMMER BLOG FES '26の記事です。「どのリッチテキストエディタを使うか」で 1 週間悩んだのに、「どんな形式でデータを保存するか」は 5 分で決めていませんか？私は、エディタ選定といえば機能表とスター数を眺めるものだと思っていました。こんにちは！サイボウズ株式会社フロントエンドエンジニアの protein_mochi です。この記事では、リッチテキストエ]]></summary>
+        <content type="html"><![CDATA[!この記事は、CYBOZU SUMMER BLOG FES '26の記事です。「どのリッチテキストエディタを使うか」で 1 週間悩んだのに、「どんな形式でデータを保存するか」は 5 分で決めていませんか？私は、エディタ選定といえば機能表とスター数を眺めるものだと思っていました。こんにちは！サイボウズ株式会社フロントエンドエンジニアの protein_mochi です。この記事では、リッチテキストエディタ（RTE）に触れたことがない方でも分かるように、「エディタ選定で本当に選んでいるのはデータフォーマットである」という話を、簡単な実験を交えてお届けします。!この記事で使う ...]]></content>
+        <author>
+            <name>protein_mochi</name>
+        </author>
+        <published>2026-07-21T04:34:28.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[制作会社出身のデザイナーが「チームの価値」を考える | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://note.com/creachi_ikachi/n/n36d9ba24432f?sub_rt=share_pb</id>
+        <link href="https://note.com/creachi_ikachi/n/n36d9ba24432f"/>
+        <updated>2026-07-21T02:52:11.000Z</updated>
+        <author>
+            <name>クリチのいかち🦑</name>
+        </author>
+        <published>2026-07-21T02:52:11.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Virtual Monorepoをkintoneダッシュボードチームに導入してみた | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/21/192300</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/21/192300"/>
+        <updated>2026-07-21T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 kintoneのダッシュボード開発をしている uta8a です。 複数のリポジトリを参照・編集するチーム開発で、Claude CodeのようなAI Agentツールを素朴に活用していると、以下のようなことが気になってきます。 複数のリポジトリをVS Codeで開いたり、 cd コマンドで移動して、それぞれで claude]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 kintoneのダッシュボード開発をしている uta8a です。 複数のリポジトリを参照・編集するチーム開発で、Claude CodeのようなAI Agentツールを素朴に活用していると、以下のようなことが気になってきます。 複数のリポジトリをVS Codeで開いたり、 cd コマンドで移動して、それぞれで claude を打つのが面倒 複数のリポジトリを跨ぐ調査をしたいときに、複数リポジトリを参照できる上位の場所から claude を打ちたくなる 自チーム管理のリポジトリであればmonorepo化も検討に入りますが…]]></content>
+        <published>2026-07-21T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[テンプレートエンジンへのパラメータ埋め込みのつらみをAPI移行で解消してる話 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/21/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/21/113000"/>
+        <updated>2026-07-21T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは、kintoneのシステム管理/外部連携チームでProduct EngineerをしているT.Mです！ 本記事では、日々の機能開発と並行して進めているコード改善の取り組みの一つとして、サーバーサイドでテンプレートエンジンへのパラメータ埋め込みを廃止してAPI経由のやりとりに置き換えている話をご紹介します。 コー]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは、kintoneのシステム管理/外部連携チームでProduct EngineerをしているT.Mです！ 本記事では、日々の機能開発と並行して進めているコード改善の取り組みの一つとして、サーバーサイドでテンプレートエンジンへのパラメータ埋め込みを廃止してAPI経由のやりとりに置き換えている話をご紹介します。 コード改善の背景 サーバーサイドテンプレートエンジンによるHTML配信の仕組み テンプレートエンジンを使うことのつらみ kintoneにおけるテンプレートエンジンの立ち位置 問題点 どのように解決したか …]]></content>
+        <published>2026-07-21T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[フロントエンドに広がりつつある OpenTelemetry：Browser SDK の現在地 | サイボウズ フロントエンドのフィード]]></title>
+        <id>https://zenn.dev/cybozu_frontend/articles/opentelemetry-browser-frontend</id>
+        <link href="https://zenn.dev/cybozu_frontend/articles/opentelemetry-browser-frontend"/>
+        <updated>2026-07-21T00:56:04.000Z</updated>
+        <summary type="html"><![CDATA[OpenTelemetry と聞くと、サーバーサイドのトレースやメトリクスを集めるためのもの、という印象を持っている人は多いと思います。実際、バックエンドでは OpenTelemetry を使った計装をよく見かけるようになりました。一方で、フロントエンドの監視は Sentry や Datadog のような SaaS の SDK に任せることが多く、OpenTelemetry をブラウザの計装に利用]]></summary>
+        <content type="html"><![CDATA[OpenTelemetry と聞くと、サーバーサイドのトレースやメトリクスを集めるためのもの、という印象を持っている人は多いと思います。実際、バックエンドでは OpenTelemetry を使った計装をよく見かけるようになりました。一方で、フロントエンドの監視は Sentry や Datadog のような SaaS の SDK に任せることが多く、OpenTelemetry をブラウザの計装に利用する場面はまだ少ないです。ただ、最近は OpenTelemetry のブラウザ向け SDK の開発が進んでおり、この状況も少しずつ変わりはじめています。この記事では、OpenTelemetr...]]></content>
+        <author>
+            <name>nissy-dev</name>
+        </author>
+        <published>2026-07-21T00:56:04.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【週刊】CYBOZU SUMMER BLOG FES'26 7/21号 | さぼてっく通信]]></title>
+        <id>https://note.com/cybozutech/n/na6f304811681</id>
+        <link href="https://note.com/cybozutech/n/na6f304811681"/>
+        <updated>2026-07-21T00:21:25.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！さぼてっくです。今年の、CYBOZU SUMMER BLOG FES '26（以降BLOG FES）は、7/6〜8/7の5週間に、100記事以上が参加する予定です。今日は、BLOG FES 2週目（7/13〜7/17）の参加記事を、ご紹介します！ CYBOZU SUMMER BLOG FES '26 特設サイトサイボウズの多種多様な21チームが100本以上の記事を投稿する夏フェス「CY]]></summary>
+        <content type="html"><![CDATA[こんにちは！さぼてっくです。今年の、CYBOZU SUMMER BLOG FES '26（以降BLOG FES）は、7/6〜8/7の5週間に、100記事以上が参加する予定です。今日は、BLOG FES 2週目（7/13〜7/17）の参加記事を、ご紹介します！ CYBOZU SUMMER BLOG FES '26 特設サイトサイボウズの多種多様な21チームが100本以上の記事を投稿する夏フェス「CYBOZU SUMMER BLOG FES '2summer-blog-fes.cybozu.io 続きをみる]]></content>
+        <published>2026-07-21T00:21:25.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Khi Claude bắt đầu nhớ | Cybozu Vietnam Tech Sharing]]></title>
+        <id>https://tech.cybozu.vn/khi-claude-bat-dau-nho-0bfc4/</id>
+        <link href="https://tech.cybozu.vn/khi-claude-bat-dau-nho-0bfc4/"/>
+        <updated>2026-07-20T14:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Mình đã cùng Claude Code làm việc ~6 tháng, đây là vài thứ thú vị mình thấy được. Có một sáng, mình mở Claude lên gõ câu đầu của ngày…]]></summary>
+        <content type="html"><![CDATA[Mình đã cùng Claude Code làm việc ~6 tháng, đây là vài thứ thú vị mình thấy được. Có một sáng, mình mở Claude lên gõ câu đầu của ngày…]]></content>
+        <published>2026-07-20T14:20:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[生成AIの台頭による「新人不要論」に1年目が思うこと | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://note.com/shirapii/n/na46292f88207</id>
+        <link href="https://note.com/shirapii/n/na46292f88207"/>
+        <updated>2026-07-17T06:05:59.000Z</updated>
+        <author>
+            <name>しらぴー</name>
+        </author>
+        <published>2026-07-17T06:05:59.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026年前期 web-study 参加報告 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/17/133000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/17/133000"/>
+        <updated>2026-07-17T04:30:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは、フロントエンドエンジニアのmehm8128です。 2026年の前期に、5回にわたりJxckさん主催のweb-studyにサイボウズ社員が参加しました。サイボウズからも何名か登壇しており、5回中2回は会場提供も行ったため、今回は5回のイベントを振り返っていきます。 #tpac_study web-study.c]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは、フロントエンドエンジニアのmehm8128です。 2026年の前期に、5回にわたりJxckさん主催のweb-studyにサイボウズ社員が参加しました。サイボウズからも何名か登壇しており、5回中2回は会場提供も行ったため、今回は5回のイベントを振り返っていきます。 #tpac_study web-study.connpass.com #tpac_studyでは、2025年11月に神戸で開催されたTPAC2025の参加報告として、現地参加した4名による発表が行われました。 サイボウズのオフィスを提供し、弊社か…]]></content>
+        <published>2026-07-17T04:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新卒エンジニアが、サイボウズの新卒研修を経て | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/17/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/17/113000"/>
+        <updated>2026-07-17T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 2026年新卒入社で開発本部に配属となったiOSエンジニアのちゃんくろです！ 入社してから約1ヶ月半、私たち新卒メンバーは「開運研修」というエンジニア向けの新卒研修を受けていました。「開運」とは「開発運用」の略で、名前だけ聞くと験担ぎみたいで縁起が良さそうですが、中身はしっかり実践的な研修です。この記事では、そこで得た学]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 2026年新卒入社で開発本部に配属となったiOSエンジニアのちゃんくろです！ 入社してから約1ヶ月半、私たち新卒メンバーは「開運研修」というエンジニア向けの新卒研修を受けていました。「開運」とは「開発運用」の略で、名前だけ聞くと験担ぎみたいで縁起が良さそうですが、中身はしっかり実践的な研修です。この記事では、そこで得た学びを書いてみたいと思います。 開運研修とは 開運研修は、開発本部/クラウド基盤本部の新卒入社メンバー向けに毎年行われている研修です。今年は少人数だったこともあり、運営メンバーの方や講師の方と我々の距離…]]></content>
+        <published>2026-07-17T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.07.16号 | サイボウズ開発本部  Tech Media Platform]]></title>
+        <id>https://note.com/_tetrapod/n/n74729a5cc004</id>
+        <link href="https://note.com/_tetrapod/n/n74729a5cc004"/>
+        <updated>2026-07-17T00:56:42.000Z</updated>
+        <summary type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部 Tech Media Platformチームの貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部 Tech Media Platformチームの貴島(@jnkykn)です。いつも、Xでサイボウズのエンジニアの活動を共有しているのですが、Xの投稿を見逃した方もいらっしゃるかもしれません。もっとサイボウズのエンジニアの活動を知ってほしいので、今週も週次報告を始めます！やっていき💪続きをみる]]></content>
+        <published>2026-07-17T00:56:42.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今まで見えなかったものをAIの力で見る | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/16/180000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/16/180000"/>
+        <updated>2026-07-16T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは、フロントエンドエンジニアのおぐえもん（@oguemon_com）です。 19世紀後半、エレベーターの安全性と速度が大きく高まり、人々はフロア間を労せず短時間で移動できるようになりました。これは単に利用者のフロア移動が楽になったという話で終わらず、果てしない高層階にも現実的な労力と時間で到達可能になったことが、]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは、フロントエンドエンジニアのおぐえもん（@oguemon_com）です。 19世紀後半、エレベーターの安全性と速度が大きく高まり、人々はフロア間を労せず短時間で移動できるようになりました。これは単に利用者のフロア移動が楽になったという話で終わらず、果てしない高層階にも現実的な労力と時間で到達可能になったことが、結果として摩天楼の誕生に繋がりました。つまりエレベーターが新たな可能性を切り拓いたわけです。 生成AIによって今の仕事を省力化・高速化する話がよくあります。しかし、それだけでなく、生成AIによって今ま…]]></content>
+        <published>2026-07-16T09:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[アウトプットといえば登壇だった自分が、ブログに挑戦し始めている話 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/16/170000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/16/170000"/>
+        <updated>2026-07-16T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは！サイボウズでQAエンジニアを担当しているyuuki(@yuuki_cybozuQA)です。 サイボウズ OfficeとメールワイズのQAを担当しながら、2025年9月より新設された「QA外部コネクトチーム」で外部登壇推進や他社エンジニアの皆さまとのつながりを生み出す活動に挑戦しています。 ブログ職人Teamの]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは！サイボウズでQAエンジニアを担当しているyuuki(@yuuki_cybozuQA)です。 サイボウズ OfficeとメールワイズのQAを担当しながら、2025年9月より新設された「QA外部コネクトチーム」で外部登壇推進や他社エンジニアの皆さまとのつながりを生み出す活動に挑戦しています。 ブログ職人Teamの2つ目の記事を担当させていただきます！ブログはまだ挑戦し始めたばかりなので、「ブログ職人の卵」として書いてみたいと思います。 ブログを書くよりも、登壇が好きだった 私はもとから登壇が好きで、JaSST…]]></content>
+        <published>2026-07-16T08:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ナイトフィッシングイズグッドと新卒1年目  | Cybozu Product Design Magazine]]></title>
+        <id>https://note.com/tender_hyssop572/n/n3fdd125dd4c6</id>
+        <link href="https://note.com/tender_hyssop572/n/n3fdd125dd4c6"/>
+        <updated>2026-07-16T03:32:52.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。サイボウズに入社して1年が経ちました。続きをみる]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。サイボウズに入社して1年が経ちました。続きをみる]]></content>
+        <published>2026-07-16T03:32:52.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「間に合いませんでした」をスプリント最終日に言わないために | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/16/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/16/113000"/>
+        <updated>2026-07-16T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは。スクラムマスターのToshinari（@10shinari）です⚡️ 本記事では、スプリント最終日になってはじめて間に合わないと気づく、そんな状況を繰り返さないために、スプリント中にチームで計画と現実のズレへ気づき、進め方を適応させていく「再計画」の考え方と、そのためにチームでできることをご紹介します。 スプ]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは。スクラムマスターのToshinari（@10shinari）です⚡️ 本記事では、スプリント最終日になってはじめて間に合わないと気づく、そんな状況を繰り返さないために、スプリント中にチームで計画と現実のズレへ気づき、進め方を適応させていく「再計画」の考え方と、そのためにチームでできることをご紹介します。 スプリント中の「再計画」とは スクラムでは、スプリントプランニングで立てた計画をもとに、チームでスプリントを進めていきます。スプリントゴールを定め、どのPBIに取り組むかを選び、必要な作業に落とし込む。こ…]]></content>
+        <published>2026-07-16T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「DesignOps流」Claude Code活用方法 業務を回すほど熟成する"判断軸ファイル"とは？ | Cybozu Product Design Magazine]]></title>
+        <id>https://note.com/ogishio/n/n3078cff36937</id>
+        <link href="https://note.com/ogishio/n/n3078cff36937"/>
+        <updated>2026-07-16T01:17:42.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。こんにちは！おぎしおです。kintoneのプロダクトデザイン部で、DesignOpsをやっています。続きをみる]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。こんにちは！おぎしおです。kintoneのプロダクトデザイン部で、DesignOpsをやっています。続きをみる]]></content>
+        <published>2026-07-16T01:17:42.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[テスト管理ツール「Qase」を導入した話 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/16/090000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/16/090000"/>
+        <updated>2026-07-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめに こんにちは！サイボウズのkintone dashboard TeamでQAエンジニアをしている kairi です。 現在は一人QA体制で、テストプロセスの改善を進めています。その一環として、テストケースの管理・運用に「Qase」を導入したので紹介します。 元々はConfluenceでテストケースの管理をしていた]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめに こんにちは！サイボウズのkintone dashboard TeamでQAエンジニアをしている kairi です。 現在は一人QA体制で、テストプロセスの改善を進めています。その一環として、テストケースの管理・運用に「Qase」を導入したので紹介します。 元々はConfluenceでテストケースの管理をしていたのですが、画面や機能が増えるにつれてテストケースも増加し、Confluenceでのテストケース管理に課題を感じるようになりました。 課題解決のためにテスト管理ツールの導入を検討し、結果として「Qase…]]></content>
+        <published>2026-07-16T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Embracing the Creativity Inside You ─ Configのネットワーキングで気づいたこと | Cybozu Product Design Magazine]]></title>
+        <id>https://note.com/amishiratori/n/n87c417acc396</id>
+        <link href="https://note.com/amishiratori/n/n87c417acc396"/>
+        <updated>2026-07-15T08:47:10.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。サイボウズ株式会社でデザインテクノロジストとして活動している白鳥亜美（@__amishiratori）です。kintoneというサービスのデザインシステム（kintone Design System）を開発するチームのリーダーをしています。続きをみる]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。サイボウズ株式会社でデザインテクノロジストとして活動している白鳥亜美（@__amishiratori）です。kintoneというサービスのデザインシステム（kintone Design System）を開発するチームのリーダーをしています。続きをみる]]></content>
+        <published>2026-07-15T08:47:10.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CYBOZU SUMMER BLOG FES '26 7/13レポ | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://note.com/okap0528/n/nf85f04dd8880</id>
+        <link href="https://note.com/okap0528/n/nf85f04dd8880"/>
+        <updated>2026-07-15T08:00:43.000Z</updated>
+        <author>
+            <name>岡ピー</name>
+        </author>
+        <published>2026-07-15T08:00:43.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CYBOZU SUMMER BLOG FES '26 7/10レポ | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://note.com/okap0528/n/ncc137dd4b39a</id>
+        <link href="https://note.com/okap0528/n/ncc137dd4b39a"/>
+        <updated>2026-07-15T07:55:13.000Z</updated>
+        <author>
+            <name>岡ピー</name>
+        </author>
+        <published>2026-07-15T07:55:13.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CYBOZU SUMMER BLOG FES '26 7/9レポ | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://note.com/okap0528/n/nc2432d824a1e</id>
+        <link href="https://note.com/okap0528/n/nc2432d824a1e"/>
+        <updated>2026-07-15T07:54:28.000Z</updated>
+        <author>
+            <name>岡ピー</name>
+        </author>
+        <published>2026-07-15T07:54:28.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CYBOZU SUMMER BLOG FES '26 7/8レポ | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://note.com/okap0528/n/n751e323407ba</id>
+        <link href="https://note.com/okap0528/n/n751e323407ba"/>
+        <updated>2026-07-15T07:53:34.000Z</updated>
+        <author>
+            <name>岡ピー</name>
+        </author>
+        <published>2026-07-15T07:53:34.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CYBOZU SUMMER BLOG FES '26 7/6レポ | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://note.com/okap0528/n/n890c92b27096</id>
+        <link href="https://note.com/okap0528/n/n890c92b27096"/>
+        <updated>2026-07-15T07:51:30.000Z</updated>
+        <author>
+            <name>岡ピー</name>
+        </author>
+        <published>2026-07-15T07:51:30.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CYBOZU SUMMER BLOG FES '26 7/7レポ | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://note.com/okap0528/n/n545d6793629e</id>
+        <link href="https://note.com/okap0528/n/n545d6793629e"/>
+        <updated>2026-07-15T07:49:51.000Z</updated>
+        <author>
+            <name>岡ピー</name>
+        </author>
+        <published>2026-07-15T07:49:51.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[みんなが会議に参加できるように気をつけていること（オンライン編） | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://note.com/sukoyakarizumu/n/nbf5db9bbe9a5</id>
+        <link href="https://note.com/sukoyakarizumu/n/nbf5db9bbe9a5"/>
+        <updated>2026-07-15T03:27:50.000Z</updated>
+        <author>
+            <name>コパ</name>
+        </author>
+        <published>2026-07-15T03:27:50.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[カーネルのバージョンアップによって特定のCPUコアを使うPodが不安定になった事例の紹介 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/15/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/15/113000"/>
+        <updated>2026-07-15T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは、クラウド基盤本部の三村です。 サイボウズでは、オンプレミスのKubernetes基盤「Neco」でサービスを運用しています。 この記事では、IRQ Affinityの設定によってCPU PinningされたPodの動作が不安定になった事象について紹介します。 概要 Necoの基盤では、データセンター上にあるサ]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは、クラウド基盤本部の三村です。 サイボウズでは、オンプレミスのKubernetes基盤「Neco」でサービスを運用しています。 この記事では、IRQ Affinityの設定によってCPU PinningされたPodの動作が不安定になった事象について紹介します。 概要 Necoの基盤では、データセンター上にあるサーバーを用いてKubernetesクラスタを構築しています。 (詳細については以前の記事をご覧ください。) KubernetesノードのOSにはFlatcar Container Linux(以下Fl…]]></content>
+        <published>2026-07-15T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[S3 の時系列データを低コストで可視化する | サイボウズ 生産性向上チーム 💪のフィード]]></title>
+        <id>https://zenn.dev/cybozu_ept/articles/self-hosted-grafana-on-aws</id>
+        <link href="https://zenn.dev/cybozu_ept/articles/self-hosted-grafana-on-aws"/>
+        <updated>2026-07-15T01:00:09.000Z</updated>
+        <summary type="html"><![CDATA[!この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめにこんにちは。サイボウズ株式会社 生産性向上チームの星にゃーん（@takoeight0821）です。生産性向上チームでは、社内向けに GitHub Actions のセルフホストランナーを提供しています。ランナーは AWS 上の EC2 インスタンス群で構成されています。github-aws-runners/te]]></summary>
+        <content type="html"><![CDATA[!この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめにこんにちは。サイボウズ株式会社 生産性向上チームの星にゃーん（@takoeight0821）です。生産性向上チームでは、社内向けに GitHub Actions のセルフホストランナーを提供しています。ランナーは AWS 上の EC2 インスタンス群で構成されています。github-aws-runners/terraform-aws-github-runner（導入記事）を使い、ジョブの実行数に応じてオートスケールしています。このオートスケールによって、ジョブが増えるほどインスタンス数や...]]></content>
+        <author>
+            <name>星にゃーん</name>
+        </author>
+        <published>2026-07-15T01:00:09.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3層ディレクトリ×層別ガバナンスで作る、Claude Codeスキルの部署共有基盤 | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://zenn.dev/hiro1117/articles/da56abe6b0096f</id>
+        <link href="https://zenn.dev/hiro1117/articles/da56abe6b0096f"/>
+        <updated>2026-07-14T23:00:00.000Z</updated>
+        <author>
+            <name>hiro1117</name>
+        </author>
+        <published>2026-07-14T23:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[夏休みが始まる前に知っておきたい、Reactエンジニアに優しくなったモバイルアプリ開発の世界 | サイボウズ フロントエンドのフィード]]></title>
+        <id>https://zenn.dev/cybozu_frontend/articles/rn-devmap-in-2026</id>
+        <link href="https://zenn.dev/cybozu_frontend/articles/rn-devmap-in-2026"/>
+        <updated>2026-07-14T10:00:42.000Z</updated>
+        <summary type="html"><![CDATA[!この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめにさて、今年も夏がやってきましたね。みなさん、夏休みの過ごし方はもう決まりましたか？私は「今年こそ積んでた技術書を消化するぞ」とひそかに誓っているのですが、どうせ気づいたらYouTubeで虎とライオンが喧嘩する動画を3時間見ている——そんな未来がうっすら見えています。そんなどうでもいい余談は置いといて、普段Rea]]></summary>
+        <content type="html"><![CDATA[!この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめにさて、今年も夏がやってきましたね。みなさん、夏休みの過ごし方はもう決まりましたか？私は「今年こそ積んでた技術書を消化するぞ」とひそかに誓っているのですが、どうせ気づいたらYouTubeで虎とライオンが喧嘩する動画を3時間見ている——そんな未来がうっすら見えています。そんなどうでもいい余談は置いといて、普段ReactでWebフロントを書いているみなさん、App StoreやGoogle Playからアプリをダウンロードするたびに「これ、もしかしてReact Native（以降、RN）でサク...]]></content>
+        <author>
+            <name>xiao</name>
+        </author>
+        <published>2026-07-14T10:00:42.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[kintoneのフロントエンド刷新に残る「良くない型」の分析と改善運用 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/14/170000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/14/170000"/>
+        <updated>2026-07-14T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは！サイボウズでkintoneのフロントエンド刷新をしているSajiです。 ※この記事は、筆者がTS Kaigi 2026で登壇した発表内容をもとに、記事用に加筆・修正したものです。登壇資料はこちらからご覧いただけます。 業務に残された「良くない型」で考える「TypeScriptの難しさ」 - Speaker D]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは！サイボウズでkintoneのフロントエンド刷新をしているSajiです。 ※この記事は、筆者がTS Kaigi 2026で登壇した発表内容をもとに、記事用に加筆・修正したものです。登壇資料はこちらからご覧いただけます。 業務に残された「良くない型」で考える「TypeScriptの難しさ」 - Speaker Deck kintoneのフロントエンド基盤刷新 開発当初からkintoneの大部分は、Google Closure Toolsというフレームワークで作成されています。しかしこの Google Clos…]]></content>
+        <published>2026-07-14T08:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[正式リリース前の機能を先取り！kintoneと生成AIをつなぐ2つのMCPサーバーを試してみた | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://qiita.com/mu2in/items/230ed5f9fb2d9da8c309</id>
+        <link href="https://qiita.com/mu2in/items/230ed5f9fb2d9da8c309"/>
+        <updated>2026-07-14T07:13:22.000Z</updated>
+        <author>
+            <name>mu2in</name>
+        </author>
+        <published>2026-07-14T07:13:22.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「がんばれなくて、ごめん」──サイボウズ式に、セキララな本音を書きました | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://note.com/shigotonomirai/n/nba165d009c99</id>
+        <link href="https://note.com/shigotonomirai/n/nba165d009c99"/>
+        <updated>2026-07-14T03:44:04.000Z</updated>
+        <author>
+            <name>竹内義晴</name>
+        </author>
+        <published>2026-07-14T03:44:04.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【週刊】CYBOZU SUMMER BLOG FES'26 7/14号 | さぼてっく通信]]></title>
+        <id>https://note.com/cybozutech/n/na78e6aa75e85</id>
+        <link href="https://note.com/cybozutech/n/na78e6aa75e85"/>
+        <updated>2026-07-14T01:58:47.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！さぼてっくです。今年も、CYBOZU SUMMER BLOG FES '26（以降BLOG FES）が始まりました！今年のBLOG FESは、7/6〜8/7の5週間に、100記事以上が参加する予定です。今日から毎週、1週間に公開されたBLOG FES参加記事をご紹介する「週刊CYBOZU SUMMER BLOG FES'26」をお届けします！ CYBOZU SUMMER BLOG FE]]></summary>
+        <content type="html"><![CDATA[こんにちは！さぼてっくです。今年も、CYBOZU SUMMER BLOG FES '26（以降BLOG FES）が始まりました！今年のBLOG FESは、7/6〜8/7の5週間に、100記事以上が参加する予定です。今日から毎週、1週間に公開されたBLOG FES参加記事をご紹介する「週刊CYBOZU SUMMER BLOG FES'26」をお届けします！ CYBOZU SUMMER BLOG FES '26 特設サイトサイボウズの多種多様な21チームが100本以上の記事を投稿する夏フェス「CYBOZU SUMMER BLOG FES '2summer-blog-fes.cybozu.io 続きをみる]]></content>
+        <published>2026-07-14T01:58:47.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MarkuplintでHTMLの品質を守る | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/09/170000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/09/170000"/>
+        <updated>2026-07-14T00:01:19.000Z</updated>
+        <author>
+            <name>たくぼう</name>
+        </author>
+        <published>2026-07-14T00:01:19.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[スタートアップからサイボウズに転職して、正直どうだったか | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/job_change_startup_to_cybozu</id>
+        <link href="https://blog.cybozu.io/entry/job_change_startup_to_cybozu"/>
+        <updated>2026-07-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめに はじめまして、開発本部 kintone アプリ化チームの okarin です。 私は2026年2月にスタートアップからサイボウズに転職しました。そこで、両社を比較して感じたことを紹介していきたいと思います。 この記事が今後のキャリアを考えるきっかけになれば幸いです。 働き方 多様な働き方が尊重されている サイボ]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめに はじめまして、開発本部 kintone アプリ化チームの okarin です。 私は2026年2月にスタートアップからサイボウズに転職しました。そこで、両社を比較して感じたことを紹介していきたいと思います。 この記事が今後のキャリアを考えるきっかけになれば幸いです。 働き方 多様な働き方が尊重されている サイボウズのカルチャーには、「多様な個性を重視」というものがあります。人によっては育児などで時短勤務だったり、副業などで週4日で働くメンバーがいたりと、さまざまな働き方が尊重されています。必ずしも希望が通る…]]></content>
+        <published>2026-07-14T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[記憶頼りの Trusted Advisor 運用をやめた話 | サイボウズ 生産性向上チーム 💪のフィード]]></title>
+        <id>https://zenn.dev/cybozu_ept/articles/advanced-trusted-advisor</id>
+        <link href="https://zenn.dev/cybozu_ept/articles/advanced-trusted-advisor"/>
+        <updated>2026-07-13T06:44:35.000Z</updated>
+        <summary type="html"><![CDATA[!この記事は、CYBOZU SUMMER BLOG FES '26 の記事です。こんにちは、サイボウズ生産性向上チームの defaultcf です。この記事では、私が業務の傍らで作ったウェブブラウザ拡張機能で AWS Trusted Advisor の運用を改善した話を紹介します。 Trusted Advisor とはhttps://aws.amazon.com/jp/premiumsupport]]></summary>
+        <content type="html"><![CDATA[!この記事は、CYBOZU SUMMER BLOG FES '26 の記事です。こんにちは、サイボウズ生産性向上チームの defaultcf です。この記事では、私が業務の傍らで作ったウェブブラウザ拡張機能で AWS Trusted Advisor の運用を改善した話を紹介します。 Trusted Advisor とはhttps://aws.amazon.com/jp/premiumsupport/technology/trusted-advisor/AWS Trusted Advisor は、コストの最適化、パフォーマンスの向上、セキュリティと耐障害性の改善、クラ...]]></content>
+        <author>
+            <name>defaultcf</name>
+        </author>
+        <published>2026-07-13T06:44:35.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Garoonに来る問い合わせって何が多いの？ AIに2,700件読ませてみた | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/13/133000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/13/133000"/>
+        <updated>2026-07-13T04:30:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは。サイボウズで大規模向けグループウェア「Garoon」を開発している鈴木です。 Garoonはオンプレミス版がリリースから20年以上、クラウド版でも10年以上稼働している、長く使われてきた製品です。長年運用を支えてきたなかで、サポート側にもさまざまな環境・事象に対する調査ノウハウが蓄積されてきました。 私はその]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 こんにちは。サイボウズで大規模向けグループウェア「Garoon」を開発している鈴木です。 Garoonはオンプレミス版がリリースから20年以上、クラウド版でも10年以上稼働している、長く使われてきた製品です。長年運用を支えてきたなかで、サポート側にもさまざまな環境・事象に対する調査ノウハウが蓄積されてきました。 私はそのなかでも、カスタマーサポートの1次受けでは対応しきれない案件のエスカレーション対応を担当しています。このチームは社内では「Siriusチーム」と呼ばれていて、活動の詳細は以下の記事に詳しく書かれていま…]]></content>
+        <published>2026-07-13T04:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QAとEMのコミュニケーション | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/13/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/13/113000"/>
+        <updated>2026-07-13T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめに こんにちは！サイボウズでQAエンジニア（以下、QA）をしている ひとみ です！ kintone外システムのkintoneアプリ化（以下、アプリ化）を開発するアプリ化チームに所属しています。 kintone開発チームは担当する機能ごとにチームが分かれており、各チームにはエンジニアリングマネージャー（以下、EM）、]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめに こんにちは！サイボウズでQAエンジニア（以下、QA）をしている ひとみ です！ kintone外システムのkintoneアプリ化（以下、アプリ化）を開発するアプリ化チームに所属しています。 kintone開発チームは担当する機能ごとにチームが分かれており、各チームにはエンジニアリングマネージャー（以下、EM）、プロダクトエンジニア（以下、PdE）、QAが所属しています。 アプリ化チームでは、PdEは開発を担当する機能によって2つのサブチームに分かれており、EMとQAは両方のサブチームと関わっています。日々の…]]></content>
+        <published>2026-07-13T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybozu PSIRT Monthly をあらためて紹介 | サイボウズ PSIRTのフィード]]></title>
+        <id>https://zenn.dev/cybozu_psirt/articles/da85fd864f3676</id>
+        <link href="https://zenn.dev/cybozu_psirt/articles/da85fd864f3676"/>
+        <updated>2026-07-13T01:28:14.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめにサイボウズ PSIRT Publicationでは、毎月「Cybozu PSIRT Monthly」というタイトルで、サイボウズのPSIRT（以下、Cy-PSIRT）メンバーが気になったセキュリティ関連の記事や話題をまとめて紹介しています。https://zenn.dev/topics/cybozupsirtmo]]></summary>
+        <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 はじめにサイボウズ PSIRT Publicationでは、毎月「Cybozu PSIRT Monthly」というタイトルで、サイボウズのPSIRT（以下、Cy-PSIRT）メンバーが気になったセキュリティ関連の記事や話題をまとめて紹介しています。https://zenn.dev/topics/cybozupsirtmonthly昨年12月から毎月記事を投稿してきましたが、Cybozu PSIRT Monthlyがそもそもどのような連載なのか、またCy-PSIRTがどのようなチームなのかについては、こ...]]></content>
+        <author>
+            <name>ibuki taguchi</name>
+        </author>
+        <published>2026-07-13T01:28:14.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4社合同イベント『Mobile Tech Flex』の紹介 〜敷居が低いモバイルコミュニティを目指して〜 | CYBOZU SUMMER BLOG FES'26]]></title>
+        <id>https://blog.cybozu.io/entry/2026/07/10/170000</id>
+        <link href="https://blog.cybozu.io/entry/2026/07/10/170000"/>
+        <updated>2026-07-11T02:51:35.000Z</updated>
+        <author>
+            <name>トニオ</name>
+        </author>
+        <published>2026-07-11T02:51:35.000Z</published>
+    </entry>
+</feed>

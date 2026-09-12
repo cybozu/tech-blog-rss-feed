@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cybozu.github.io/tech-blog-rss-feed/</id>
+    <title>サイボウズのTech系ブログRSS</title>
+    <updated>2026-09-12T22:02:31.798Z</updated>
+    <generator>cybozu/tech-blog-rss-feed</generator>
+    <link rel="alternate" href="https://cybozu.github.io/tech-blog-rss-feed/"/>
+    <link rel="self" href="https://cybozu.github.io/tech-blog-rss-feed/feeds/atom.xml"/>
+    <subtitle>サイボウズのTech系ブログの更新をまとめたRSSフィード</subtitle>
+    <logo>https://cybozu.github.io/tech-blog-rss-feed/images/icon.png</logo>
+    <icon>https://cybozu.github.io/tech-blog-rss-feed/images/favicon.ico</icon>
+    <rights>cybozu/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.09.10号 | さぼてっく通信]]></title>
+        <id>https://note.com/cybozutech/n/n16955b57aff2</id>
+        <link href="https://note.com/cybozutech/n/n16955b57aff2"/>
+        <updated>2026-09-10T04:37:11.000Z</updated>
+        <summary type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーはTech Media Platformのマガジンでチェックできます！続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーはTech Media Platformのマガジンでチェックできます！続きをみる]]></content>
+        <published>2026-09-10T04:37:11.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#24 フロントエンドエンジニアは5年経つとどうなるのか | サイボウズ フロントエンド通信]]></title>
+        <id>6b13aa82-6b00-424a-accd-3ba16c681dfc</id>
+        <link href="https://podcasters.spotify.com/pod/show/cybozu-frontend/episodes/24-5-e3oeunp"/>
+        <updated>2026-09-08T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[サイボウズ フロントエンド通信の #24 では、フロントエンドエンジニアとして入社した人たちが5年経つとどうなったのか話してますBGMシティー ガールは田舎道を歩く / Neötrön]]></summary>
+        <content type="html"><![CDATA[サイボウズ フロントエンド通信の #24 では、フロントエンドエンジニアとして入社した人たちが5年経つとどうなったのか話してますBGMシティー ガールは田舎道を歩く / Neötrön]]></content>
+        <author>
+            <name>サイボウズ フロントエンド通信委員会</name>
+        </author>
+        <published>2026-09-08T01:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[kintoneのレガシーコードをAIで再実装してみた | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/09/04/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/09/04/113000"/>
+        <updated>2026-09-04T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[初めに kintone チームの前田です。 kintone には結構な量のレガシーコードがあります。 このレガシーコードに対して AI を使って再実装できないかを実験してみました。 先に結果だけお伝えすると、うまく再実装できてコードベースに取り込めたものもあれば、うまくいかないものもありました。 なお、利用したエージェントは Claude Code、モデルは Claude Opus 5 (1M コ]]></summary>
+        <content type="html"><![CDATA[初めに kintone チームの前田です。 kintone には結構な量のレガシーコードがあります。 このレガシーコードに対して AI を使って再実装できないかを実験してみました。 先に結果だけお伝えすると、うまく再実装できてコードベースに取り込めたものもあれば、うまくいかないものもありました。 なお、利用したエージェントは Claude Code、モデルは Claude Opus 5 (1M コンテキスト版) です。 AI への指示や情報は、増やせば増やすほど求める実装が生成されやすくなるとは思いますが調整も大変になってくるので、必要最小限にして実験しました。 試行回数についてもどの実験でも…]]></content>
+        <published>2026-09-04T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mythos 対策プロジェクトの 2 ヶ月(まとめ編) | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/logos-retrospective</id>
+        <link href="https://blog.cybozu.io/entry/logos-retrospective"/>
+        <updated>2026-09-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mythos 級 AI 公開に備えてサイボウズが実施した、セキュリティスキャンハーネス開発プロジェクト "Logos" について。今回は、プロジェクトを終えてのまとめです。]]></summary>
+        <content type="html"><![CDATA[Mythos 級 AI 公開に備えてサイボウズが実施した、セキュリティスキャンハーネス開発プロジェクト "Logos" について。今回は、プロジェクトを終えてのまとめです。]]></content>
+        <published>2026-09-04T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mythos 対策プロジェクトの 2 ヶ月(LLM-Wiki 編) | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/logos-llm-wiki-ergon</id>
+        <link href="https://blog.cybozu.io/entry/logos-llm-wiki-ergon"/>
+        <updated>2026-09-03T04:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Mythos 級 AI 公開に備えてサイボウズが実施した、セキュリティスキャンハーネス開発プロジェクト "Logos" について。今回は、ハーネスに社内の知識を渡す LLM-Wiki "Ergon" について解説します。]]></summary>
+        <content type="html"><![CDATA[Mythos 級 AI 公開に備えてサイボウズが実施した、セキュリティスキャンハーネス開発プロジェクト "Logos" について。今回は、ハーネスに社内の知識を渡す LLM-Wiki "Ergon" について解説します。]]></content>
+        <published>2026-09-03T04:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI-DLC Unicorn Gymをサイボウズで開催しました | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/09/03/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/09/03/113000"/>
+        <updated>2026-09-03T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！開発本部のAI Catalystチームの加瀬（ @Kesin11 ）です。 8/17 - 18にAI-DLCという開発手法を体験するAI-DLC Unicorn GymイベントをサイボウズとAWS様の共同開催で実施しました。サイボウズ内でプロダクト開発に携わっているメンバーが新しいAIネイティブな開発手法に触れた様子をイベントレポートとしてお伝えします。 AI Catalystチームに]]></summary>
+        <content type="html"><![CDATA[こんにちは！開発本部のAI Catalystチームの加瀬（ @Kesin11 ）です。 8/17 - 18にAI-DLCという開発手法を体験するAI-DLC Unicorn GymイベントをサイボウズとAWS様の共同開催で実施しました。サイボウズ内でプロダクト開発に携わっているメンバーが新しいAIネイティブな開発手法に触れた様子をイベントレポートとしてお伝えします。 AI Catalystチームについて その前に、少しだけ自分が所属しているAI Catalystチームについて紹介させてください。 サイボウズでは以前から開発本部のAIやっていきチームが中心となって様々なAI開発ツールを業務で利用…]]></content>
+        <published>2026-09-03T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.09.03号 | さぼてっく通信]]></title>
+        <id>https://note.com/cybozutech/n/ne85e409ef6a4</id>
+        <link href="https://note.com/cybozutech/n/ne85e409ef6a4"/>
+        <updated>2026-09-03T00:33:44.000Z</updated>
+        <summary type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーはTech Media Platformのマガジンでチェックできます！続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーはTech Media Platformのマガジンでチェックできます！続きをみる]]></content>
+        <published>2026-09-03T00:33:44.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iOSDC Japan 2026 にゴールドスポンサーとして協賛します！ | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/iosdc26</id>
+        <link href="https://blog.cybozu.io/entry/iosdc26"/>
+        <updated>2026-09-02T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、iOSエンジニアの @tochi86_ です。 今年も iOSDC Japan の時期が近づいてまいりました。 サイボウズは、2026年9月11日から9月13日に開催される iOSDC Japan 2026 に、ゴールドスポンサーとして協賛いたします！ 「iOSDC Japan」とは、iOS関連技術をテーマとした iOS技術者のためのカンファレンスです。 今年も現地開催＋オンライン配信]]></summary>
+        <content type="html"><![CDATA[こんにちは、iOSエンジニアの @tochi86_ です。 今年も iOSDC Japan の時期が近づいてまいりました。 サイボウズは、2026年9月11日から9月13日に開催される iOSDC Japan 2026 に、ゴールドスポンサーとして協賛いたします！ 「iOSDC Japan」とは、iOS関連技術をテーマとした iOS技術者のためのカンファレンスです。 今年も現地開催＋オンライン配信でのハイブリッド開催が予定されており、有明セントラルタワーホール＆カンファレンスにて開催されます。 iosdc.jp サイボウズでは、kintone / サイボウズOffice / Garoon の3…]]></content>
+        <published>2026-09-02T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mythos 対策プロジェクトの 2 ヶ月(ハーネス編) | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/logos-harness-horos</id>
+        <link href="https://blog.cybozu.io/entry/logos-harness-horos"/>
+        <updated>2026-09-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mythos 級 AI 公開に備えてサイボウズが実施した、セキュリティスキャンハーネス開発プロジェクト "Logos" について。今回は、中核となるハーネス "Horos" について解説します。]]></summary>
+        <content type="html"><![CDATA[Mythos 級 AI 公開に備えてサイボウズが実施した、セキュリティスキャンハーネス開発プロジェクト "Logos" について。今回は、中核となるハーネス "Horos" について解説します。]]></content>
+        <published>2026-09-02T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web 標準動向 2026年8月版 | サイボウズ フロントエンドのフィード]]></title>
+        <id>https://zenn.dev/cybozu_frontend/articles/web_standards_trends_202608</id>
+        <link href="https://zenn.dev/cybozu_frontend/articles/web_standards_trends_202608"/>
+        <updated>2026-09-01T08:00:05.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！ サイボウズ株式会社 デザインテクノロジストの saku (@sakupi01) です。 はじめにサイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。https://blog.cybozu.io/entry/joining-w3c標準化プロセスに関わることができるようになるための最初の一歩として、フロントエンドエンジニアの一部のメンバーは積極的に Web 標準のキ]]></summary>
+        <content type="html"><![CDATA[こんにちは！ サイボウズ株式会社 デザインテクノロジストの saku (@sakupi01) です。 はじめにサイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。https://blog.cybozu.io/entry/joining-w3c標準化プロセスに関わることができるようになるための最初の一歩として、フロントエンドエンジニアの一部のメンバーは積極的に Web 標準のキャッチアップを行っています。そこで、毎月メンバーが興味を持った Web 標準に関する話題や、実際に標準化プロセスに関わることができた場合にはその報告などを 1 つの記事としてまとめ、...]]></content>
+        <author>
+            <name>saku</name>
+        </author>
+        <published>2026-09-01T08:00:05.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mythos 対策プロジェクトの 2 ヶ月(概要編) | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/logos-overview</id>
+        <link href="https://blog.cybozu.io/entry/logos-overview"/>
+        <updated>2026-09-01T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mythos 級 AI 公開に備えてサイボウズが実施した、セキュリティスキャンハーネス開発プロジェクト "Logos" について、連載で紹介します。]]></summary>
+        <content type="html"><![CDATA[Mythos 級 AI 公開に備えてサイボウズが実施した、セキュリティスキャンハーネス開発プロジェクト "Logos" について、連載で紹介します。]]></content>
+        <published>2026-09-01T07:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#23 発表の再演が原則？な勉強会、替え玉.web のこと教えて | サイボウズ フロントエンド通信]]></title>
+        <id>8ac9758e-6283-49fc-8d1d-6558c39874a8</id>
+        <link href="https://podcasters.spotify.com/pod/show/cybozu-frontend/episodes/23--web-e3o09vr"/>
+        <updated>2026-09-01T00:30:00.000Z</updated>
+        <summary type="html"><![CDATA[サイボウズ フロントエンド通信の #23 では、「過去の発表の再演が原則」のWebフロントエンド勉強会、替え玉.webの話をしました。フロントエンドカンファレンス福岡の前日である9/11(金)の19時からサイボウズの福岡オフィスで開催しますので、ぜひご参加ください！https://cybozu.connpass.com/event/402843/BGMシティー ガールは田舎道を歩く / Neötr]]></summary>
+        <content type="html"><![CDATA[サイボウズ フロントエンド通信の #23 では、「過去の発表の再演が原則」のWebフロントエンド勉強会、替え玉.webの話をしました。フロントエンドカンファレンス福岡の前日である9/11(金)の19時からサイボウズの福岡オフィスで開催しますので、ぜひご参加ください！https://cybozu.connpass.com/event/402843/BGMシティー ガールは田舎道を歩く / Neötrön]]></content>
+        <author>
+            <name>サイボウズ フロントエンド通信委員会</name>
+        </author>
+        <published>2026-09-01T00:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[祭りのあと【業務編】～CYBOZU SUMMER BLOG FES'26ふりかえり | サイボウズ開発本部  Tech Media Platform]]></title>
+        <id>https://note.com/_tetrapod/n/nbdc3e9fccaf0</id>
+        <link href="https://note.com/_tetrapod/n/nbdc3e9fccaf0"/>
+        <updated>2026-08-31T03:14:07.000Z</updated>
+        <summary type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部 Tech Media Platformチームの貴島(@jnkykn)です。2026/07/06から2026/08/07まで開催された、CYBOZU SUMMER BLOG FES'26。私はTech Media Platformとして、BLOG FES'26の参加記事紹介投稿などの対応をしました。個人のふりかえりに続き、今日は業務として]]></summary>
+        <content type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部 Tech Media Platformチームの貴島(@jnkykn)です。2026/07/06から2026/08/07まで開催された、CYBOZU SUMMER BLOG FES'26。私はTech Media Platformとして、BLOG FES'26の参加記事紹介投稿などの対応をしました。個人のふりかえりに続き、今日は業務として対応した部分について書きます。続きをみる]]></content>
+        <published>2026-08-31T03:14:07.000Z</published>
+    </entry>
+</feed>

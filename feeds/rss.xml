@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>サイボウズのTech系ブログRSS</title>
+        <link>https://cybozu.github.io/tech-blog-rss-feed/</link>
+        <description>サイボウズのTech系ブログの更新をまとめたRSSフィード</description>
+        <lastBuildDate>Sun, 11 Oct 2026 05:02:53 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>cybozu/tech-blog-rss-feed</generator>
+        <language>ja</language>
+        <image>
+            <title>サイボウズのTech系ブログRSS</title>
+            <url>https://cybozu.github.io/tech-blog-rss-feed/images/icon.png</url>
+            <link>https://cybozu.github.io/tech-blog-rss-feed/</link>
+        </image>
+        <copyright>cybozu/tech-blog-rss-feed</copyright>
+        <atom:link href="https://cybozu.github.io/tech-blog-rss-feed/feeds/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Cilium Conntrack のメトリクス拡張の検証と提案 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+            <link>https://blog.cybozu.io/entry/cilium-ct-metrics-proposal</link>
+            <guid>https://blog.cybozu.io/entry/cilium-ct-metrics-proposal</guid>
+            <pubDate>Fri, 09 Oct 2026 03:00:00 GMT</pubDate>
+            <description><![CDATA[初めに クラウド基盤本部 NWDC 部 Kubernetes ネットワークチームの寺嶋です。Kubernetes ネットワークチームでは 2026 年 8 月 17 日から 2 週間インターンシップを開催し、2 名の方に参加していただきました。 cybozu.co.jp 本記事では、インターンシップで白川さん（@KasumiMercury）に担当していただいた「Cilium Conntrack の]]></description>
+            <content:encoded><![CDATA[初めに クラウド基盤本部 NWDC 部 Kubernetes ネットワークチームの寺嶋です。Kubernetes ネットワークチームでは 2026 年 8 月 17 日から 2 週間インターンシップを開催し、2 名の方に参加していただきました。 cybozu.co.jp 本記事では、インターンシップで白川さん（@KasumiMercury）に担当していただいた「Cilium Conntrack のメトリクス拡張の検証と提案」というテーマの成果を紹介します。 もう一方の小野さん（@no2ca）さんに取り組んでいただいた成果は別記事で紹介していますので、そちらもあわせてご覧ください。 blog.c…]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/jyJqK9zNLH-450.jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[ Neco 環境における Cilium Multi-Pool IPAM の動作検証 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+            <link>https://blog.cybozu.io/entry/cilium-multi-pool-ipam-evaluation</link>
+            <guid>https://blog.cybozu.io/entry/cilium-multi-pool-ipam-evaluation</guid>
+            <pubDate>Fri, 09 Oct 2026 02:30:00 GMT</pubDate>
+            <description><![CDATA[クラウド基盤本部 NWDC 部 Kubernetes ネットワークチームの花田です。 この記事では2026年8月にサイボウズで開催していた Kubernetes ネットワークインターンコースにて、インターンの小野さん（@no2ca）に取り組んでいただいた課題とその成果を紹介します。 今回小野さんには、Cilium の IP アドレス管理（IPAM）機能の一つである Multi-Pool IPAM ]]></description>
+            <content:encoded><![CDATA[クラウド基盤本部 NWDC 部 Kubernetes ネットワークチームの花田です。 この記事では2026年8月にサイボウズで開催していた Kubernetes ネットワークインターンコースにて、インターンの小野さん（@no2ca）に取り組んでいただいた課題とその成果を紹介します。 今回小野さんには、Cilium の IP アドレス管理（IPAM）機能の一つである Multi-Pool IPAM が Neco の Kubernetes クラスタでも動作するか検証していただきました。 もう一方の白川さん（@KasumiMercury）に取り組んでいただいた成果は別記事で紹介していますので、そちら…]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/LaSQpZvwfk-450.jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.10.08号 | さぼてっく通信]]></title>
+            <link>https://note.com/cybozutech/n/n46f1ba822965</link>
+            <guid>https://note.com/cybozutech/n/n46f1ba822965</guid>
+            <pubDate>Thu, 08 Oct 2026 05:49:28 GMT</pubDate>
+            <description><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></description>
+            <content:encoded><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/6IykeRbHZI-450.jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.10.01号 | さぼてっく通信]]></title>
+            <link>https://note.com/cybozutech/n/nd5ffb05079ba</link>
+            <guid>https://note.com/cybozutech/n/nd5ffb05079ba</guid>
+            <pubDate>Thu, 01 Oct 2026 00:31:59 GMT</pubDate>
+            <description><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></description>
+            <content:encoded><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/o9uSB9_aff-450.jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Web 標準動向 2026年9月版 | サイボウズ フロントエンドのフィード]]></title>
+            <link>https://zenn.dev/cybozu_frontend/articles/web_standards_trends_202609</link>
+            <guid>https://zenn.dev/cybozu_frontend/articles/web_standards_trends_202609</guid>
+            <pubDate>Wed, 30 Sep 2026 09:00:08 GMT</pubDate>
+            <description><![CDATA[こんにちは！ サイボウズ株式会社 デザインテクノロジストの saku (@sakupi01) です。 はじめにサイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。https://blog.cybozu.io/entry/joining-w3c標準化プロセスに関わることができるようになるための最初の一歩として、フロントエンドエンジニアの一部のメンバーは積極的に Web 標準のキ]]></description>
+            <content:encoded><![CDATA[こんにちは！ サイボウズ株式会社 デザインテクノロジストの saku (@sakupi01) です。 はじめにサイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。https://blog.cybozu.io/entry/joining-w3c標準化プロセスに関わることができるようになるための最初の一歩として、フロントエンドエンジニアの一部のメンバーは積極的に Web 標準のキャッチアップを行っています。そこで、毎月メンバーが興味を持った Web 標準に関する話題や、実際に標準化プロセスに関わることができた場合にはその報告などを 1 つの記事としてまとめ、...]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/-EKZfWks-1-450.jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[パッケージレジストリの対策の歴史など: Cybozu PSIRT Monthly（2026年9月号） | サイボウズ PSIRTのフィード]]></title>
+            <link>https://zenn.dev/cybozu_psirt/articles/7946fa6616c16f</link>
+            <guid>https://zenn.dev/cybozu_psirt/articles/7946fa6616c16f</guid>
+            <pubDate>Wed, 30 Sep 2026 00:30:46 GMT</pubDate>
+            <description><![CDATA[こんにちは！サイボウズ株式会社 PSIRTのJJ (yuasa)です。 はじめにPSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年9月にスレッド内で共有された記事や話題を紹介します。 共有された記事・話題 AIエージェントによる意図しない外部アクセス・データ送信事案https://piyolog.hatenadiary]]></description>
+            <content:encoded><![CDATA[こんにちは！サイボウズ株式会社 PSIRTのJJ (yuasa)です。 はじめにPSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年9月にスレッド内で共有された記事や話題を紹介します。 共有された記事・話題 AIエージェントによる意図しない外部アクセス・データ送信事案https://piyolog.hatenadiary.jp/entry/2026/09/26/070036https://piyolog.hatenadiary.jp/entry/2026/09/28/082600https:...]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/Rh86vN7qBB-450.jpeg"/>
+        </item>
+    </channel>
+</rss>

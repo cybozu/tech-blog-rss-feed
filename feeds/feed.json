@@ -1,0 +1,148 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "サイボウズのTech系ブログRSS",
+    "home_page_url": "https://cybozu.github.io/tech-blog-rss-feed/",
+    "feed_url": "https://cybozu.github.io/tech-blog-rss-feed/feeds/feed.json",
+    "description": "サイボウズのTech系ブログの更新をまとめたRSSフィード",
+    "icon": "https://cybozu.github.io/tech-blog-rss-feed/images/icon.png",
+    "items": [
+        {
+            "id": "https://note.com/cybozutech/n/nac7a5dbbfec2",
+            "content_html": "皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる",
+            "url": "https://note.com/cybozutech/n/nac7a5dbbfec2",
+            "title": "今週のCybozuのエンジニアの登壇・イベント情報 2026.10.15号 | さぼてっく通信",
+            "summary": "皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/zRFLX77BX--450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-10-15T00:03:48.000Z",
+            "date_published": "2026-10-15T00:03:48.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "今週のCybozuのエンジニアの登壇・イベント情報 2026.10.15号",
+                "blogTitle": "さぼてっく通信",
+                "blogLink": "https://note.com/cybozutech/m/mb7d0081e1358",
+                "blogLinkMd5Hash": "18f73f213dc06ac791a0afcc68da89b3",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/zRFLX77BX--450.jpeg"
+            }
+        },
+        {
+            "id": "https://blog.cybozu.io/entry/2026/10/14/090000",
+            "content_html": "はじめに こんにちは。ログ基盤チームの吉本です。 cybozu.com では、2018年のブログ記事でご紹介したログ基盤を長期にわたって運用してきましたが、このたびサイボウズの Kubernetes 基盤である Neco へ移行しました。 今回の移行では、旧ログ基盤が抱えていた課題や移行に伴う制約を踏まえ、アーキテクチャを全体的に刷新しています。 本記事では、この新しいログ基盤の全貌についてご紹介したいと思います。 blog.cybozu.io はじめに アーキテクチャ刷新のモチベーション Neco に適した構成への見直し ログの発生源に関する制約 新ログ基盤の全体像 ログの収集 LogShi…",
+            "url": "https://blog.cybozu.io/entry/2026/10/14/090000",
+            "title": "サイボウズのログ基盤 2026年版 ― Apache Iceberg × Trino によるアーキテクチャ刷新 | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "はじめに こんにちは。ログ基盤チームの吉本です。 cybozu.com では、2018年のブログ記事でご紹介したログ基盤を長期にわたって運用してきましたが、このたびサイボウズの Kubernetes 基盤である Neco へ移行しました。 今回の移行では、旧ログ基盤が抱えていた課題や移行に伴う制約を踏まえ、アーキテクチャを全体的に刷新しています。 本記事では、この新しいログ基盤の全貌についてご紹介",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/IO0knV0bDz-450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-10-14T00:00:00.000Z",
+            "date_published": "2026-10-14T00:00:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 15,
+                "originalTitle": "サイボウズのログ基盤 2026年版 ― Apache Iceberg × Trino によるアーキテクチャ刷新",
+                "blogTitle": "Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "blogLink": "https://blog.cybozu.io/",
+                "blogLinkMd5Hash": "334895ad2f27bf31195a54902c472405",
+                "favicon": "https://blog.cybozu.io/icon/favicon",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/IO0knV0bDz-450.jpeg"
+            }
+        },
+        {
+            "id": "https://blog.cybozu.io/entry/2026/10/13/170000",
+            "content_html": "こんにちは！サイボウズのトニオ（@tonionagauzzi）です。普段はkintone開発チームにてAndroidアプリを主に開発しています。 2026年10月6日（火）にサイボウズ株式会社とSTORES株式会社の合同で DroidKaigi × iOSDC After Night をサイボウズ東京オフィスで開催しました。本記事ではその当日の様子をレポートします！ cybozu.connpass.com 今回のイベントは、DroidKaigiとiOSDCの後にAndroidとiOSのエンジニアが合同で話せる場を作りたいと思い企画しました。 ちゃんくろさんのオープニングトーク Takahash…",
+            "url": "https://blog.cybozu.io/entry/2026/10/13/170000",
+            "title": "DroidKaigi × iOSDC After Night を開催しました！ | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "こんにちは！サイボウズのトニオ（@tonionagauzzi）です。普段はkintone開発チームにてAndroidアプリを主に開発しています。 2026年10月6日（火）にサイボウズ株式会社とSTORES株式会社の合同で DroidKaigi × iOSDC After Night をサイボウズ東京オフィスで開催しました。本記事ではその当日の様子をレポートします！ cybozu.connpass",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/6v68pSq6FO-450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-10-13T08:00:00.000Z",
+            "date_published": "2026-10-13T08:00:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 1,
+                "originalTitle": "DroidKaigi × iOSDC After Night を開催しました！",
+                "blogTitle": "Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "blogLink": "https://blog.cybozu.io/",
+                "blogLinkMd5Hash": "334895ad2f27bf31195a54902c472405",
+                "favicon": "https://blog.cybozu.io/icon/favicon",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/6v68pSq6FO-450.jpeg"
+            }
+        },
+        {
+            "id": "https://blog.cybozu.io/entry/cilium-ct-metrics-proposal",
+            "content_html": "初めに クラウド基盤本部 NWDC 部 Kubernetes ネットワークチームの寺嶋です。Kubernetes ネットワークチームでは 2026 年 8 月 17 日から 2 週間インターンシップを開催し、2 名の方に参加していただきました。 cybozu.co.jp 本記事では、インターンシップで白川さん（@KasumiMercury）に担当していただいた「Cilium Conntrack のメトリクス拡張の検証と提案」というテーマの成果を紹介します。 もう一方の小野さん（@no2ca）さんに取り組んでいただいた成果は別記事で紹介していますので、そちらもあわせてご覧ください。 blog.c…",
+            "url": "https://blog.cybozu.io/entry/cilium-ct-metrics-proposal",
+            "title": "Cilium Conntrack のメトリクス拡張の検証と提案 | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "初めに クラウド基盤本部 NWDC 部 Kubernetes ネットワークチームの寺嶋です。Kubernetes ネットワークチームでは 2026 年 8 月 17 日から 2 週間インターンシップを開催し、2 名の方に参加していただきました。 cybozu.co.jp 本記事では、インターンシップで白川さん（@KasumiMercury）に担当していただいた「Cilium Conntrack の",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/jyJqK9zNLH-450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-10-09T03:00:00.000Z",
+            "date_published": "2026-10-09T03:00:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "Cilium Conntrack のメトリクス拡張の検証と提案",
+                "blogTitle": "Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "blogLink": "https://blog.cybozu.io/",
+                "blogLinkMd5Hash": "334895ad2f27bf31195a54902c472405",
+                "favicon": "https://blog.cybozu.io/icon/favicon",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/jyJqK9zNLH-450.jpeg"
+            }
+        },
+        {
+            "id": "https://blog.cybozu.io/entry/cilium-multi-pool-ipam-evaluation",
+            "content_html": "クラウド基盤本部 NWDC 部 Kubernetes ネットワークチームの花田です。 この記事では2026年8月にサイボウズで開催していた Kubernetes ネットワークインターンコースにて、インターンの小野さん（@no2ca）に取り組んでいただいた課題とその成果を紹介します。 今回小野さんには、Cilium の IP アドレス管理（IPAM）機能の一つである Multi-Pool IPAM が Neco の Kubernetes クラスタでも動作するか検証していただきました。 もう一方の白川さん（@KasumiMercury）に取り組んでいただいた成果は別記事で紹介していますので、そちら…",
+            "url": "https://blog.cybozu.io/entry/cilium-multi-pool-ipam-evaluation",
+            "title": " Neco 環境における Cilium Multi-Pool IPAM の動作検証 | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "クラウド基盤本部 NWDC 部 Kubernetes ネットワークチームの花田です。 この記事では2026年8月にサイボウズで開催していた Kubernetes ネットワークインターンコースにて、インターンの小野さん（@no2ca）に取り組んでいただいた課題とその成果を紹介します。 今回小野さんには、Cilium の IP アドレス管理（IPAM）機能の一つである Multi-Pool IPAM ",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/LaSQpZvwfk-450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-10-09T02:30:00.000Z",
+            "date_published": "2026-10-09T02:30:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": " Neco 環境における Cilium Multi-Pool IPAM の動作検証",
+                "blogTitle": "Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "blogLink": "https://blog.cybozu.io/",
+                "blogLinkMd5Hash": "334895ad2f27bf31195a54902c472405",
+                "favicon": "https://blog.cybozu.io/icon/favicon",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/LaSQpZvwfk-450.jpeg"
+            }
+        },
+        {
+            "id": "https://note.com/cybozutech/n/n46f1ba822965",
+            "content_html": "皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる",
+            "url": "https://note.com/cybozutech/n/n46f1ba822965",
+            "title": "今週のCybozuのエンジニアの登壇・イベント情報 2026.10.08号 | さぼてっく通信",
+            "summary": "皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/6IykeRbHZI-450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-10-08T05:49:28.000Z",
+            "date_published": "2026-10-08T05:49:28.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "今週のCybozuのエンジニアの登壇・イベント情報 2026.10.08号",
+                "blogTitle": "さぼてっく通信",
+                "blogLink": "https://note.com/cybozutech/m/mb7d0081e1358",
+                "blogLinkMd5Hash": "18f73f213dc06ac791a0afcc68da89b3",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/6IykeRbHZI-450.jpeg"
+            }
+        }
+    ]
+}

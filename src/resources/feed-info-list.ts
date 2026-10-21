@@ -92,10 +92,10 @@ export const getFeedInfoList = async (): Promise<FeedInfo[]> => {
     ],
     ['サイボウズ セキュリティ室', 'https://note.com/security_cybozu/rss', 'https://note.com/security_cybozu', 'blog'],
     [
-      'サイボウズ コネクト支援チーム',
-      'https://note.com/cybozutech/m/mc0c086e78c4f/rss',
-      'https://note.com/cybozutech/m/mc0c086e78c4f',
-      'archive',
+      'サイボウズ QAブログ',
+      'https://note.com/cy_qa_ext/rss',
+      'https://note.com/cy_qa_ext',
+      'blog',
     ],
     [
       'サイボウズ Tech Media Platformチーム',
@@ -108,6 +108,12 @@ export const getFeedInfoList = async (): Promise<FeedInfo[]> => {
       'https://note.com/cybozutech/m/mb7d0081e1358/rss',
       'https://note.com/cybozutech/m/mb7d0081e1358',
       'blog',
+    ],
+    [
+      'サイボウズ コネクト支援チーム',
+      'https://note.com/cybozutech/m/mc0c086e78c4f/rss',
+      'https://note.com/cybozutech/m/mc0c086e78c4f',
+      'archive',
     ],
     [
       'サイボウズ 流氷自由帳',
@@ -155,10 +161,11 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['サイボウズ 生産性向上チーム', 'https://zenn.dev/p/cybozu_ept/feed', 'https://zenn.dev/p/cybozu_ept', 'blog'],
   ['サイボウズ フロントエンド', 'https://zenn.dev/p/cybozu_frontend/feed', 'https://zenn.dev/p/cybozu_frontend', 'blog'],
   ['サイボウズ セキュリティ室', 'https://note.com/security_cybozu/rss', 'https://note.com/security_cybozu', 'blog'],
-  ['サイボウズ コネクト支援チーム', 'https://note.com/cybozutech/m/mc0c086e78c4f/rss', 'https://note.com/cybozutech/m/mc0c086e78c4f', 'blog'],
+  ['サイボウズ QAブログ', 'https://note.com/cy_qa_ext/rss', 'https://note.com/cy_qa_ext', 'blog'],
   ['サイボウズ 流氷自由帳', 'https://note.com/cybozutech/m/m9707f4c496e6/rss', 'https://note.com/cybozutech/m/m9707f4c496e6', 'blog'],
   ['サイボウズ Tech Media Platformチーム', 'https://note.com/cybozutech/m/m459547f65fe8/rss', 'https://note.com/cybozutech/m/m459547f65fe8', 'blog'],
   ['サイボウズ さぼてっく通信', 'https://note.com/cybozutech/m/mb7d0081e1358/rss', 'https://note.com/cybozutech/m/mb7d0081e1358', 'blog'],
+  ['サイボウズ コネクト支援チーム', 'https://note.com/cybozutech/m/mc0c086e78c4f/rss', 'https://note.com/cybozutech/m/mc0c086e78c4f', 'blog'],
   // 音声コンテンツ
   ['サイボウズ フロントエンド通信', 'https://anchor.fm/s/ec10d0c8/podcast/rss', 'https://podcasters.spotify.com/pod/show/cybozu-frontend', 'podcast'],
   ['Cybozu Design Podcast', 'https://feed.podbean.com/cybozudesign/feed.xml', 'https://cybozudesign.podbean.com', 'podcast'],

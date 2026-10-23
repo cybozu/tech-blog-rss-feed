@@ -71,7 +71,7 @@ jobs:
       run: pnpm test-coverage
 
   generate:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     timeout-minutes: 20
     permissions:
       id-token: write

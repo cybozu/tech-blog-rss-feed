@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cybozu.github.io/tech-blog-rss-feed/</id>
+    <title>サイボウズのTech系ブログRSS</title>
+    <updated>2026-10-24T22:02:51.259Z</updated>
+    <generator>cybozu/tech-blog-rss-feed</generator>
+    <link rel="alternate" href="https://cybozu.github.io/tech-blog-rss-feed/"/>
+    <link rel="self" href="https://cybozu.github.io/tech-blog-rss-feed/feeds/atom.xml"/>
+    <subtitle>サイボウズのTech系ブログの更新をまとめたRSSフィード</subtitle>
+    <logo>https://cybozu.github.io/tech-blog-rss-feed/images/icon.png</logo>
+    <icon>https://cybozu.github.io/tech-blog-rss-feed/images/favicon.ico</icon>
+    <rights>cybozu/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.10.22号 | さぼてっく通信]]></title>
+        <id>https://note.com/cybozutech/n/n7ce64ffd08c6</id>
+        <link href="https://note.com/cybozutech/n/n7ce64ffd08c6"/>
+        <updated>2026-10-23T00:35:53.000Z</updated>
+        <summary type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></content>
+        <published>2026-10-23T00:35:53.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3Dプリンタ、ギャルネイル、eスポーツ。「業務の話禁止」の社内LT会で見えたサイボウズの文化 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/10/20/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/10/20/113000"/>
+        <updated>2026-10-20T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！サイボウズの社内コネクトチームのhokatomo(@tomoko_and)です。このチームでは開発系の社内イベント担当しています。 最近、私は同僚と歩数対決をしているんですが、歩数を稼ぐために20km以上走ったら、相手も同じくらい走ってきて、もはや泥試合です!! といったように、普段一緒に仕事をしていても、その人が仕事以外で何にハマっているのか、何を「面白い！」と思っているのかは意外と]]></summary>
+        <content type="html"><![CDATA[こんにちは！サイボウズの社内コネクトチームのhokatomo(@tomoko_and)です。このチームでは開発系の社内イベント担当しています。 最近、私は同僚と歩数対決をしているんですが、歩数を稼ぐために20km以上走ったら、相手も同じくらい走ってきて、もはや泥試合です!! といったように、普段一緒に仕事をしていても、その人が仕事以外で何にハマっているのか、何を「面白い！」と思っているのかは意外と知りません。だったら、そこだけを話すLT会をやってみよう!!!というのが今回の「業務の話禁止」のLT会です。 話しながらスシを食べるから = 話スシ サイボウズでは社内LTの一部を「話スシ」と呼んでい…]]></content>
+        <published>2026-10-20T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AIで自動テスト結果の日次確認をスピードアップした話 | サイボウズQA]]></title>
+        <id>https://note.com/cy_qa_ext/n/n81739992e64d</id>
+        <link href="https://note.com/cy_qa_ext/n/n81739992e64d"/>
+        <updated>2026-10-20T00:53:25.000Z</updated>
+        <summary type="html"><![CDATA[はじめにこんにちは！Office モバイルチームで QAエンジニアをしている小竹です。続きをみる]]></summary>
+        <content type="html"><![CDATA[はじめにこんにちは！Office モバイルチームで QAエンジニアをしている小竹です。続きをみる]]></content>
+        <published>2026-10-20T00:53:25.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.10.15号 | さぼてっく通信]]></title>
+        <id>https://note.com/cybozutech/n/nac7a5dbbfec2</id>
+        <link href="https://note.com/cybozutech/n/nac7a5dbbfec2"/>
+        <updated>2026-10-15T00:03:48.000Z</updated>
+        <summary type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></content>
+        <published>2026-10-15T00:03:48.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイボウズのログ基盤 2026年版 ― Apache Iceberg × Trino によるアーキテクチャ刷新 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/10/14/090000</id>
+        <link href="https://blog.cybozu.io/entry/2026/10/14/090000"/>
+        <updated>2026-10-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[はじめに こんにちは。ログ基盤チームの吉本です。 cybozu.com では、2018年のブログ記事でご紹介したログ基盤を長期にわたって運用してきましたが、このたびサイボウズの Kubernetes 基盤である Neco へ移行しました。 今回の移行では、旧ログ基盤が抱えていた課題や移行に伴う制約を踏まえ、アーキテクチャを全体的に刷新しています。 本記事では、この新しいログ基盤の全貌についてご紹介]]></summary>
+        <content type="html"><![CDATA[はじめに こんにちは。ログ基盤チームの吉本です。 cybozu.com では、2018年のブログ記事でご紹介したログ基盤を長期にわたって運用してきましたが、このたびサイボウズの Kubernetes 基盤である Neco へ移行しました。 今回の移行では、旧ログ基盤が抱えていた課題や移行に伴う制約を踏まえ、アーキテクチャを全体的に刷新しています。 本記事では、この新しいログ基盤の全貌についてご紹介したいと思います。 blog.cybozu.io はじめに アーキテクチャ刷新のモチベーション Neco に適した構成への見直し ログの発生源に関する制約 新ログ基盤の全体像 ログの収集 LogShi…]]></content>
+        <published>2026-10-14T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DroidKaigi × iOSDC After Night を開催しました！ | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/10/13/170000</id>
+        <link href="https://blog.cybozu.io/entry/2026/10/13/170000"/>
+        <updated>2026-10-13T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！サイボウズのトニオ（@tonionagauzzi）です。普段はkintone開発チームにてAndroidアプリを主に開発しています。 2026年10月6日（火）にサイボウズ株式会社とSTORES株式会社の合同で DroidKaigi × iOSDC After Night をサイボウズ東京オフィスで開催しました。本記事ではその当日の様子をレポートします！ cybozu.connpass]]></summary>
+        <content type="html"><![CDATA[こんにちは！サイボウズのトニオ（@tonionagauzzi）です。普段はkintone開発チームにてAndroidアプリを主に開発しています。 2026年10月6日（火）にサイボウズ株式会社とSTORES株式会社の合同で DroidKaigi × iOSDC After Night をサイボウズ東京オフィスで開催しました。本記事ではその当日の様子をレポートします！ cybozu.connpass.com 今回のイベントは、DroidKaigiとiOSDCの後にAndroidとiOSのエンジニアが合同で話せる場を作りたいと思い企画しました。 ちゃんくろさんのオープニングトーク Takahash…]]></content>
+        <published>2026-10-13T08:00:00.000Z</published>
+    </entry>
+</feed>

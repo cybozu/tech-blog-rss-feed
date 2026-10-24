@@ -1,0 +1,148 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "サイボウズのTech系ブログRSS",
+    "home_page_url": "https://cybozu.github.io/tech-blog-rss-feed/",
+    "feed_url": "https://cybozu.github.io/tech-blog-rss-feed/feeds/feed.json",
+    "description": "サイボウズのTech系ブログの更新をまとめたRSSフィード",
+    "icon": "https://cybozu.github.io/tech-blog-rss-feed/images/icon.png",
+    "items": [
+        {
+            "id": "https://note.com/cybozutech/n/n7ce64ffd08c6",
+            "content_html": "皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる",
+            "url": "https://note.com/cybozutech/n/n7ce64ffd08c6",
+            "title": "今週のCybozuのエンジニアの登壇・イベント情報 2026.10.22号 | さぼてっく通信",
+            "summary": "皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/cldw40-ezg-450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-10-23T00:35:53.000Z",
+            "date_published": "2026-10-23T00:35:53.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "今週のCybozuのエンジニアの登壇・イベント情報 2026.10.22号",
+                "blogTitle": "さぼてっく通信",
+                "blogLink": "https://note.com/cybozutech/m/mb7d0081e1358",
+                "blogLinkMd5Hash": "18f73f213dc06ac791a0afcc68da89b3",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/cldw40-ezg-450.jpeg"
+            }
+        },
+        {
+            "id": "https://blog.cybozu.io/entry/2026/10/20/113000",
+            "content_html": "こんにちは！サイボウズの社内コネクトチームのhokatomo(@tomoko_and)です。このチームでは開発系の社内イベント担当しています。 最近、私は同僚と歩数対決をしているんですが、歩数を稼ぐために20km以上走ったら、相手も同じくらい走ってきて、もはや泥試合です!! といったように、普段一緒に仕事をしていても、その人が仕事以外で何にハマっているのか、何を「面白い！」と思っているのかは意外と知りません。だったら、そこだけを話すLT会をやってみよう!!!というのが今回の「業務の話禁止」のLT会です。 話しながらスシを食べるから = 話スシ サイボウズでは社内LTの一部を「話スシ」と呼んでい…",
+            "url": "https://blog.cybozu.io/entry/2026/10/20/113000",
+            "title": "3Dプリンタ、ギャルネイル、eスポーツ。「業務の話禁止」の社内LT会で見えたサイボウズの文化 | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "こんにちは！サイボウズの社内コネクトチームのhokatomo(@tomoko_and)です。このチームでは開発系の社内イベント担当しています。 最近、私は同僚と歩数対決をしているんですが、歩数を稼ぐために20km以上走ったら、相手も同じくらい走ってきて、もはや泥試合です!! といったように、普段一緒に仕事をしていても、その人が仕事以外で何にハマっているのか、何を「面白い！」と思っているのかは意外と",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/Pm2c1VQbX1-450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-10-20T02:30:00.000Z",
+            "date_published": "2026-10-20T02:30:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 1,
+                "originalTitle": "3Dプリンタ、ギャルネイル、eスポーツ。「業務の話禁止」の社内LT会で見えたサイボウズの文化",
+                "blogTitle": "Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "blogLink": "https://blog.cybozu.io/",
+                "blogLinkMd5Hash": "334895ad2f27bf31195a54902c472405",
+                "favicon": "https://blog.cybozu.io/icon/favicon",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/Pm2c1VQbX1-450.jpeg"
+            }
+        },
+        {
+            "id": "https://note.com/cy_qa_ext/n/n81739992e64d",
+            "content_html": "はじめにこんにちは！Office モバイルチームで QAエンジニアをしている小竹です。続きをみる",
+            "url": "https://note.com/cy_qa_ext/n/n81739992e64d",
+            "title": "AIで自動テスト結果の日次確認をスピードアップした話 | サイボウズQA",
+            "summary": "はじめにこんにちは！Office モバイルチームで QAエンジニアをしている小竹です。続きをみる",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/V9ty2eb-PJ-450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-10-20T00:53:25.000Z",
+            "date_published": "2026-10-20T00:53:25.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "AIで自動テスト結果の日次確認をスピードアップした話",
+                "blogTitle": "サイボウズQA",
+                "blogLink": "https://note.com/cy_qa_ext",
+                "blogLinkMd5Hash": "4e4250dff1ccdca72f4ffde7c08b279e",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/V9ty2eb-PJ-450.jpeg"
+            }
+        },
+        {
+            "id": "https://note.com/cybozutech/n/nac7a5dbbfec2",
+            "content_html": "皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる",
+            "url": "https://note.com/cybozutech/n/nac7a5dbbfec2",
+            "title": "今週のCybozuのエンジニアの登壇・イベント情報 2026.10.15号 | さぼてっく通信",
+            "summary": "皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/zRFLX77BX--450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-10-15T00:03:48.000Z",
+            "date_published": "2026-10-15T00:03:48.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "今週のCybozuのエンジニアの登壇・イベント情報 2026.10.15号",
+                "blogTitle": "さぼてっく通信",
+                "blogLink": "https://note.com/cybozutech/m/mb7d0081e1358",
+                "blogLinkMd5Hash": "18f73f213dc06ac791a0afcc68da89b3",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/zRFLX77BX--450.jpeg"
+            }
+        },
+        {
+            "id": "https://blog.cybozu.io/entry/2026/10/14/090000",
+            "content_html": "はじめに こんにちは。ログ基盤チームの吉本です。 cybozu.com では、2018年のブログ記事でご紹介したログ基盤を長期にわたって運用してきましたが、このたびサイボウズの Kubernetes 基盤である Neco へ移行しました。 今回の移行では、旧ログ基盤が抱えていた課題や移行に伴う制約を踏まえ、アーキテクチャを全体的に刷新しています。 本記事では、この新しいログ基盤の全貌についてご紹介したいと思います。 blog.cybozu.io はじめに アーキテクチャ刷新のモチベーション Neco に適した構成への見直し ログの発生源に関する制約 新ログ基盤の全体像 ログの収集 LogShi…",
+            "url": "https://blog.cybozu.io/entry/2026/10/14/090000",
+            "title": "サイボウズのログ基盤 2026年版 ― Apache Iceberg × Trino によるアーキテクチャ刷新 | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "はじめに こんにちは。ログ基盤チームの吉本です。 cybozu.com では、2018年のブログ記事でご紹介したログ基盤を長期にわたって運用してきましたが、このたびサイボウズの Kubernetes 基盤である Neco へ移行しました。 今回の移行では、旧ログ基盤が抱えていた課題や移行に伴う制約を踏まえ、アーキテクチャを全体的に刷新しています。 本記事では、この新しいログ基盤の全貌についてご紹介",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/IO0knV0bDz-450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-10-14T00:00:00.000Z",
+            "date_published": "2026-10-14T00:00:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 18,
+                "originalTitle": "サイボウズのログ基盤 2026年版 ― Apache Iceberg × Trino によるアーキテクチャ刷新",
+                "blogTitle": "Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "blogLink": "https://blog.cybozu.io/",
+                "blogLinkMd5Hash": "334895ad2f27bf31195a54902c472405",
+                "favicon": "https://blog.cybozu.io/icon/favicon",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/IO0knV0bDz-450.jpeg"
+            }
+        },
+        {
+            "id": "https://blog.cybozu.io/entry/2026/10/13/170000",
+            "content_html": "こんにちは！サイボウズのトニオ（@tonionagauzzi）です。普段はkintone開発チームにてAndroidアプリを主に開発しています。 2026年10月6日（火）にサイボウズ株式会社とSTORES株式会社の合同で DroidKaigi × iOSDC After Night をサイボウズ東京オフィスで開催しました。本記事ではその当日の様子をレポートします！ cybozu.connpass.com 今回のイベントは、DroidKaigiとiOSDCの後にAndroidとiOSのエンジニアが合同で話せる場を作りたいと思い企画しました。 ちゃんくろさんのオープニングトーク Takahash…",
+            "url": "https://blog.cybozu.io/entry/2026/10/13/170000",
+            "title": "DroidKaigi × iOSDC After Night を開催しました！ | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "こんにちは！サイボウズのトニオ（@tonionagauzzi）です。普段はkintone開発チームにてAndroidアプリを主に開発しています。 2026年10月6日（火）にサイボウズ株式会社とSTORES株式会社の合同で DroidKaigi × iOSDC After Night をサイボウズ東京オフィスで開催しました。本記事ではその当日の様子をレポートします！ cybozu.connpass",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/6v68pSq6FO-450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-10-13T08:00:00.000Z",
+            "date_published": "2026-10-13T08:00:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 1,
+                "originalTitle": "DroidKaigi × iOSDC After Night を開催しました！",
+                "blogTitle": "Cybozu Inside Out | サイボウズエンジニアのブログ",
+                "blogLink": "https://blog.cybozu.io/",
+                "blogLinkMd5Hash": "334895ad2f27bf31195a54902c472405",
+                "favicon": "https://blog.cybozu.io/icon/favicon",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/6v68pSq6FO-450.jpeg"
+            }
+        }
+    ]
+}

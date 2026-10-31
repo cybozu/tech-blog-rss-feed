@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cybozu.github.io/tech-blog-rss-feed/</id>
+    <title>サイボウズのTech系ブログRSS</title>
+    <updated>2026-10-31T20:01:45.493Z</updated>
+    <generator>cybozu/tech-blog-rss-feed</generator>
+    <link rel="alternate" href="https://cybozu.github.io/tech-blog-rss-feed/"/>
+    <link rel="self" href="https://cybozu.github.io/tech-blog-rss-feed/feeds/atom.xml"/>
+    <subtitle>サイボウズのTech系ブログの更新をまとめたRSSフィード</subtitle>
+    <logo>https://cybozu.github.io/tech-blog-rss-feed/images/icon.png</logo>
+    <icon>https://cybozu.github.io/tech-blog-rss-feed/images/favicon.ico</icon>
+    <rights>cybozu/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[Fuzzing+差分テストによるKVS検証 - 単体テストで見逃した非互換をあぶりだす | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/10/30/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/10/30/113000"/>
+        <updated>2026-10-30T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Cloud Platform部の萩原です。 Cloud Platform部では、Cybozuのクラウドサービス「cybozu.com」の提供基盤をVMベースの旧基盤からKubernetesベースの新基盤（Neco）へ移行するミッションに取り組んでいます。現在は、Cybozuのセッションストアとして旧基盤上にホストされているMemcached互換のKVSを、新基盤に移行するプロジェクトに取り組んでい]]></summary>
+        <content type="html"><![CDATA[Cloud Platform部の萩原です。 Cloud Platform部では、Cybozuのクラウドサービス「cybozu.com」の提供基盤をVMベースの旧基盤からKubernetesベースの新基盤（Neco）へ移行するミッションに取り組んでいます。現在は、Cybozuのセッションストアとして旧基盤上にホストされているMemcached互換のKVSを、新基盤に移行するプロジェクトに取り組んでいるところです。 本記事では、新規実装されたKVSと旧実装の互換性の問題を、Fuzzingと差分テストを用いることで、個々の操作列を手で列挙する負担を減らしながら検出する方法を紹介します。 KVS移行に…]]></content>
+        <published>2026-10-30T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.10.29号 | さぼてっく通信]]></title>
+        <id>https://note.com/cybozutech/n/nc94098d68e8b</id>
+        <link href="https://note.com/cybozutech/n/nc94098d68e8b"/>
+        <updated>2026-10-29T09:13:46.000Z</updated>
+        <summary type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></content>
+        <published>2026-10-29T09:13:46.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.10.22号 | さぼてっく通信]]></title>
+        <id>https://note.com/cybozutech/n/n7ce64ffd08c6</id>
+        <link href="https://note.com/cybozutech/n/n7ce64ffd08c6"/>
+        <updated>2026-10-23T00:35:53.000Z</updated>
+        <summary type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></content>
+        <published>2026-10-23T00:35:53.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3Dプリンタ、ギャルネイル、eスポーツ。「業務の話禁止」の社内LT会で見えたサイボウズの文化 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/10/20/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/10/20/113000"/>
+        <updated>2026-10-20T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！サイボウズの社内コネクトチームのhokatomo(@tomoko_and)です。このチームでは開発系の社内イベント担当しています。 最近、私は同僚と歩数対決をしているんですが、歩数を稼ぐために20km以上走ったら、相手も同じくらい走ってきて、もはや泥試合です!! といったように、普段一緒に仕事をしていても、その人が仕事以外で何にハマっているのか、何を「面白い！」と思っているのかは意外と]]></summary>
+        <content type="html"><![CDATA[こんにちは！サイボウズの社内コネクトチームのhokatomo(@tomoko_and)です。このチームでは開発系の社内イベント担当しています。 最近、私は同僚と歩数対決をしているんですが、歩数を稼ぐために20km以上走ったら、相手も同じくらい走ってきて、もはや泥試合です!! といったように、普段一緒に仕事をしていても、その人が仕事以外で何にハマっているのか、何を「面白い！」と思っているのかは意外と知りません。だったら、そこだけを話すLT会をやってみよう!!!というのが今回の「業務の話禁止」のLT会です。 話しながらスシを食べるから = 話スシ サイボウズでは社内LTの一部を「話スシ」と呼んでい…]]></content>
+        <published>2026-10-20T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AIで自動テスト結果の日次確認をスピードアップした話 | サイボウズQA]]></title>
+        <id>https://note.com/cy_qa_ext/n/n81739992e64d</id>
+        <link href="https://note.com/cy_qa_ext/n/n81739992e64d"/>
+        <updated>2026-10-20T00:53:25.000Z</updated>
+        <summary type="html"><![CDATA[はじめにこんにちは！Office モバイルチームで QAエンジニアをしている小竹です。続きをみる]]></summary>
+        <content type="html"><![CDATA[はじめにこんにちは！Office モバイルチームで QAエンジニアをしている小竹です。続きをみる]]></content>
+        <published>2026-10-20T00:53:25.000Z</published>
+    </entry>
+</feed>

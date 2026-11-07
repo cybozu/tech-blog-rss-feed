@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>サイボウズのTech系ブログRSS</title>
+        <link>https://cybozu.github.io/tech-blog-rss-feed/</link>
+        <description>サイボウズのTech系ブログの更新をまとめたRSSフィード</description>
+        <lastBuildDate>Sat, 07 Nov 2026 11:01:40 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>cybozu/tech-blog-rss-feed</generator>
+        <language>ja</language>
+        <image>
+            <title>サイボウズのTech系ブログRSS</title>
+            <url>https://cybozu.github.io/tech-blog-rss-feed/images/icon.png</url>
+            <link>https://cybozu.github.io/tech-blog-rss-feed/</link>
+        </image>
+        <copyright>cybozu/tech-blog-rss-feed</copyright>
+        <atom:link href="https://cybozu.github.io/tech-blog-rss-feed/feeds/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Web 標準動向 2026年10月版 | サイボウズ フロントエンドのフィード]]></title>
+            <link>https://zenn.dev/cybozu_frontend/articles/web-standards-trends-202610</link>
+            <guid>https://zenn.dev/cybozu_frontend/articles/web-standards-trends-202610</guid>
+            <pubDate>Fri, 06 Nov 2026 09:08:06 GMT</pubDate>
+            <description><![CDATA[こんにちは！ サイボウズ株式会社 プロダクトエンジニアの くらっち (@kuracchi04) です。 はじめにサイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。https://blog.cybozu.io/entry/joining-w3c標準化プロセスに関わることができるようになるための最初の一歩として、フロントエンドエンジニアの一部のメンバーは積極的に Web 標準の]]></description>
+            <content:encoded><![CDATA[こんにちは！ サイボウズ株式会社 プロダクトエンジニアの くらっち (@kuracchi04) です。 はじめにサイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。https://blog.cybozu.io/entry/joining-w3c標準化プロセスに関わることができるようになるための最初の一歩として、フロントエンドエンジニアの一部のメンバーは積極的に Web 標準のキャッチアップを行っています。そこで、毎月メンバーが興味を持った Web 標準に関する話題や、実際に標準化プロセスに関わることができた場合にはその報告などを 1 つの記事としてまとめ...]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/RbQ2SYwptg-450.jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Authorization Logic Review trong pentest web thời AI | Cybozu Vietnam Tech Sharing]]></title>
+            <link>https://tech.cybozu.vn/authorization-logic-review-trong-pentest-web-thoi-ai-82adc/</link>
+            <guid>https://tech.cybozu.vn/authorization-logic-review-trong-pentest-web-thoi-ai-82adc/</guid>
+            <pubDate>Thu, 05 Nov 2026 17:30:00 GMT</pubDate>
+            <description><![CDATA[Lỗi authorization thường không nằm ở bước đăng nhập, mà ở chỗ hệ thống quên hỏi "user này có được làm việc này với object này không?". AI…]]></description>
+            <content:encoded><![CDATA[Lỗi authorization thường không nằm ở bước đăng nhập, mà ở chỗ hệ thống quên hỏi "user này có được làm việc này với object này không?". AI…]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/i7-hipxO09-450.jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.11.05号 | さぼてっく通信]]></title>
+            <link>https://note.com/cybozutech/n/n33c61b17ef01</link>
+            <guid>https://note.com/cybozutech/n/n33c61b17ef01</guid>
+            <pubDate>Thu, 05 Nov 2026 09:37:17 GMT</pubDate>
+            <description><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></description>
+            <content:encoded><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/dLuFipwxKP-450.jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[相次ぐWEBシステムからの情報漏洩事案について など: Cybozu PSIRT Monthly（2026年10月号） | サイボウズ PSIRTのフィード]]></title>
+            <link>https://zenn.dev/cybozu_psirt/articles/0af2c7b3c02617</link>
+            <guid>https://zenn.dev/cybozu_psirt/articles/0af2c7b3c02617</guid>
+            <pubDate>Wed, 04 Nov 2026 02:15:44 GMT</pubDate>
+            <description><![CDATA[こんにちは。PSIRTの田口です。 はじめにPSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年10月にスレッド内で共有された記事や話題を紹介します。 共有された記事・話題 相次ぐWEBシステムからの情報漏洩事案についてhttps://security.macnica.co.jp/blog/2026/10/web-inc]]></description>
+            <content:encoded><![CDATA[こんにちは。PSIRTの田口です。 はじめにPSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年10月にスレッド内で共有された記事や話題を紹介します。 共有された記事・話題 相次ぐWEBシステムからの情報漏洩事案についてhttps://security.macnica.co.jp/blog/2026/10/web-incidents2026.html2026年7月以降に増加している国内のWebシステムからの情報漏えいについて、被害の傾向や、実際の事案対応から見えてきた攻撃手法、確認すべきポイン...]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/cXG5MwD6h3-450.jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Sapporo Claude Meetup #2に会場提供しました | サイボウズ開発本部  Tech Media Platform]]></title>
+            <link>https://note.com/_tetrapod/n/nd259b326ce31</link>
+            <guid>https://note.com/_tetrapod/n/nd259b326ce31</guid>
+            <pubDate>Tue, 03 Nov 2026 07:05:38 GMT</pubDate>
+            <description><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部 Tech Media Platformチームの貴島(@jnkykn)です。2026/11/01にSapporo Claude Meetup #2 - Claude どんなふうに・どんなことに使ってる? 参加者で共有し合おう！が、開催されました。このイベントに、サイボウズは札幌営業所を会場提供しました。Sapporo Claude Mee]]></description>
+            <content:encoded><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部 Tech Media Platformチームの貴島(@jnkykn)です。2026/11/01にSapporo Claude Meetup #2 - Claude どんなふうに・どんなことに使ってる? 参加者で共有し合おう！が、開催されました。このイベントに、サイボウズは札幌営業所を会場提供しました。Sapporo Claude Meetup #2続きをみる]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/aj6C0p1Svz-450.jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Fuzzing+差分テストによるKVS検証 - 単体テストで見逃した非互換をあぶりだす | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+            <link>https://blog.cybozu.io/entry/2026/10/30/113000</link>
+            <guid>https://blog.cybozu.io/entry/2026/10/30/113000</guid>
+            <pubDate>Fri, 30 Oct 2026 02:30:00 GMT</pubDate>
+            <description><![CDATA[Cloud Platform部の萩原です。 Cloud Platform部では、Cybozuのクラウドサービス「cybozu.com」の提供基盤をVMベースの旧基盤からKubernetesベースの新基盤（Neco）へ移行するミッションに取り組んでいます。現在は、Cybozuのセッションストアとして旧基盤上にホストされているMemcached互換のKVSを、新基盤に移行するプロジェクトに取り組んでい]]></description>
+            <content:encoded><![CDATA[Cloud Platform部の萩原です。 Cloud Platform部では、Cybozuのクラウドサービス「cybozu.com」の提供基盤をVMベースの旧基盤からKubernetesベースの新基盤（Neco）へ移行するミッションに取り組んでいます。現在は、Cybozuのセッションストアとして旧基盤上にホストされているMemcached互換のKVSを、新基盤に移行するプロジェクトに取り組んでいるところです。 本記事では、新規実装されたKVSと旧実装の互換性の問題を、Fuzzingと差分テストを用いることで、個々の操作列を手で列挙する負担を減らしながら検出する方法を紹介します。 KVS移行に…]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/tQG37eqwBj-450.jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.10.29号 | さぼてっく通信]]></title>
+            <link>https://note.com/cybozutech/n/nc94098d68e8b</link>
+            <guid>https://note.com/cybozutech/n/nc94098d68e8b</guid>
+            <pubDate>Thu, 29 Oct 2026 09:13:46 GMT</pubDate>
+            <description><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></description>
+            <content:encoded><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/GIULgLUyx_-450.jpeg"/>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cybozu.github.io/tech-blog-rss-feed/</id>
+    <title>サイボウズのTech系ブログRSS</title>
+    <updated>2026-11-14T19:01:39.341Z</updated>
+    <generator>cybozu/tech-blog-rss-feed</generator>
+    <link rel="alternate" href="https://cybozu.github.io/tech-blog-rss-feed/"/>
+    <link rel="self" href="https://cybozu.github.io/tech-blog-rss-feed/feeds/atom.xml"/>
+    <subtitle>サイボウズのTech系ブログの更新をまとめたRSSフィード</subtitle>
+    <logo>https://cybozu.github.io/tech-blog-rss-feed/images/icon.png</logo>
+    <icon>https://cybozu.github.io/tech-blog-rss-feed/images/favicon.ico</icon>
+    <rights>cybozu/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.11.12号 | さぼてっく通信]]></title>
+        <id>https://note.com/cybozutech/n/n4c9d1b5a6fad</id>
+        <link href="https://note.com/cybozutech/n/n4c9d1b5a6fad"/>
+        <updated>2026-11-12T01:18:04.000Z</updated>
+        <summary type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></content>
+        <published>2026-11-12T01:18:04.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web 標準動向 2026年10月版 | サイボウズ フロントエンドのフィード]]></title>
+        <id>https://zenn.dev/cybozu_frontend/articles/web-standards-trends-202610</id>
+        <link href="https://zenn.dev/cybozu_frontend/articles/web-standards-trends-202610"/>
+        <updated>2026-11-06T09:08:06.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！ サイボウズ株式会社 プロダクトエンジニアの くらっち (@kuracchi04) です。 はじめにサイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。https://blog.cybozu.io/entry/joining-w3c標準化プロセスに関わることができるようになるための最初の一歩として、フロントエンドエンジニアの一部のメンバーは積極的に Web 標準の]]></summary>
+        <content type="html"><![CDATA[こんにちは！ サイボウズ株式会社 プロダクトエンジニアの くらっち (@kuracchi04) です。 はじめにサイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。https://blog.cybozu.io/entry/joining-w3c標準化プロセスに関わることができるようになるための最初の一歩として、フロントエンドエンジニアの一部のメンバーは積極的に Web 標準のキャッチアップを行っています。そこで、毎月メンバーが興味を持った Web 標準に関する話題や、実際に標準化プロセスに関わることができた場合にはその報告などを 1 つの記事としてまとめ...]]></content>
+        <author>
+            <name>kuracchi</name>
+        </author>
+        <published>2026-11-06T09:08:06.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Authorization Logic Review trong pentest web thời AI | Cybozu Vietnam Tech Sharing]]></title>
+        <id>https://tech.cybozu.vn/authorization-logic-review-trong-pentest-web-thoi-ai-82adc/</id>
+        <link href="https://tech.cybozu.vn/authorization-logic-review-trong-pentest-web-thoi-ai-82adc/"/>
+        <updated>2026-11-05T17:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Lỗi authorization thường không nằm ở bước đăng nhập, mà ở chỗ hệ thống quên hỏi "user này có được làm việc này với object này không?". AI…]]></summary>
+        <content type="html"><![CDATA[Lỗi authorization thường không nằm ở bước đăng nhập, mà ở chỗ hệ thống quên hỏi "user này có được làm việc này với object này không?". AI…]]></content>
+        <published>2026-11-05T17:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.11.05号 | さぼてっく通信]]></title>
+        <id>https://note.com/cybozutech/n/n33c61b17ef01</id>
+        <link href="https://note.com/cybozutech/n/n33c61b17ef01"/>
+        <updated>2026-11-05T09:37:17.000Z</updated>
+        <summary type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></content>
+        <published>2026-11-05T09:37:17.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[相次ぐWEBシステムからの情報漏洩事案について など: Cybozu PSIRT Monthly（2026年10月号） | サイボウズ PSIRTのフィード]]></title>
+        <id>https://zenn.dev/cybozu_psirt/articles/0af2c7b3c02617</id>
+        <link href="https://zenn.dev/cybozu_psirt/articles/0af2c7b3c02617"/>
+        <updated>2026-11-04T02:15:44.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。PSIRTの田口です。 はじめにPSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年10月にスレッド内で共有された記事や話題を紹介します。 共有された記事・話題 相次ぐWEBシステムからの情報漏洩事案についてhttps://security.macnica.co.jp/blog/2026/10/web-inc]]></summary>
+        <content type="html"><![CDATA[こんにちは。PSIRTの田口です。 はじめにPSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年10月にスレッド内で共有された記事や話題を紹介します。 共有された記事・話題 相次ぐWEBシステムからの情報漏洩事案についてhttps://security.macnica.co.jp/blog/2026/10/web-incidents2026.html2026年7月以降に増加している国内のWebシステムからの情報漏えいについて、被害の傾向や、実際の事案対応から見えてきた攻撃手法、確認すべきポイン...]]></content>
+        <author>
+            <name>ibuki taguchi</name>
+        </author>
+        <published>2026-11-04T02:15:44.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sapporo Claude Meetup #2に会場提供しました | サイボウズ開発本部  Tech Media Platform]]></title>
+        <id>https://note.com/_tetrapod/n/nd259b326ce31</id>
+        <link href="https://note.com/_tetrapod/n/nd259b326ce31"/>
+        <updated>2026-11-03T07:05:38.000Z</updated>
+        <summary type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部 Tech Media Platformチームの貴島(@jnkykn)です。2026/11/01にSapporo Claude Meetup #2 - Claude どんなふうに・どんなことに使ってる? 参加者で共有し合おう！が、開催されました。このイベントに、サイボウズは札幌営業所を会場提供しました。Sapporo Claude Mee]]></summary>
+        <content type="html"><![CDATA[皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部 Tech Media Platformチームの貴島(@jnkykn)です。2026/11/01にSapporo Claude Meetup #2 - Claude どんなふうに・どんなことに使ってる? 参加者で共有し合おう！が、開催されました。このイベントに、サイボウズは札幌営業所を会場提供しました。Sapporo Claude Meetup #2続きをみる]]></content>
+        <published>2026-11-03T07:05:38.000Z</published>
+    </entry>
+</feed>

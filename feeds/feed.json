@@ -1,0 +1,154 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "サイボウズのTech系ブログRSS",
+    "home_page_url": "https://cybozu.github.io/tech-blog-rss-feed/",
+    "feed_url": "https://cybozu.github.io/tech-blog-rss-feed/feeds/feed.json",
+    "description": "サイボウズのTech系ブログの更新をまとめたRSSフィード",
+    "icon": "https://cybozu.github.io/tech-blog-rss-feed/images/icon.png",
+    "items": [
+        {
+            "id": "https://note.com/cybozutech/n/n4c9d1b5a6fad",
+            "content_html": "皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる",
+            "url": "https://note.com/cybozutech/n/n4c9d1b5a6fad",
+            "title": "今週のCybozuのエンジニアの登壇・イベント情報 2026.11.12号 | さぼてっく通信",
+            "summary": "皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/PNqpyKh8Jd-450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-11-12T01:18:04.000Z",
+            "date_published": "2026-11-12T01:18:04.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "今週のCybozuのエンジニアの登壇・イベント情報 2026.11.12号",
+                "blogTitle": "さぼてっく通信",
+                "blogLink": "https://note.com/cybozutech/m/mb7d0081e1358",
+                "blogLinkMd5Hash": "18f73f213dc06ac791a0afcc68da89b3",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/PNqpyKh8Jd-450.jpeg"
+            }
+        },
+        {
+            "id": "https://zenn.dev/cybozu_frontend/articles/web-standards-trends-202610",
+            "content_html": "こんにちは！ サイボウズ株式会社 プロダクトエンジニアの くらっち (@kuracchi04) です。 はじめにサイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。https://blog.cybozu.io/entry/joining-w3c標準化プロセスに関わることができるようになるための最初の一歩として、フロントエンドエンジニアの一部のメンバーは積極的に Web 標準のキャッチアップを行っています。そこで、毎月メンバーが興味を持った Web 標準に関する話題や、実際に標準化プロセスに関わることができた場合にはその報告などを 1 つの記事としてまとめ...",
+            "url": "https://zenn.dev/cybozu_frontend/articles/web-standards-trends-202610",
+            "title": "Web 標準動向 2026年10月版 | サイボウズ フロントエンドのフィード",
+            "summary": "こんにちは！ サイボウズ株式会社 プロダクトエンジニアの くらっち (@kuracchi04) です。 はじめにサイボウズは 2025 年 4 月より、W3C のメンバーに加入しました。https://blog.cybozu.io/entry/joining-w3c標準化プロセスに関わることができるようになるための最初の一歩として、フロントエンドエンジニアの一部のメンバーは積極的に Web 標準の",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/RbQ2SYwptg-450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-11-06T09:08:06.000Z",
+            "date_published": "2026-11-06T09:08:06.000Z",
+            "author": {
+                "name": "kuracchi"
+            },
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 4,
+                "originalTitle": "Web 標準動向 2026年10月版",
+                "blogTitle": "サイボウズ フロントエンドのフィード",
+                "blogLink": "https://zenn.dev/p/cybozu_frontend",
+                "blogLinkMd5Hash": "20eabaedb6793c491d88126dd31015a9",
+                "favicon": "https://static.zenn.studio/images/logo-transparent.png",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/RbQ2SYwptg-450.jpeg"
+            }
+        },
+        {
+            "id": "https://tech.cybozu.vn/authorization-logic-review-trong-pentest-web-thoi-ai-82adc/",
+            "content_html": "Lỗi authorization thường không nằm ở bước đăng nhập, mà ở chỗ hệ thống quên hỏi \"user này có được làm việc này với object này không?\". AI…",
+            "url": "https://tech.cybozu.vn/authorization-logic-review-trong-pentest-web-thoi-ai-82adc/",
+            "title": "Authorization Logic Review trong pentest web thời AI | Cybozu Vietnam Tech Sharing",
+            "summary": "Lỗi authorization thường không nằm ở bước đăng nhập, mà ở chỗ hệ thống quên hỏi \"user này có được làm việc này với object này không?\". AI…",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/i7-hipxO09-450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-11-05T17:30:00.000Z",
+            "date_published": "2026-11-05T17:30:00.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "Authorization Logic Review trong pentest web thời AI",
+                "blogTitle": "Cybozu Vietnam Tech Sharing",
+                "blogLink": "https://tech.cybozu.vn",
+                "blogLinkMd5Hash": "7d80e762f11ddb615555c7f5fc22a9cf",
+                "favicon": "https://tech.cybozu.vn/favicon-32x32.png?v=29c0250cf52c3e3e51526ae731a5696f",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/i7-hipxO09-450.jpeg"
+            }
+        },
+        {
+            "id": "https://note.com/cybozutech/n/n33c61b17ef01",
+            "content_html": "皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる",
+            "url": "https://note.com/cybozutech/n/n33c61b17ef01",
+            "title": "今週のCybozuのエンジニアの登壇・イベント情報 2026.11.05号 | さぼてっく通信",
+            "summary": "皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/dLuFipwxKP-450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-11-05T09:37:17.000Z",
+            "date_published": "2026-11-05T09:37:17.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "今週のCybozuのエンジニアの登壇・イベント情報 2026.11.05号",
+                "blogTitle": "さぼてっく通信",
+                "blogLink": "https://note.com/cybozutech/m/mb7d0081e1358",
+                "blogLinkMd5Hash": "18f73f213dc06ac791a0afcc68da89b3",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/dLuFipwxKP-450.jpeg"
+            }
+        },
+        {
+            "id": "https://zenn.dev/cybozu_psirt/articles/0af2c7b3c02617",
+            "content_html": "こんにちは。PSIRTの田口です。 はじめにPSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年10月にスレッド内で共有された記事や話題を紹介します。 共有された記事・話題 相次ぐWEBシステムからの情報漏洩事案についてhttps://security.macnica.co.jp/blog/2026/10/web-incidents2026.html2026年7月以降に増加している国内のWebシステムからの情報漏えいについて、被害の傾向や、実際の事案対応から見えてきた攻撃手法、確認すべきポイン...",
+            "url": "https://zenn.dev/cybozu_psirt/articles/0af2c7b3c02617",
+            "title": "相次ぐWEBシステムからの情報漏洩事案について など: Cybozu PSIRT Monthly（2026年10月号） | サイボウズ PSIRTのフィード",
+            "summary": "こんにちは。PSIRTの田口です。 はじめにPSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年10月にスレッド内で共有された記事や話題を紹介します。 共有された記事・話題 相次ぐWEBシステムからの情報漏洩事案についてhttps://security.macnica.co.jp/blog/2026/10/web-inc",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/cXG5MwD6h3-450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-11-04T02:15:44.000Z",
+            "date_published": "2026-11-04T02:15:44.000Z",
+            "author": {
+                "name": "ibuki taguchi"
+            },
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "相次ぐWEBシステムからの情報漏洩事案について など: Cybozu PSIRT Monthly（2026年10月号）",
+                "blogTitle": "サイボウズ PSIRTのフィード",
+                "blogLink": "https://zenn.dev/p/cybozu_psirt",
+                "blogLinkMd5Hash": "7d65c8362dc0f284d6eb51b2222d8e52",
+                "favicon": "https://static.zenn.studio/images/logo-transparent.png",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/cXG5MwD6h3-450.jpeg"
+            }
+        },
+        {
+            "id": "https://note.com/_tetrapod/n/nd259b326ce31",
+            "content_html": "皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部 Tech Media Platformチームの貴島(@jnkykn)です。2026/11/01にSapporo Claude Meetup #2 - Claude どんなふうに・どんなことに使ってる? 参加者で共有し合おう！が、開催されました。このイベントに、サイボウズは札幌営業所を会場提供しました。Sapporo Claude Meetup #2続きをみる",
+            "url": "https://note.com/_tetrapod/n/nd259b326ce31",
+            "title": "Sapporo Claude Meetup #2に会場提供しました | サイボウズ開発本部  Tech Media Platform",
+            "summary": "皆さま、こんにちは！サイボウズ株式会社 開発本部 組織支援部 Tech Media Platformチームの貴島(@jnkykn)です。2026/11/01にSapporo Claude Meetup #2 - Claude どんなふうに・どんなことに使ってる? 参加者で共有し合おう！が、開催されました。このイベントに、サイボウズは札幌営業所を会場提供しました。Sapporo Claude Mee",
+            "image": {
+                "url": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/aj6C0p1Svz-450.jpeg",
+                "type": "jpeg"
+            },
+            "date_modified": "2026-11-03T07:05:38.000Z",
+            "date_published": "2026-11-03T07:05:38.000Z",
+            "tags": [],
+            "_custom": {
+                "hatenaCount": 0,
+                "originalTitle": "Sapporo Claude Meetup #2に会場提供しました",
+                "blogTitle": "サイボウズ開発本部  Tech Media Platform",
+                "blogLink": "https://note.com/cybozutech/m/m459547f65fe8",
+                "blogLinkMd5Hash": "e5c9fcd1f59f2109f605cf853f635f7c",
+                "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
+                "feedThumbnailUrl": "https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/aj6C0p1Svz-450.jpeg"
+            }
+        }
+    ]
+}

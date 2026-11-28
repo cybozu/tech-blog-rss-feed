@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cybozu.github.io/tech-blog-rss-feed/</id>
+    <title>サイボウズのTech系ブログRSS</title>
+    <updated>2026-11-28T17:01:10.511Z</updated>
+    <generator>cybozu/tech-blog-rss-feed</generator>
+    <link rel="alternate" href="https://cybozu.github.io/tech-blog-rss-feed/"/>
+    <link rel="self" href="https://cybozu.github.io/tech-blog-rss-feed/feeds/atom.xml"/>
+    <subtitle>サイボウズのTech系ブログの更新をまとめたRSSフィード</subtitle>
+    <logo>https://cybozu.github.io/tech-blog-rss-feed/images/icon.png</logo>
+    <icon>https://cybozu.github.io/tech-blog-rss-feed/images/favicon.ico</icon>
+    <rights>cybozu/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[OpenAIとCiscoによる「Shirudo」の公開など: Cybozu PSIRT Monthly（2026年11月号） | サイボウズ PSIRTのフィード]]></title>
+        <id>https://zenn.dev/cybozu_psirt/articles/163e252fbab09b</id>
+        <link href="https://zenn.dev/cybozu_psirt/articles/163e252fbab09b"/>
+        <updated>2026-11-27T08:50:40.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！サイボウズ株式会社 PSIRTのJJ (yuasa)です。 PSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年11月にスレッド内で共有された記事や話題を紹介します。 Google Threat Intelligence Group（GTIG）がまとめた攻撃者によるAIエージェントの活用についてのレポートです]]></summary>
+        <content type="html"><![CDATA[こんにちは！サイボウズ株式会社 PSIRTのJJ (yuasa)です。 PSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年11月にスレッド内で共有された記事や話題を紹介します。 Google Threat Intelligence Group（GTIG）がまとめた攻撃者によるAIエージェントの活用についてのレポートです。ARTEXなどのエージェントが実際の侵入に使われているほか、広く使われているWebアプリについてパッチ公開前後のコードを継続的に比較し、脆弱性の特定からExploitの作成・実行までを人手を介...]]></content>
+        <author>
+            <name>JJ (yuasa)</name>
+        </author>
+        <published>2026-11-27T08:50:40.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JSConf JP 2026でサイボウズのエンジニアと話せるブースを出展しました | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/11/26/130000</id>
+        <link href="https://blog.cybozu.io/entry/2026/11/26/130000"/>
+        <updated>2026-11-26T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、フロントエンドエンジニアのmehm8128です。 2026年11月22日（日）に行われたJSConf JP 2026にて、サイボウズはプレミアムスポンサーとして協賛しました。 当日の様子を紹介します。 ブース TSKaigiやフロントエンドカンファレンス福岡のときと同様に、「サイボウズのエンジニアと話しませんか？」というテーマでブースを出展しました。 blog.cybozu.io フロ]]></summary>
+        <content type="html"><![CDATA[こんにちは、フロントエンドエンジニアのmehm8128です。 2026年11月22日（日）に行われたJSConf JP 2026にて、サイボウズはプレミアムスポンサーとして協賛しました。 当日の様子を紹介します。 ブース TSKaigiやフロントエンドカンファレンス福岡のときと同様に、「サイボウズのエンジニアと話しませんか？」というテーマでブースを出展しました。 blog.cybozu.io フロントエンド刷新や社内事情、Web標準、OSSなどいつも見るようなテーマに加えて、「好きなECMA Scriptのproposal」や「JS歴は何年？」など、JSConfっぽいトピックも用意していました…]]></content>
+        <published>2026-11-26T04:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[動作確認で思わぬ不具合！QAエンジニアとしてその場にいたらどうする？ | サイボウズQA]]></title>
+        <id>https://note.com/cy_qa_ext/n/nb2d4304a463c</id>
+        <link href="https://note.com/cy_qa_ext/n/nb2d4304a463c"/>
+        <updated>2026-11-26T02:41:58.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！6年目QAエンジニアのmassanです。最近学生の方とお話しする機会が多いのですが、QAエンジニアに興味をもったきっかけとして「開発中に不具合に遭遇して、テストに興味をもった」というコメントを時々聞きます。ふと思い立ち、私だったらどうするか考えてみました。今回は心の声💭と共にお送りします！続きをみる]]></summary>
+        <content type="html"><![CDATA[こんにちは！6年目QAエンジニアのmassanです。最近学生の方とお話しする機会が多いのですが、QAエンジニアに興味をもったきっかけとして「開発中に不具合に遭遇して、テストに興味をもった」というコメントを時々聞きます。ふと思い立ち、私だったらどうするか考えてみました。今回は心の声💭と共にお送りします！続きをみる]]></content>
+        <published>2026-11-26T02:41:58.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.11.26号 | さぼてっく通信]]></title>
+        <id>https://note.com/cybozutech/n/n4ac358c35140</id>
+        <link href="https://note.com/cybozutech/n/n4ac358c35140"/>
+        <updated>2026-11-25T23:38:33.000Z</updated>
+        <summary type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></content>
+        <published>2026-11-25T23:38:33.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mythos対策プロジェクトのその後：PSIRTによるHorosの運用と改善 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2026/11/25/113000</id>
+        <link href="https://blog.cybozu.io/entry/2026/11/25/113000"/>
+        <updated>2026-11-25T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[はじめに PSIRTでの運用体制 脆弱性スキャンの実施と結果の確認 継続的な運用を支える仕組み Horosのアップデート 差分スキャンへの対応 スキャン結果の管理・確認方法の改善 スキャン対象の製品を追加しやすくする 製品固有のSKILLやAIモデルへの対応 現在の課題と今後の展望 製品ごとのスキャン設定を一元管理する CIでスキャン用のソースコードを準備する スキャンを自動実行する スキャンの実]]></summary>
+        <content type="html"><![CDATA[はじめに PSIRTでの運用体制 脆弱性スキャンの実施と結果の確認 継続的な運用を支える仕組み Horosのアップデート 差分スキャンへの対応 スキャン結果の管理・確認方法の改善 スキャン対象の製品を追加しやすくする 製品固有のSKILLやAIモデルへの対応 現在の課題と今後の展望 製品ごとのスキャン設定を一元管理する CIでスキャン用のソースコードを準備する スキャンを自動実行する スキャンの実行状況と効果を可視化する おわりに はじめに PSIRTの湯浅、田口です。 2026年、サイボウズではMythosをはじめとするフロンティアAIモデルによるサイバー攻撃への対策を進めるため、社内横断の…]]></content>
+        <published>2026-11-25T02:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.11.19号 | さぼてっく通信]]></title>
+        <id>https://note.com/cybozutech/n/nb82c2f622ab7</id>
+        <link href="https://note.com/cybozutech/n/nb82c2f622ab7"/>
+        <updated>2026-11-19T01:22:12.000Z</updated>
+        <summary type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></summary>
+        <content type="html"><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></content>
+        <published>2026-11-19T01:22:12.000Z</published>
+    </entry>
+</feed>

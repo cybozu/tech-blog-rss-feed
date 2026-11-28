@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>サイボウズのTech系ブログRSS</title>
+        <link>https://cybozu.github.io/tech-blog-rss-feed/</link>
+        <description>サイボウズのTech系ブログの更新をまとめたRSSフィード</description>
+        <lastBuildDate>Sat, 28 Nov 2026 17:01:10 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>cybozu/tech-blog-rss-feed</generator>
+        <language>ja</language>
+        <image>
+            <title>サイボウズのTech系ブログRSS</title>
+            <url>https://cybozu.github.io/tech-blog-rss-feed/images/icon.png</url>
+            <link>https://cybozu.github.io/tech-blog-rss-feed/</link>
+        </image>
+        <copyright>cybozu/tech-blog-rss-feed</copyright>
+        <atom:link href="https://cybozu.github.io/tech-blog-rss-feed/feeds/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[OpenAIとCiscoによる「Shirudo」の公開など: Cybozu PSIRT Monthly（2026年11月号） | サイボウズ PSIRTのフィード]]></title>
+            <link>https://zenn.dev/cybozu_psirt/articles/163e252fbab09b</link>
+            <guid>https://zenn.dev/cybozu_psirt/articles/163e252fbab09b</guid>
+            <pubDate>Fri, 27 Nov 2026 08:50:40 GMT</pubDate>
+            <description><![CDATA[こんにちは！サイボウズ株式会社 PSIRTのJJ (yuasa)です。 PSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年11月にスレッド内で共有された記事や話題を紹介します。 Google Threat Intelligence Group（GTIG）がまとめた攻撃者によるAIエージェントの活用についてのレポートです]]></description>
+            <content:encoded><![CDATA[こんにちは！サイボウズ株式会社 PSIRTのJJ (yuasa)です。 PSIRTでは、各メンバーが気になったセキュリティに関する記事や話題を随時、社内のスレッドに投稿しています。本記事では、2026年11月にスレッド内で共有された記事や話題を紹介します。 Google Threat Intelligence Group（GTIG）がまとめた攻撃者によるAIエージェントの活用についてのレポートです。ARTEXなどのエージェントが実際の侵入に使われているほか、広く使われているWebアプリについてパッチ公開前後のコードを継続的に比較し、脆弱性の特定からExploitの作成・実行までを人手を介...]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/LWLmq4g52--450.jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[JSConf JP 2026でサイボウズのエンジニアと話せるブースを出展しました | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+            <link>https://blog.cybozu.io/entry/2026/11/26/130000</link>
+            <guid>https://blog.cybozu.io/entry/2026/11/26/130000</guid>
+            <pubDate>Thu, 26 Nov 2026 04:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、フロントエンドエンジニアのmehm8128です。 2026年11月22日（日）に行われたJSConf JP 2026にて、サイボウズはプレミアムスポンサーとして協賛しました。 当日の様子を紹介します。 ブース TSKaigiやフロントエンドカンファレンス福岡のときと同様に、「サイボウズのエンジニアと話しませんか？」というテーマでブースを出展しました。 blog.cybozu.io フロ]]></description>
+            <content:encoded><![CDATA[こんにちは、フロントエンドエンジニアのmehm8128です。 2026年11月22日（日）に行われたJSConf JP 2026にて、サイボウズはプレミアムスポンサーとして協賛しました。 当日の様子を紹介します。 ブース TSKaigiやフロントエンドカンファレンス福岡のときと同様に、「サイボウズのエンジニアと話しませんか？」というテーマでブースを出展しました。 blog.cybozu.io フロントエンド刷新や社内事情、Web標準、OSSなどいつも見るようなテーマに加えて、「好きなECMA Scriptのproposal」や「JS歴は何年？」など、JSConfっぽいトピックも用意していました…]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/VTzqGRAacY-450.jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[動作確認で思わぬ不具合！QAエンジニアとしてその場にいたらどうする？ | サイボウズQA]]></title>
+            <link>https://note.com/cy_qa_ext/n/nb2d4304a463c</link>
+            <guid>https://note.com/cy_qa_ext/n/nb2d4304a463c</guid>
+            <pubDate>Thu, 26 Nov 2026 02:41:58 GMT</pubDate>
+            <description><![CDATA[こんにちは！6年目QAエンジニアのmassanです。最近学生の方とお話しする機会が多いのですが、QAエンジニアに興味をもったきっかけとして「開発中に不具合に遭遇して、テストに興味をもった」というコメントを時々聞きます。ふと思い立ち、私だったらどうするか考えてみました。今回は心の声💭と共にお送りします！続きをみる]]></description>
+            <content:encoded><![CDATA[こんにちは！6年目QAエンジニアのmassanです。最近学生の方とお話しする機会が多いのですが、QAエンジニアに興味をもったきっかけとして「開発中に不具合に遭遇して、テストに興味をもった」というコメントを時々聞きます。ふと思い立ち、私だったらどうするか考えてみました。今回は心の声💭と共にお送りします！続きをみる]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/mH9qrFwL5a-450.jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.11.26号 | さぼてっく通信]]></title>
+            <link>https://note.com/cybozutech/n/n4ac358c35140</link>
+            <guid>https://note.com/cybozutech/n/n4ac358c35140</guid>
+            <pubDate>Wed, 25 Nov 2026 23:38:33 GMT</pubDate>
+            <description><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></description>
+            <content:encoded><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/J-X8uo5IeD-450.jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Mythos対策プロジェクトのその後：PSIRTによるHorosの運用と改善 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+            <link>https://blog.cybozu.io/entry/2026/11/25/113000</link>
+            <guid>https://blog.cybozu.io/entry/2026/11/25/113000</guid>
+            <pubDate>Wed, 25 Nov 2026 02:30:00 GMT</pubDate>
+            <description><![CDATA[はじめに PSIRTでの運用体制 脆弱性スキャンの実施と結果の確認 継続的な運用を支える仕組み Horosのアップデート 差分スキャンへの対応 スキャン結果の管理・確認方法の改善 スキャン対象の製品を追加しやすくする 製品固有のSKILLやAIモデルへの対応 現在の課題と今後の展望 製品ごとのスキャン設定を一元管理する CIでスキャン用のソースコードを準備する スキャンを自動実行する スキャンの実]]></description>
+            <content:encoded><![CDATA[はじめに PSIRTでの運用体制 脆弱性スキャンの実施と結果の確認 継続的な運用を支える仕組み Horosのアップデート 差分スキャンへの対応 スキャン結果の管理・確認方法の改善 スキャン対象の製品を追加しやすくする 製品固有のSKILLやAIモデルへの対応 現在の課題と今後の展望 製品ごとのスキャン設定を一元管理する CIでスキャン用のソースコードを準備する スキャンを自動実行する スキャンの実行状況と効果を可視化する おわりに はじめに PSIRTの湯浅、田口です。 2026年、サイボウズではMythosをはじめとするフロンティアAIモデルによるサイバー攻撃への対策を進めるため、社内横断の…]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/ieJunzxgVk-450.jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[今週のCybozuのエンジニアの登壇・イベント情報 2026.11.19号 | さぼてっく通信]]></title>
+            <link>https://note.com/cybozutech/n/nb82c2f622ab7</link>
+            <guid>https://note.com/cybozutech/n/nb82c2f622ab7</guid>
+            <pubDate>Thu, 19 Nov 2026 01:22:12 GMT</pubDate>
+            <description><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></description>
+            <content:encoded><![CDATA[皆さん、こんにちは！さぼてっくです🌵今週のCybozuのエンジニアの登壇・イベント情報をお届けします！この連載では、Xで共有しているサイボウズのエンジニアの活動を見逃した方にも知ってもらえるよう、週次で情報をまとめています。バックナンバーは、さぼてっく通信（2026.08.27号〜）、Tech Media Platformのマガジン（〜2026.08.20号）でチェックできます！続きをみる]]></content:encoded>
+            <enclosure length="0" type="jpeg" url="https://cybozu.github.io/tech-blog-rss-feed/images/feed-thumbnails/2-wQohTfcd-450.jpeg"/>
+        </item>
+    </channel>
+</rss>
